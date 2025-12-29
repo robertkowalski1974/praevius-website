@@ -1,0 +1,171 @@
+---
+title: "Features | Praevius"
+pagetitle: "Features - AI-Powered Cost Control for Construction"
+description: "Real-time budget tracking, AI-powered reports, S-curve forecasting, and seamless integrations. Everything you need to control construction costs."
+format:
+  html:
+    page-layout: full
+---
+
+<!-- Hero Section -->
+<div class="hero-section full-width" style="padding: 4rem 2rem;">
+<div class="container">
+
+# Everything You Need to <span class="highlight">Control Costs</span>
+
+<p class="tagline">From real-time tracking to AI-powered forecasting. One platform, complete visibility.</p>
+
+</div>
+</div>
+
+<!-- Core Features -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">Core <span>Capabilities</span></h2>
+
+<div class="grid-2">
+
+<div class="feature-card">
+<h3><i class="bi bi-bar-chart-line"></i> Real-Time Budget Tracking</h3>
+<p>See your budget vs. actual costs the moment data changes. No more waiting for month-end reports to discover problems. Dashboard views show project health at a glance with traffic-light status indicators.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Live cost performance index (CPI)</li>
+<li>Budget consumption tracking</li>
+<li>Variance alerts and thresholds</li>
+<li>Multi-project portfolio view</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-robot"></i> AI-Powered Reporting</h3>
+<p>Generate professional variance reports in minutes, not hours. Our AI analyzes patterns, identifies anomalies, and explains the "why" behind your numbers in plain English.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Automated variance explanations</li>
+<li>Trend analysis and forecasting</li>
+<li>Executive summary generation</li>
+<li>Export to PDF, Word, or share live</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-graph-up-arrow"></i> S-Curve Forecasting</h3>
+<p>Earned Value Management made practical. See where your project is headed, not just where it's been. Plan interventions before problems escalate.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Planned vs. actual vs. forecast curves</li>
+<li>Schedule Performance Index (SPI)</li>
+<li>Estimate at Completion (EAC) projections</li>
+<li>What-if scenario modeling</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-file-earmark-diff"></i> Change Order Management</h3>
+<p>Track every variation from inception to approval to payment. Never leave money on the table again. Change orders account for 8-14% of project costs—capture them all.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Variation register with status tracking</li>
+<li>Automated entitlement flagging</li>
+<li>Impact assessment tools</li>
+<li>Approval workflow automation</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-receipt"></i> Progress Claim Automation</h3>
+<p>Generate accurate progress claims in minutes. Centralized dashboard eliminates hunting through spreadsheets and rechecking every line item manually.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Schedule of values tracking</li>
+<li>Percentage complete calculations</li>
+<li>Retainage management</li>
+<li>Claim history and audit trail</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-plug"></i> Seamless Integrations</h3>
+<p>Connect to the tools you already use. Praevius syncs with accounting, storage, and project management platforms for a single source of truth.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Xero, QuickBooks, Sage</li>
+<li>Google Drive, SharePoint, OneDrive</li>
+<li>Procore (for GC collaboration)</li>
+<li>Open API for custom connections</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Coming Soon -->
+<div class="section section-gray">
+<div class="container">
+
+<h2 class="section-title">Coming <span>Soon</span></h2>
+
+<div class="grid-3">
+
+<div class="feature-card">
+<h3><i class="bi bi-mic"></i> Voice Input</h3>
+<p>Speak your progress, let AI handle data entry. Built for noisy jobsites, accented speech, and multilingual crews. Field teams will actually use it.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-phone"></i> Native Mobile App</h3>
+<p>Beyond responsive web—a true native experience. Offline capability, camera integration for documentation, push notifications for approvals.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-lightbulb"></i> Predictive Analytics</h3>
+<p>AI that learns from your historical data to predict likely cost overruns before they happen. Early warning, not post-mortem.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Traffic Light System -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">Industry-Standard <span>Variance Indicators</span></h2>
+
+<p class="text-center mb-4" style="max-width: 700px; margin: 0 auto 3rem;">
+Instant project health visibility using the traffic light system every construction professional understands.
+</p>
+
+<div class="grid-3">
+
+<div class="feature-card" style="border-left-color: #10B981;">
+<span class="badge badge-green" style="font-size: 1.5rem; padding: 1rem 2rem;"><i class="bi bi-check-circle"></i> On Budget</span>
+<p class="mt-2">Variance within ±5%. Project performing as planned. Continue current trajectory.</p>
+</div>
+
+<div class="feature-card" style="border-left-color: #F59E0B;">
+<span class="badge badge-yellow" style="font-size: 1.5rem; padding: 1rem 2rem;"><i class="bi bi-exclamation-triangle"></i> Watch</span>
+<p class="mt-2">Variance 5-10%. Early warning. Investigate and plan corrective action.</p>
+</div>
+
+<div class="feature-card" style="border-left-color: #EF4444;">
+<span class="badge badge-red" style="font-size: 1.5rem; padding: 1rem 2rem;"><i class="bi bi-x-circle"></i> Over Budget</span>
+<p class="mt-2">Variance exceeds 10%. Immediate attention required. Intervention needed.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- CTA -->
+<div class="section section-dark">
+<div class="container text-center">
+
+<h2 class="section-title" style="color: white;">Ready to Take <span>Control?</span></h2>
+
+<p style="color: #F0F0F0; margin-bottom: 2rem;">Start your free trial and experience all features.</p>
+
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
+
+</div>
+</div>

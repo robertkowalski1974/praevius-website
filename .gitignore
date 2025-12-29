@@ -1,0 +1,21 @@
+# Quarto
+/.quarto/
+_freeze/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node (if used)
+node_modules/
+
+# Temp files
+*.tmp
+*.log

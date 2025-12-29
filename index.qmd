@@ -1,0 +1,218 @@
+---
+title: "Praevius | AI-Powered Cost Control for Construction"
+pagetitle: "Praevius - See Costs Before They Spiral"
+description: "Simple, AI-powered cost control for growing contractors and QS firms. Professional-grade insights without enterprise complexity."
+format:
+  html:
+    page-layout: full
+---
+
+<!-- Hero Section -->
+<div class="hero-section full-width">
+<div class="container">
+
+<img src="images/praevius-icon-orange.svg" alt="Praevius" style="height: 160px; margin-bottom: 1.5rem;">
+
+# See costs <span class="highlight">before they spiral</span>
+
+<p class="tagline">AI-powered cost control for construction subcontractors and QS firms.<br>Professional-grade insights without enterprise complexity.</p>
+
+<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
+<a href="features.html" class="btn btn-white">See How It Works</a>
+</div>
+
+</div>
+</div>
+
+<!-- Problem Section -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">The <span>Cost Overrun</span> Crisis</h2>
+
+<div class="grid-3">
+
+<div class="feature-card">
+<h3><i class="bi bi-graph-down"></i> 88% Error Rate</h3>
+<p>Construction spreadsheets contain costly errors. Manual tracking means missed variances and budget overruns discovered too late.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-clock"></i> Hours Wasted</h3>
+<p>Billing cycles require hunting through spreadsheets and PDFs, re-keying numbers, comparing line items manually.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-cash-stack"></i> Cash Flow Blind</h3>
+<p>Only 12% of contractors get paid on time. Without real-time visibility, you're always reacting, never anticipating.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Solution Section -->
+<div class="section section-gray">
+<div class="container">
+
+<h2 class="section-title">Proactive <span>Intelligence</span></h2>
+
+<p class="text-center mb-4" style="max-width: 700px; margin: 0 auto 3rem;">
+Praevius (from Latin "going before") anticipates cost problems before they escalate. Connect your data once, get insights forever.
+</p>
+
+<div class="grid-3">
+
+<div class="feature-card">
+<h3><i class="bi bi-bullseye"></i> Real-Time Tracking</h3>
+<p>Budget vs. actual at a glance. Know your cost performance index the moment it changes.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-robot"></i> AI-Powered Reports</h3>
+<p>Generate variance reports in 2 minutes instead of 2 hours. AI identifies anomalies before they become problems.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-graph-up-arrow"></i> S-Curve Forecasting</h3>
+<p>See where your project is headed, not just where it's been. EVM precision meets construction practicality.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-link-45deg"></i> Seamless Integrations</h3>
+<p>Connect to Xero, QuickBooks, Sage, Google Drive, SharePoint—even sync with Procore for GC collaboration.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-phone"></i> Mobile Ready</h3>
+<p>Update costs from the field. Approve variations on site. Real construction happens beyond the office.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-mic"></i> Voice Input</h3>
+<p>Coming soon: Speak your progress, let AI do the data entry. Built for noisy jobsites and multilingual crews.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- For Who Section -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">Built for <span>Your Business</span></h2>
+
+<div class="grid-2">
+
+<div class="feature-card">
+<h3><i class="bi bi-wrench-adjustable"></i> Trade Contractors</h3>
+<p>Electrical, mechanical, plumbing specialists with 10-50 employees. You need cost control that understands your world—variations, retainage, progress claims.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-rulers"></i> QS Professionals</h3>
+<p>Growing quantity surveying practices serving multiple clients. Professional tools that scale with your workload without enterprise complexity.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Pricing Preview -->
+<div class="section section-light" id="pricing-preview">
+<div class="container">
+
+<h2 class="section-title">Simple, <span>Transparent</span> Pricing</h2>
+
+<p class="text-center mb-4" style="max-width: 600px; margin: 0 auto 3rem;">
+Start free, upgrade as you grow. No per-user fees, no hidden costs.
+</p>
+
+<div class="grid-4">
+
+<div class="pricing-card">
+<h3>Free</h3>
+<p class="price">Free</p>
+<ul style="text-align: left; list-style: none; padding: 0;">
+<li>✓ Up to 3 projects</li>
+<li>✓ 1 team member</li>
+<li>✓ Core cost tracking</li>
+</ul>
+<a href="https://app.praevius.app/login" class="btn btn-secondary" style="width: 100%;">Start Free</a>
+</div>
+
+<div class="pricing-card">
+<h3>Essential</h3>
+<p class="price">$99<span>/month</span></p>
+<ul style="text-align: left; list-style: none; padding: 0;">
+<li>✓ Up to 10 projects</li>
+<li>✓ Up to 3 team members</li>
+<li>✓ Google Drive Sync</li>
+<li>✓ 1 accounting integration</li>
+</ul>
+<a href="https://app.praevius.app/start-trial?bundle=essential" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
+</div>
+
+<div class="pricing-card featured">
+<h3>Professional</h3>
+<p class="price">$229<span>/month</span></p>
+<ul style="text-align: left; list-style: none; padding: 0;">
+<li>✓ Up to 25 projects</li>
+<li>✓ Up to 10 team members</li>
+<li>✓ All integrations</li>
+<li>✓ Claude AI Reports</li>
+</ul>
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="width: 100%;">Start Free Trial</a>
+</div>
+
+<div class="pricing-card">
+<h3>Scale</h3>
+<p class="price">$449<span>/month</span></p>
+<ul style="text-align: left; list-style: none; padding: 0;">
+<li>✓ Unlimited projects</li>
+<li>✓ Unlimited team members</li>
+<li>✓ Claude AI Reports</li>
+<li>✓ Procore ↔ SharePoint Sync</li>
+</ul>
+<a href="https://app.praevius.app/start-trial?bundle=scale" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- CTA Section -->
+<div class="section section-dark" id="cta">
+<div class="container text-center">
+
+<h2 class="section-title" style="color: white;">Ready to See Costs <span>Before They Spiral?</span></h2>
+
+<p style="color: #F0F0F0; max-width: 600px; margin: 0 auto 2rem;">
+Start your free trial today. Experience AI-powered cost control built specifically for construction professionals.
+</p>
+
+<div style="margin: 0 auto;">
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
+<p style="color: #757575; font-size: 0.875rem; margin-top: 1rem;">30-day free trial. No credit card required.</p>
+</div>
+
+</div>
+</div>
+
+<!-- BIM Takeoff Connection -->
+<div class="section section-light">
+<div class="container text-center">
+
+<p style="color: #757575;">
+<strong>Praevius</strong> is the cost control intelligence layer of the <a href="https://bimtakeoff.com" target="_blank">BIM Takeoff</a> ecosystem.<br>
+20 years of construction expertise, now powered by AI.
+</p>
+
+</div>
+</div>

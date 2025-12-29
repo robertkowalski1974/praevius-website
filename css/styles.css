@@ -1,0 +1,396 @@
+/* ============================================
+   PRAEVIUS BRAND SYSTEM - CSS IMPLEMENTATION
+   Version 1.1 - December 2025
+   Aligned with App Aesthetic
+   ============================================ */
+
+:root {
+  /* ===== PRIMARY BRAND COLORS ===== */
+  --praevius-orange: #FF9900;
+  --praevius-orange-hover: #E68A00;
+  --praevius-white: #FFFFFF;
+  
+  /* ===== WARM CHARCOAL SYSTEM (matches app) ===== */
+  --charcoal-900: hsl(20, 6%, 10%);
+  --charcoal-800: hsl(20, 6%, 14%);
+  --charcoal-700: hsl(20, 6%, 18%);
+  --charcoal-600: hsl(20, 6%, 20%);
+  --praevius-charcoal: var(--charcoal-900);
+  --praevius-dark-gray: var(--charcoal-700);
+  
+  /* ===== SECONDARY COLORS ===== */
+  --praevius-light-gray: #F0F0F0;
+  --praevius-medium-gray: #757575;
+  
+  /* ===== SEMANTIC COLORS (Traffic Light) ===== */
+  --praevius-green: #10B981;
+  --praevius-green-light: #D1FAE5;
+  --praevius-green-dark: #065F46;
+  --praevius-yellow: #F59E0B;
+  --praevius-yellow-light: #FEF3C7;
+  --praevius-yellow-dark: #92400E;
+  --praevius-red: #EF4444;
+  --praevius-red-light: #FEE2E2;
+  --praevius-red-dark: #991B1B;
+  
+  /* ===== TYPOGRAPHY ===== */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'Monaco', 'Courier New', Consolas, monospace;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+  
+  /* ===== SPACING ===== */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 0.75rem;
+  --spacing-lg: 1rem;
+  --spacing-xl: 1.25rem;
+  --spacing-2xl: 1.5rem;
+  --spacing-3xl: 2rem;
+  
+  /* ===== BORDER RADIUS (matches app) ===== */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-full: 9999px;
+  
+  /* ===== SHADOWS ===== */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.12);
+  
+  /* ===== TRANSITIONS ===== */
+  --transition-fast: 150ms ease;
+  --transition-normal: 200ms ease;
+}
+
+/* ===== GLOBAL STYLES ===== */
+
+body {
+  font-family: var(--font-primary);
+  color: var(--praevius-charcoal);
+  background-color: var(--praevius-white);
+  line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+  background-color: var(--charcoal-900) !important;
+}
+
+.navbar-brand img {
+  height: 39px !important;
+  width: auto !important;
+  max-height: none !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--praevius-white) !important;
+  font-weight: var(--weight-medium);
+  transition: color var(--transition-fast);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--praevius-orange) !important;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero-section {
+  background: linear-gradient(180deg, var(--charcoal-900) 0%, var(--charcoal-800) 100%);
+  color: var(--praevius-white);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: var(--weight-extrabold);
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.hero-section .tagline {
+  font-size: 1.5rem;
+  color: var(--praevius-light-gray);
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: var(--praevius-orange);
+}
+
+/* ===== BUTTONS - Dark text on orange (matches app) ===== */
+
+.btn {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-medium);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary {
+  background-color: var(--praevius-orange) !important;
+  color: var(--charcoal-900) !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--praevius-orange-hover) !important;
+  color: var(--charcoal-900) !important;
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--praevius-orange);
+  border: 2px solid var(--praevius-orange);
+}
+
+.btn-secondary:hover {
+  background-color: var(--praevius-orange);
+  color: var(--charcoal-900) !important;
+}
+
+.btn-white {
+  background-color: transparent;
+  color: var(--praevius-white);
+  border: 2px solid var(--praevius-white);
+}
+
+.btn-white:hover {
+  background-color: var(--praevius-white);
+  color: var(--charcoal-900);
+}
+
+/* ===== FEATURE CARDS ===== */
+
+.feature-card {
+  background-color: var(--praevius-white);
+  border: 1px solid var(--praevius-light-gray);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-2xl);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+}
+
+.feature-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.feature-card h3 {
+  color: var(--praevius-charcoal);
+  font-weight: var(--weight-semibold);
+  margin-bottom: var(--spacing-md);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.feature-card h3 i,
+.feature-card h3 .bi {
+  color: var(--praevius-orange);
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.feature-card p {
+  color: var(--praevius-medium-gray);
+}
+
+/* ===== SECTIONS ===== */
+
+.section {
+  padding: 5rem 2rem;
+}
+
+.section-light {
+  background-color: var(--praevius-white);
+  padding: 4rem 2rem;
+}
+
+.section-gray {
+  background-color: var(--praevius-light-gray);
+  padding: 2.5rem 2rem 4rem 2rem;
+}
+
+.section-dark {
+  background: linear-gradient(180deg, var(--charcoal-900) 0%, var(--charcoal-800) 100%);
+  color: var(--praevius-white);
+  padding: 4rem 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: var(--weight-semibold);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-title span {
+  color: var(--praevius-orange);
+}
+
+/* ===== PRICING CARDS ===== */
+
+.pricing-card {
+  background-color: var(--praevius-white);
+  border: 1px solid var(--praevius-light-gray);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3xl);
+  text-align: center;
+  transition: all var(--transition-normal);
+}
+
+.pricing-card.featured {
+  border-color: var(--praevius-orange);
+  border-width: 2px;
+  transform: scale(1.05);
+}
+
+.pricing-card:hover {
+  box-shadow: var(--shadow-xl);
+}
+
+.pricing-card .price {
+  font-size: 3rem;
+  font-weight: var(--weight-extrabold);
+  color: var(--praevius-charcoal);
+}
+
+.pricing-card .price span {
+  font-size: 1rem;
+  font-weight: var(--weight-regular);
+  color: var(--praevius-medium-gray);
+}
+
+/* ===== VARIANCE BADGES ===== */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: var(--weight-semibold);
+}
+
+.badge-green {
+  background-color: var(--praevius-green-light);
+  color: var(--praevius-green-dark);
+}
+
+.badge-yellow {
+  background-color: var(--praevius-yellow-light);
+  color: var(--praevius-yellow-dark);
+}
+
+.badge-red {
+  background-color: var(--praevius-red-light);
+  color: var(--praevius-red-dark);
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+  background-color: var(--charcoal-900);
+  color: var(--praevius-white);
+  padding: 3rem 2rem;
+}
+
+.footer a {
+  color: var(--praevius-orange);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== GRID LAYOUT ===== */
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+/* ===== CONTAINER ===== */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section .tagline {
+    font-size: 1.25rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .pricing-card.featured {
+    transform: none;
+  }
+}
+
+/* ===== FOCUS STATES ===== */
+
+:focus-visible {
+  outline: 2px solid var(--praevius-orange);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ===== UTILITY CLASSES ===== */
+
+.text-orange { color: var(--praevius-orange); }
+.text-charcoal { color: var(--praevius-charcoal); }
+.text-gray { color: var(--praevius-medium-gray); }
+.text-center { text-align: center; }
+
+.bg-orange { background-color: var(--praevius-orange); }
+.bg-charcoal { background-color: var(--praevius-charcoal); }
+.bg-white { background-color: var(--praevius-white); }
+
+.mt-2 { margin-top: var(--spacing-lg); }
+.mt-3 { margin-top: var(--spacing-2xl); }
+.mb-2 { margin-bottom: var(--spacing-lg); }
+.mb-3 { margin-bottom: var(--spacing-2xl); }
+.mb-4 { margin-bottom: var(--spacing-3xl); }

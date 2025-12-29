@@ -1,0 +1,226 @@
+---
+title: "Pricing | Praevius"
+pagetitle: "Pricing - Simple, Transparent Construction Cost Control"
+description: "Construction cost control software starting at $99/month. Free plan available. AI-powered reports, real-time tracking, no per-user fees."
+format:
+  html:
+    page-layout: full
+    include-in-header:
+      text: |
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is there a free plan?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Our Free plan lets you track up to 3 projects with 1 team member. Upgrade anytime as your needs grow."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are there any per-user fees?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Each plan includes a set number of users, and our Scale plan includes unlimited users. No hidden per-seat charges."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I change plans later?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely. Upgrade or downgrade anytime. Changes take effect immediately, with prorated billing adjustments."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What about annual billing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pay annually and save 17%. Contact us for annual billing options."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What's included in support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Essential: Email support (48hr response). Professional: Priority email (24hr response). Scale: Dedicated success manager + phone support."
+              }
+            }
+          ]
+        }
+        </script>
+---
+
+<!-- Hero Section -->
+<div class="hero-section full-width" style="padding: 4rem 2rem;">
+<div class="container">
+
+# Simple, <span class="highlight">Transparent</span> Pricing
+
+<p class="tagline">Professional-grade tools. Mid-market pricing. No surprises.</p>
+
+</div>
+</div>
+
+<!-- Pricing Cards -->
+<div class="section section-light">
+<div class="container">
+
+<div class="grid-4">
+
+<!-- Free -->
+<div class="pricing-card">
+<h3>Free</h3>
+<p style="color: #757575;">Get started with basic cost tracking at no cost.</p>
+<p class="price">Free</p>
+
+<ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 3 projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ 1 team member</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Core cost tracking</li>
+<li style="padding: 0.5rem 0;">✓ Community support</li>
+</ul>
+
+<a href="https://app.praevius.app/login" class="btn btn-secondary" style="width: 100%;">Start Free</a>
+</div>
+
+<!-- Essential -->
+<div class="pricing-card">
+<h3>Essential</h3>
+<p style="color: #757575;">For small trade contractors getting started with digital cost control.</p>
+<p class="price">$99<span>/month</span></p>
+
+<ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 10 projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 3 team members</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Cost Control</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Google Drive Sync</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ SharePoint Document Sync</li>
+<li style="padding: 0.5rem 0;">✓ 1 accounting integration (Xero Invoicing, QuickBooks Online, or Sage Intacct)</li>
+</ul>
+
+<a href="https://app.praevius.app/start-trial?bundle=essential" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
+</div>
+
+<!-- Professional -->
+<div class="pricing-card featured">
+<div style="background: #FF9900; color: white; padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; margin-bottom: 1rem; font-size: 0.875rem; font-weight: 600;">POPULAR</div>
+<h3>Professional</h3>
+<p style="color: #757575;">For growing contractors and QS practices who need full automation.</p>
+<p class="price">$229<span>/month</span></p>
+
+<ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 25 projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 10 team members</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Cost Control</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Google Drive Sync</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Xero Invoicing</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ QuickBooks Online</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Sage Intacct</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ SharePoint Document Sync</li>
+<li style="padding: 0.5rem 0;">✓ <strong>Claude AI Reports</strong></li>
+</ul>
+
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="width: 100%;">Start Free Trial</a>
+</div>
+
+<!-- Scale -->
+<div class="pricing-card">
+<h3>Scale</h3>
+<p style="color: #757575;">For multi-project operations needing unlimited capacity.</p>
+<p class="price">$449<span>/month</span></p>
+
+<ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Unlimited projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Unlimited team members</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Cost Control</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Google Drive Sync</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Xero Invoicing</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ QuickBooks Online</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Sage Intacct</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ SharePoint Document Sync</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ <strong>Claude AI Reports</strong></li>
+<li style="padding: 0.5rem 0;">✓ <strong>Procore ↔ SharePoint Sync</strong></li>
+</ul>
+
+<a href="https://app.praevius.app/start-trial?bundle=scale" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- FAQ Section -->
+<div class="section section-gray">
+<div class="container">
+
+<h2 class="section-title">Frequently <span>Asked</span></h2>
+
+<div class="grid-2">
+
+<div class="feature-card">
+<h3>Is there a free plan?</h3>
+<p>Yes! Our Free plan lets you track up to 3 projects with 1 team member. Upgrade anytime as your needs grow.</p>
+</div>
+
+<div class="feature-card">
+<h3>Are there any per-user fees?</h3>
+<p>No. Each plan includes a set number of users, and our Scale plan includes unlimited users. No hidden per-seat charges.</p>
+</div>
+
+<div class="feature-card">
+<h3>Can I change plans later?</h3>
+<p>Absolutely. Upgrade or downgrade anytime. Changes take effect immediately, with prorated billing adjustments.</p>
+</div>
+
+<div class="feature-card">
+<h3>What about annual billing?</h3>
+<p>Pay annually and save 17%. Contact us for annual billing options.</p>
+</div>
+
+<div class="feature-card">
+<h3>What's included in support?</h3>
+<p>Essential: Email support (48hr response). Professional: Priority email (24hr response). Scale: Dedicated success manager + phone support.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Enterprise Section -->
+<div class="section section-light">
+<div class="container text-center">
+
+<h2 class="section-title">Need <span>Enterprise</span> Features?</h2>
+
+<p style="max-width: 600px; margin: 0 auto 2rem;">
+Large subcontractors and QS firms with complex requirements can discuss custom plans including SSO, advanced security, custom integrations, and SLA guarantees.
+</p>
+
+<a href="contact.html" class="btn btn-secondary">Talk to Sales</a>
+
+</div>
+</div>
+
+<!-- Money Back Guarantee -->
+<div class="section section-dark">
+<div class="container text-center">
+
+<h2 class="section-title" style="color: white;">30-Day <span>Money Back</span> Guarantee</h2>
+
+<p style="color: #F0F0F0; max-width: 600px; margin: 0 auto 2rem;">
+If Praevius doesn't save you time and money in your first month, we'll refund your payment. No questions asked. We're that confident.
+</p>
+
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
+
+</div>
+</div>

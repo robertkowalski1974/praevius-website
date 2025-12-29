@@ -1,0 +1,113 @@
+---
+title: "About | Praevius"
+pagetitle: "About Praevius - Built by Practitioners, for Practitioners"
+description: "20 years of construction cost management expertise, now powered by AI. Learn about the team behind Praevius."
+format:
+  html:
+    page-layout: full
+---
+
+<!-- Hero Section -->
+<div class="hero-section full-width" style="padding: 4rem 2rem;">
+<div class="container">
+
+# Built by <span class="highlight">Practitioners</span>, for Practitioners
+
+<p class="tagline">20 years of construction cost management expertise, now powered by AI.</p>
+
+</div>
+</div>
+
+<!-- Story Section -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">The <span>Story</span></h2>
+
+<div style="max-width: 800px; margin: 0 auto; line-height: 1.8;">
+
+<p>Praevius (from Latin "praevius" meaning "going before") was born from a simple observation: construction subcontractors are drowning in spreadsheets while enterprise platforms price them out of modern cost control.</p>
+
+<p>After two decades working as a quantity surveyor across the UK, Australia, and Poland—handling everything from £500K fitouts to £50M commercial developments—the pattern became undeniable. Specialty trade contractors, the backbone of every construction project, were consistently:</p>
+
+<ul style="margin: 2rem 0;">
+<li>Losing 3-5% margins to poor variation tracking</li>
+<li>Wasting 10+ hours monthly on manual billing cycles</li>
+<li>Discovering cost overruns weeks after they could have acted</li>
+<li>Being priced out of tools designed for general contractors</li>
+</ul>
+
+<p><strong>Praevius is the solution:</strong> professional-grade cost control without enterprise complexity. Simple enough to learn in hours, powerful enough to replace spreadsheet chaos.</p>
+
+</div>
+
+</div>
+</div>
+
+<!-- Philosophy Section -->
+<div class="section section-gray">
+<div class="container">
+
+<h2 class="section-title">Our <span>Philosophy</span></h2>
+
+<div class="grid-3">
+
+<div class="feature-card">
+<h3><i class="bi bi-bullseye"></i> Proactive, Not Reactive</h3>
+<p>The best cost control happens before problems arise. Praevius anticipates variances, flags anomalies, and surfaces insights—so you can act, not just react.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-building"></i> Built for Construction</h3>
+<p>Not accounting software with construction labels. Every feature designed around real QS workflows: progress claims, variations, retainage, percentage complete.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-person-gear"></i> AI as Assistant</h3>
+<p>AI enhances your expertise, it doesn't replace it. Specific, measurable outcomes—not vague promises. You make the decisions; Praevius handles the grunt work.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- BIM Takeoff Ecosystem -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">Part of <span>BIM Takeoff</span></h2>
+
+<div class="grid-2">
+
+<div class="feature-card">
+<h3><i class="bi bi-box"></i> BIM Takeoff</h3>
+<p>Professional BIM 5D cost estimation and quantity surveying services. 20 years of international experience across UK, Australia, and Poland. Delivering quantity takeoffs with ±5% accuracy in 3-10 days.</p>
+<a href="https://bimtakeoff.com" target="_blank" class="btn btn-secondary" style="margin-top: 1rem;">Visit BIM Takeoff →</a>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-graph-up"></i> Praevius.app</h3>
+<p>The cost control intelligence layer. Where BIM Takeoff delivers project-specific expertise, Praevius provides the ongoing visibility and control that keeps projects profitable.</p>
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="margin-top: 1rem;">Start Free Trial →</a>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- CTA -->
+<div class="section section-light">
+<div class="container text-center">
+
+<h2 class="section-title">Ready to Work <span>Smarter?</span></h2>
+
+<p style="max-width: 600px; margin: 0 auto 2rem;">
+Start your free trial today. Experience construction cost control done right.
+</p>
+
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
+
+</div>
+</div>

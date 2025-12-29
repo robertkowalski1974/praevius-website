@@ -1,0 +1,11 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Compact Chevron Icon -->
+  <g id="chevron-icon">
+    <path d="M4 10L18 20L4 30" stroke="#FF9900" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M10 10L24 20L10 30" stroke="#FF9900" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+  </g>
+  
+  <!-- Compact Wordmark -->
+  <text x="32" y="27" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700" fill="#2C2C2C">Praevius</text>
+  <text x="125" y="27" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="400" fill="#2C2C2C" opacity="0.65">.app</text>
+</svg>

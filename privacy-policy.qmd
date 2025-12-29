@@ -1,0 +1,99 @@
+---
+title: "Privacy Policy | Praevius"
+pagetitle: "Privacy Policy - Praevius"
+description: "Praevius privacy policy. How we collect, use, and protect your data."
+format:
+  html:
+    page-layout: article
+---
+
+# Privacy Policy
+
+**Last Updated:** December 2025
+
+## Overview
+
+Praevius ("we", "our", "us") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information when you use praevius.app.
+
+## Information We Collect
+
+### Information You Provide
+
+- **Account Information:** Name, email address, company name, job title
+- **Billing Information:** Payment details (processed securely via Stripe)
+- **Project Data:** Cost data, budgets, variations, and other construction information you enter
+- **Communications:** Messages, support requests, and feedback
+
+### Information Collected Automatically
+
+- **Usage Data:** Features used, pages visited, time spent
+- **Device Information:** Browser type, operating system, device type
+- **Log Data:** IP address, access times, referral URLs
+
+## How We Use Your Information
+
+We use your information to:
+
+- Provide and improve our services
+- Process payments and manage subscriptions
+- Send service-related communications
+- Provide customer support
+- Analyse usage patterns to improve the platform
+- Comply with legal obligations
+
+## Data Security
+
+We implement industry-standard security measures including:
+
+- Encryption in transit (TLS 1.3)
+- Encryption at rest (AES-256)
+- Regular security audits
+- Access controls and authentication
+- Secure data centres (EU/UK based)
+
+## Data Retention
+
+We retain your data for as long as your account is active. Upon account deletion:
+
+- Account data: Deleted within 30 days
+- Backup data: Deleted within 90 days
+- Anonymised analytics: May be retained indefinitely
+
+## Your Rights
+
+Under GDPR and UK Data Protection Act 2018, you have the right to:
+
+- Access your personal data
+- Rectify inaccurate data
+- Erase your data ("right to be forgotten")
+- Restrict processing
+- Data portability
+- Object to processing
+
+To exercise these rights, contact us at info@praevius.app.
+
+## Third-Party Services
+
+We use the following third-party services:
+
+- **Stripe:** Payment processing
+- **AWS/GCP:** Cloud infrastructure
+- **Analytics:** Usage analytics (anonymised)
+
+## Cookies
+
+We use essential cookies for authentication and session management. Optional analytics cookies require your consent.
+
+## Changes to This Policy
+
+We may update this policy periodically. Significant changes will be communicated via email or in-app notification.
+
+## Contact Us
+
+For privacy-related questions:
+
+**Email:** info@praevius.app
+
+---
+
+*Praevius is part of the BIM Takeoff ecosystem.*
