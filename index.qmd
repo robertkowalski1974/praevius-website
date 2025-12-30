@@ -22,8 +22,6 @@ format:
 <a href="features.html" class="btn btn-white">See How It Works</a>
 </div>
 
-<img src="images/dashboard-preview.png" alt="Praevius Dashboard" style="margin-top: 3rem; max-width: 100%; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
-
 </div>
 </div>
 
