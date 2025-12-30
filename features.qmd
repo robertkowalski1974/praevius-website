@@ -18,6 +18,43 @@ format:
 </div>
 </div>
 
+<!-- AI Assistant Section -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">Your <span>AI Assistant</span></h2>
+
+<p class="text-center mb-4" style="max-width: 700px; margin: 0 auto 2rem;">
+No menus to learn. No training required. Just tell Praevius what you need in plain English—or speak it on site.
+</p>
+
+<div class="grid-2" style="max-width: 900px; margin: 0 auto;">
+
+<div class="feature-card">
+<h3 style="color: var(--praevius-orange); margin-bottom: 1rem;">Just Ask</h3>
+<ul style="color: #757575; list-style: none; padding: 0; line-height: 2;">
+<li>"Show me projects over budget"</li>
+<li>"Generate variance report for Project Alpha"</li>
+<li>"What's the CPI on the hospital job?"</li>
+<li>"Approve the steel variation"</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3 style="color: var(--praevius-orange); margin-bottom: 1rem;">AI Handles the Rest</h3>
+<ul style="color: #757575; list-style: none; padding: 0; line-height: 2;">
+<li><i class="bi bi-check text-orange"></i> Instant dashboards & reports</li>
+<li><i class="bi bi-check text-orange"></i> Voice commands from the field</li>
+<li><i class="bi bi-check text-orange"></i> Permission-aware actions</li>
+<li><i class="bi bi-check text-orange"></i> Confirmation for critical tasks</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+</div>
+
 <!-- Core Features -->
 <div class="section section-light">
 <div class="container">
@@ -39,7 +76,7 @@ format:
 
 <div class="feature-card">
 <h3><i class="bi bi-robot"></i> AI-Powered Reporting</h3>
-<p>Generate professional variance reports in minutes, not hours. Our AI analyzes patterns, identifies anomalies, and explains the "why" behind your numbers in plain English.</p>
+<p>Just ask for the report you need—the AI handles the rest. Generate professional variance reports in minutes, not hours. Plain English explanations of the "why" behind your numbers.</p>
 <ul style="color: #757575; margin-top: 1rem;">
 <li>Automated variance explanations</li>
 <li>Trend analysis and forecasting</li>
@@ -106,8 +143,8 @@ format:
 <div class="grid-3">
 
 <div class="feature-card">
-<h3><i class="bi bi-mic"></i> Voice Input</h3>
-<p>Speak your progress, let AI handle data entry. Built for noisy jobsites, accented speech, and multilingual crews. Field teams will actually use it.</p>
+<h3><i class="bi bi-mic"></i> Voice Commands</h3>
+<p>Speak your requests on the jobsite. "Show me Project Alpha" or "Approve the variation"—hands-free cost control that works in noisy environments.</p>
 </div>
 
 <div class="feature-card">
