@@ -80,6 +80,16 @@ body {
 
 .navbar {
   background-color: var(--charcoal-900) !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1030 !important;
+}
+
+/* Add padding to body to account for fixed navbar */
+body {
+  padding-top: 70px !important;
 }
 
 .navbar-brand img {
