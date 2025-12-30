@@ -794,6 +794,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<!-- Pipedrive LeadBooster Chatbot -->
+<script>
+window.pipedriveLeadboosterConfig = {
+  base: 'leadbooster-chat.pipedrive.com',
+  companyId: 14252767,
+  playbookUuid: '3b0cbec4-32bf-4f0a-b62a-749ab23e1634',
+  version: 2
+};
+(function () {
+  var w = window;
+  if (w.LeadBooster) {
+    console.warn('LeadBooster already exists');
+  } else {
+    w.LeadBooster = {
+      q: [],
+      on: function (n, h) { this.q.push({ t: 'o', n: n, h: h }); },
+      trigger: function (n) { this.q.push({ t: 't', n: n }); },
+    };
+  }
+})();
+</script>
+<script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async=""></script>
 
 
 
