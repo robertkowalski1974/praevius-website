@@ -1,0 +1,539 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2025-12-31 00:00:00",
+  "containerVersion": {
+    "path": "accounts/ACCOUNT_ID/containers/CONTAINER_ID/versions/0",
+    "accountId": "ACCOUNT_ID",
+    "containerId": "CONTAINER_ID",
+    "containerVersionId": "0",
+    "name": "Praevius - Initial Setup",
+    "description": "GTM configuration for praevius.app - B2B SaaS analytics and conversion tracking",
+    "container": {
+      "path": "accounts/ACCOUNT_ID/containers/CONTAINER_ID",
+      "accountId": "ACCOUNT_ID",
+      "containerId": "CONTAINER_ID",
+      "name": "praevius.app",
+      "publicId": "GTM-XXXXXXX",
+      "usageContext": ["WEB"],
+      "fingerprint": "1735689600000"
+    },
+    "builtInVariable": [
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "PAGE_URL", "name": "Page URL"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "PAGE_HOSTNAME", "name": "Page Hostname"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "PAGE_PATH", "name": "Page Path"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "REFERRER", "name": "Referrer"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "EVENT", "name": "Event"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "CLICK_ELEMENT", "name": "Click Element"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "CLICK_CLASSES", "name": "Click Classes"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "CLICK_ID", "name": "Click ID"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "CLICK_TARGET", "name": "Click Target"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "CLICK_URL", "name": "Click URL"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "CLICK_TEXT", "name": "Click Text"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "FORM_ELEMENT", "name": "Form Element"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "FORM_CLASSES", "name": "Form Classes"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "FORM_ID", "name": "Form ID"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "FORM_TARGET", "name": "Form Target"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "FORM_URL", "name": "Form URL"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "type": "FORM_TEXT", "name": "Form Text"}
+    ],
+    "variable": [
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "variableId": "1",
+        "name": "GA4 Measurement ID",
+        "type": "c",
+        "parameter": [
+          {"type": "TEMPLATE", "key": "value", "value": "G-XXXXXXXXXX"}
+        ],
+        "fingerprint": "1735689600001",
+        "parentFolderId": "1"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "variableId": "2",
+        "name": "DLV - Event Name",
+        "type": "v",
+        "parameter": [
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "event"}
+        ],
+        "fingerprint": "1735689600002",
+        "parentFolderId": "2"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "variableId": "3",
+        "name": "DLV - CTA Text",
+        "type": "v",
+        "parameter": [
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "cta_text"}
+        ],
+        "fingerprint": "1735689600003",
+        "parentFolderId": "2"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "variableId": "4",
+        "name": "DLV - CTA Location",
+        "type": "v",
+        "parameter": [
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "cta_location"}
+        ],
+        "fingerprint": "1735689600004",
+        "parentFolderId": "2"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "variableId": "5",
+        "name": "DLV - Plan Interest",
+        "type": "v",
+        "parameter": [
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "plan_interest"}
+        ],
+        "fingerprint": "1735689600005",
+        "parentFolderId": "2"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "variableId": "6",
+        "name": "DLV - Form Location",
+        "type": "v",
+        "parameter": [
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "form_location"}
+        ],
+        "fingerprint": "1735689600006",
+        "parentFolderId": "2"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "variableId": "7",
+        "name": "DLV - Scroll Percentage",
+        "type": "v",
+        "parameter": [
+          {"type": "INTEGER", "key": "dataLayerVersion", "value": "2"},
+          {"type": "BOOLEAN", "key": "setDefaultValue", "value": "false"},
+          {"type": "TEMPLATE", "key": "name", "value": "scroll_percentage"}
+        ],
+        "fingerprint": "1735689600007",
+        "parentFolderId": "2"
+      }
+    ],
+    "trigger": [
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "1",
+        "name": "All Pages",
+        "type": "PAGEVIEW",
+        "fingerprint": "1735689600010",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "2",
+        "name": "Page View - Pricing",
+        "type": "PAGEVIEW",
+        "filter": [
+          {
+            "type": "CONTAINS",
+            "parameter": [
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{Page Path}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "/pricing"}
+            ]
+          }
+        ],
+        "fingerprint": "1735689600011",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "3",
+        "name": "Page View - Features",
+        "type": "PAGEVIEW",
+        "filter": [
+          {
+            "type": "CONTAINS",
+            "parameter": [
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{Page Path}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "/features"}
+            ]
+          }
+        ],
+        "fingerprint": "1735689600012",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "4",
+        "name": "Page View - Contact",
+        "type": "PAGEVIEW",
+        "filter": [
+          {
+            "type": "CONTAINS",
+            "parameter": [
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{Page Path}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "/contact"}
+            ]
+          }
+        ],
+        "fingerprint": "1735689600013",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "5",
+        "name": "Custom Event - Free Trial Click",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{_event}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "free_trial_click"}
+            ]
+          }
+        ],
+        "fingerprint": "1735689600014",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "6",
+        "name": "Custom Event - Demo Request Click",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{_event}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "demo_request_click"}
+            ]
+          }
+        ],
+        "fingerprint": "1735689600015",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "7",
+        "name": "Custom Event - Contact Form Submitted",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{_event}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "contact_form_submitted"}
+            ]
+          }
+        ],
+        "fingerprint": "1735689600016",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "8",
+        "name": "Custom Event - CTA Click",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{_event}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "cta_click"}
+            ]
+          }
+        ],
+        "fingerprint": "1735689600017",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "9",
+        "name": "Custom Event - Chatbot Opened",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{_event}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "chatbot_opened"}
+            ]
+          }
+        ],
+        "fingerprint": "1735689600018",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "triggerId": "10",
+        "name": "Custom Event - Scroll Depth",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {"type": "TEMPLATE", "key": "arg0", "value": "{{_event}}"},
+              {"type": "TEMPLATE", "key": "arg1", "value": "scroll_depth"}
+            ]
+          }
+        ],
+        "fingerprint": "1735689600019",
+        "parentFolderId": "3"
+      }
+    ],
+    "tag": [
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "tagId": "1",
+        "name": "GA4 - Config - Praevius",
+        "type": "gaawc",
+        "parameter": [
+          {"type": "BOOLEAN", "key": "sendPageView", "value": "true"},
+          {"type": "BOOLEAN", "key": "enableSendToServerContainer", "value": "false"},
+          {"type": "TEMPLATE", "key": "measurementId", "value": "{{GA4 Measurement ID}}"}
+        ],
+        "fingerprint": "1735689600020",
+        "firingTriggerId": ["1"],
+        "parentFolderId": "4",
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {"type": "MAP"}
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "tagId": "2",
+        "name": "GA4 - Event - View Pricing",
+        "type": "gaawe",
+        "parameter": [
+          {"type": "BOOLEAN", "key": "sendEcommerceData", "value": "false"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "view_pricing"},
+          {"type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Config - Praevius"},
+          {"type": "LIST", "key": "eventParameters", "list": [
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "page_path"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{Page Path}}"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "referrer"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{Referrer}}"}
+            ]}
+          ]}
+        ],
+        "fingerprint": "1735689600021",
+        "firingTriggerId": ["2"],
+        "parentFolderId": "5",
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {"type": "MAP"}
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "tagId": "3",
+        "name": "GA4 - Event - Free Trial Click",
+        "type": "gaawe",
+        "parameter": [
+          {"type": "BOOLEAN", "key": "sendEcommerceData", "value": "false"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "free_trial_click"},
+          {"type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Config - Praevius"},
+          {"type": "LIST", "key": "eventParameters", "list": [
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "cta_text"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{DLV - CTA Text}}"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "cta_location"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{DLV - CTA Location}}"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "plan_interest"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{DLV - Plan Interest}}"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "page_path"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{Page Path}}"}
+            ]}
+          ]}
+        ],
+        "fingerprint": "1735689600022",
+        "firingTriggerId": ["5"],
+        "parentFolderId": "5",
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {"type": "MAP"}
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "tagId": "4",
+        "name": "GA4 - Event - Demo Request Click",
+        "type": "gaawe",
+        "parameter": [
+          {"type": "BOOLEAN", "key": "sendEcommerceData", "value": "false"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "demo_request"},
+          {"type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Config - Praevius"},
+          {"type": "LIST", "key": "eventParameters", "list": [
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "cta_location"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{DLV - CTA Location}}"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "page_path"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{Page Path}}"}
+            ]}
+          ]}
+        ],
+        "fingerprint": "1735689600023",
+        "firingTriggerId": ["6"],
+        "parentFolderId": "5",
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {"type": "MAP"}
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "tagId": "5",
+        "name": "GA4 - Event - Contact Form Submitted",
+        "type": "gaawe",
+        "parameter": [
+          {"type": "BOOLEAN", "key": "sendEcommerceData", "value": "false"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "contact_form_submitted"},
+          {"type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Config - Praevius"},
+          {"type": "LIST", "key": "eventParameters", "list": [
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "form_location"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{DLV - Form Location}}"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "page_path"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{Page Path}}"}
+            ]}
+          ]}
+        ],
+        "fingerprint": "1735689600024",
+        "firingTriggerId": ["7"],
+        "parentFolderId": "5",
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {"type": "MAP"}
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "tagId": "6",
+        "name": "GA4 - Event - CTA Click",
+        "type": "gaawe",
+        "parameter": [
+          {"type": "BOOLEAN", "key": "sendEcommerceData", "value": "false"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "cta_click"},
+          {"type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Config - Praevius"},
+          {"type": "LIST", "key": "eventParameters", "list": [
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "cta_text"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{DLV - CTA Text}}"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "cta_location"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{DLV - CTA Location}}"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "page_path"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{Page Path}}"}
+            ]}
+          ]}
+        ],
+        "fingerprint": "1735689600025",
+        "firingTriggerId": ["8"],
+        "parentFolderId": "5",
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {"type": "MAP"}
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "tagId": "7",
+        "name": "GA4 - Event - Chatbot Opened",
+        "type": "gaawe",
+        "parameter": [
+          {"type": "BOOLEAN", "key": "sendEcommerceData", "value": "false"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "chatbot_opened"},
+          {"type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Config - Praevius"},
+          {"type": "LIST", "key": "eventParameters", "list": [
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "chatbot_type"},
+              {"type": "TEMPLATE", "key": "value", "value": "pipedrive_leadbooster"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "page_path"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{Page Path}}"}
+            ]}
+          ]}
+        ],
+        "fingerprint": "1735689600026",
+        "firingTriggerId": ["9"],
+        "parentFolderId": "5",
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {"type": "MAP"}
+      },
+      {
+        "accountId": "ACCOUNT_ID",
+        "containerId": "CONTAINER_ID",
+        "tagId": "8",
+        "name": "GA4 - Event - Scroll Depth",
+        "type": "gaawe",
+        "parameter": [
+          {"type": "BOOLEAN", "key": "sendEcommerceData", "value": "false"},
+          {"type": "TEMPLATE", "key": "eventName", "value": "scroll_depth"},
+          {"type": "TAG_REFERENCE", "key": "measurementId", "value": "GA4 - Config - Praevius"},
+          {"type": "LIST", "key": "eventParameters", "list": [
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "scroll_percentage"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{DLV - Scroll Percentage}}"}
+            ]},
+            {"type": "MAP", "map": [
+              {"type": "TEMPLATE", "key": "name", "value": "page_path"},
+              {"type": "TEMPLATE", "key": "value", "value": "{{Page Path}}"}
+            ]}
+          ]}
+        ],
+        "fingerprint": "1735689600027",
+        "firingTriggerId": ["10"],
+        "parentFolderId": "5",
+        "tagFiringOption": "ONCE_PER_EVENT",
+        "monitoringMetadata": {"type": "MAP"}
+      }
+    ],
+    "folder": [
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "folderId": "1", "name": "Constants", "fingerprint": "1735689600030"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "folderId": "2", "name": "Data Layer Variables", "fingerprint": "1735689600031"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "folderId": "3", "name": "Triggers", "fingerprint": "1735689600032"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "folderId": "4", "name": "Analytics - Config", "fingerprint": "1735689600033"},
+      {"accountId": "ACCOUNT_ID", "containerId": "CONTAINER_ID", "folderId": "5", "name": "Analytics - Events", "fingerprint": "1735689600034"}
+    ],
+    "fingerprint": "1735689600000"
+  }
+}

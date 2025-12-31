@@ -1,19 +1,100 @@
 ---
-title: "Praevius | AI-Powered Cost Control for Construction"
-pagetitle: "Praevius - See Costs Before They Spiral"
-description: "Simple, AI-powered cost control for growing contractors and QS firms. Professional-grade insights without enterprise complexity."
+title: "Praevius | AI-Powered Construction Cost Control Software"
+pagetitle: "Praevius | AI-Powered Construction Cost Control Software"
+description: "AI-powered construction cost tracking software for subcontractors and QS professionals. Real-time budget visibility, variance detection, and progress claim automation. Start free trial."
+keywords: "construction cost control software, subcontractor cost tracking, quantity surveying software, construction budget tracking, progress claim software"
 format:
   html:
     page-layout: full
+    include-in-header:
+      text: |
+        <!-- SoftwareApplication Schema for Homepage -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Praevius",
+          "applicationCategory": "BusinessApplication",
+          "applicationSubCategory": "Construction Cost Management",
+          "operatingSystem": "Web Browser",
+          "description": "AI-powered cost control software for construction subcontractors and QS professionals. Real-time budget tracking, variance detection, and progress claim automation.",
+          "url": "https://praevius.app",
+          "image": "https://praevius.app/images/praevius-app-icon.svg",
+          "screenshot": "https://praevius.app/images/praevius-app-icon.svg",
+          "featureList": [
+            "Real-time budget tracking",
+            "AI-powered variance reports",
+            "S-curve forecasting (EVM)",
+            "Change order management",
+            "Progress claim automation",
+            "Xero integration",
+            "QuickBooks integration",
+            "Procore sync"
+          ],
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Free",
+              "price": "0",
+              "priceCurrency": "USD",
+              "description": "Up to 3 projects, 1 team member"
+            },
+            {
+              "@type": "Offer",
+              "name": "Essential",
+              "price": "99",
+              "priceCurrency": "USD",
+              "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "99",
+                "priceCurrency": "USD",
+                "billingDuration": "P1M"
+              },
+              "description": "Up to 10 projects, 3 team members"
+            },
+            {
+              "@type": "Offer",
+              "name": "Professional",
+              "price": "229",
+              "priceCurrency": "USD",
+              "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "229",
+                "priceCurrency": "USD",
+                "billingDuration": "P1M"
+              },
+              "description": "Up to 25 projects, 10 team members, AI Reports"
+            },
+            {
+              "@type": "Offer",
+              "name": "Scale",
+              "price": "449",
+              "priceCurrency": "USD",
+              "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "449",
+                "priceCurrency": "USD",
+                "billingDuration": "P1M"
+              },
+              "description": "Unlimited projects and team members, Procore sync"
+            }
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "name": "Praevius",
+            "url": "https://praevius.app"
+          }
+        }
+        </script>
 ---
 
 <!-- Hero Section -->
 <div class="hero-section full-width">
 <div class="container">
 
-<img src="images/praevius-icon-orange.svg" alt="Praevius" class="hero-logo" style="height: 160px; margin-bottom: 1.5rem;">
+<img src="images/praevius-icon-orange.svg" alt="Praevius - AI-Powered Construction Cost Control Software" class="hero-logo" style="height: 160px; margin-bottom: 1.5rem;">
 
-# See costs <span class="highlight">before they spiral</span>
+# AI-Powered Construction Cost Control: <span class="highlight">See Costs Before They Spiral</span>
 
 <p class="tagline">AI-powered cost control for construction. Just ask.<br>No training. No manuals. Professional-grade insights.</p>
 
@@ -144,9 +225,9 @@ Start free, upgrade as you grow. No per-user fees, no hidden costs.
 <h3>Free</h3>
 <p class="price">Free</p>
 <ul style="text-align: left; list-style: none; padding: 0;">
-<li>✓ Up to 3 projects</li>
-<li>✓ 1 team member</li>
-<li>✓ Core cost tracking</li>
+<li>Up to 3 projects</li>
+<li>1 team member</li>
+<li>Core cost tracking</li>
 </ul>
 <a href="https://app.praevius.app/login" class="btn btn-secondary" style="width: 100%;">Start Free</a>
 </div>
@@ -155,10 +236,10 @@ Start free, upgrade as you grow. No per-user fees, no hidden costs.
 <h3>Essential</h3>
 <p class="price">$99<span>/month</span></p>
 <ul style="text-align: left; list-style: none; padding: 0;">
-<li>✓ Up to 10 projects</li>
-<li>✓ Up to 3 team members</li>
-<li>✓ Google Drive Sync</li>
-<li>✓ 1 accounting integration</li>
+<li>Up to 10 projects</li>
+<li>Up to 3 team members</li>
+<li>Google Drive Sync</li>
+<li>1 accounting integration</li>
 </ul>
 <a href="https://app.praevius.app/start-trial?bundle=essential" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
 </div>
@@ -167,10 +248,10 @@ Start free, upgrade as you grow. No per-user fees, no hidden costs.
 <h3>Professional</h3>
 <p class="price">$229<span>/month</span></p>
 <ul style="text-align: left; list-style: none; padding: 0;">
-<li>✓ Up to 25 projects</li>
-<li>✓ Up to 10 team members</li>
-<li>✓ All integrations</li>
-<li>✓ Claude AI Reports</li>
+<li>Up to 25 projects</li>
+<li>Up to 10 team members</li>
+<li>All integrations</li>
+<li>Claude AI Reports</li>
 </ul>
 <a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="width: 100%;">Start Free Trial</a>
 </div>
@@ -179,10 +260,10 @@ Start free, upgrade as you grow. No per-user fees, no hidden costs.
 <h3>Scale</h3>
 <p class="price">$449<span>/month</span></p>
 <ul style="text-align: left; list-style: none; padding: 0;">
-<li>✓ Unlimited projects</li>
-<li>✓ Unlimited team members</li>
-<li>✓ Claude AI Reports</li>
-<li>✓ Procore ↔ SharePoint Sync</li>
+<li>Unlimited projects</li>
+<li>Unlimited team members</li>
+<li>Claude AI Reports</li>
+<li>Procore / SharePoint Sync</li>
 </ul>
 <a href="https://app.praevius.app/start-trial?bundle=scale" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
 </div>

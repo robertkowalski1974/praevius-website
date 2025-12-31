@@ -1,7 +1,8 @@
 ---
-title: "About | Praevius"
-pagetitle: "About Praevius - Built by Practitioners, for Practitioners"
-description: "20 years of construction cost management expertise, now powered by AI. Learn about the team behind Praevius."
+title: "About Praevius | AI Cost Control for Construction Subcontractors"
+pagetitle: "About Praevius | AI Cost Control for Construction Subcontractors"
+description: "Built by quantity surveyors with 20 years of construction experience. Praevius delivers AI-powered cost control designed specifically for trade contractors and QS professionals."
+keywords: "about Praevius, construction cost control company, QS software company, subcontractor software"
 format:
   html:
     page-layout: full
@@ -11,7 +12,7 @@ format:
 <div class="hero-section full-width" style="padding: 4rem 2rem;">
 <div class="container">
 
-# Built by <span class="highlight">Practitioners</span>, for Practitioners
+# About Praevius: <span class="highlight">AI Cost Control for Construction Subcontractors</span>
 
 <p class="tagline">20 years of construction cost management expertise, now powered by AI.</p>
 
@@ -28,7 +29,7 @@ format:
 
 <p>Praevius (from Latin "praevius" meaning "going before") was born from a simple observation: construction subcontractors are drowning in spreadsheets while enterprise platforms price them out of modern cost control.</p>
 
-<p>After two decades working as a quantity surveyor across the UK, Australia, and Poland—handling everything from £500K fitouts to £50M commercial developments—the pattern became undeniable. Specialty trade contractors, the backbone of every construction project, were consistently:</p>
+<p>After two decades working as a quantity surveyor across the UK, Australia, and Poland—handling everything from 500K fitouts to 50M commercial developments—the pattern became undeniable. Specialty trade contractors, the backbone of every construction project, were consistently:</p>
 
 <ul style="margin: 2rem 0;">
 <li>Losing 3-5% margins to poor variation tracking</li>
@@ -82,14 +83,14 @@ format:
 
 <div class="feature-card">
 <h3><i class="bi bi-box"></i> BIM Takeoff</h3>
-<p>Professional BIM 5D cost estimation and quantity surveying services. 20 years of international experience across UK, Australia, and Poland. Delivering quantity takeoffs with ±5% accuracy in 3-10 days.</p>
-<a href="https://bimtakeoff.com" target="_blank" class="btn btn-secondary" style="margin-top: 1rem;">Visit BIM Takeoff →</a>
+<p>Professional BIM 5D cost estimation and quantity surveying services. 20 years of international experience across UK, Australia, and Poland. Delivering quantity takeoffs with +/-5% accuracy in 3-10 days.</p>
+<a href="https://bimtakeoff.com" target="_blank" class="btn btn-secondary" style="margin-top: 1rem;">Visit BIM Takeoff</a>
 </div>
 
 <div class="feature-card">
 <h3><i class="bi bi-graph-up"></i> Praevius.app</h3>
 <p>The cost control intelligence layer. Where BIM Takeoff delivers project-specific expertise, Praevius provides the ongoing visibility and control that keeps projects profitable.</p>
-<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="margin-top: 1rem;">Start Free Trial →</a>
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="margin-top: 1rem;">Start Free Trial</a>
 </div>
 
 </div>

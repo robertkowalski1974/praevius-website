@@ -1,7 +1,8 @@
 ---
-title: "Pricing | Praevius"
-pagetitle: "Pricing - Simple, Transparent Construction Cost Control"
-description: "Construction cost control software starting at $99/month. Free plan available. AI-powered reports, real-time tracking, no per-user fees."
+title: "Pricing | Construction Cost Tracking from $99/month | Praevius"
+pagetitle: "Pricing | Construction Cost Tracking Software from $99/month | Praevius"
+description: "Construction cost control software pricing. Free plan available. Essential from $99/mo, Professional from $229/mo. No per-user fees. 30-day free trial."
+keywords: "construction software pricing, cost tracking software price, Procore alternative pricing, affordable construction software"
 format:
   html:
     page-layout: full
@@ -51,6 +52,22 @@ format:
                 "@type": "Answer",
                 "text": "Essential: Email support (48hr response). Professional: Priority email (24hr response). Scale: Dedicated success manager + phone support."
               }
+            },
+            {
+              "@type": "Question",
+              "name": "How does Praevius compare to Procore?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Praevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. While Procore targets general contractors with enterprise features, Praevius delivers professional-grade cost control at mid-market pricing starting at $99/month."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What integrations are included?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Praevius integrates with Xero, QuickBooks, Sage, Google Drive, SharePoint, and Procore (Scale plan). Professional and Scale plans include all integrations."
+              }
             }
           ]
         }
@@ -61,7 +78,7 @@ format:
 <div class="hero-section full-width" style="padding: 4rem 2rem;">
 <div class="container">
 
-# Simple, <span class="highlight">Transparent</span> Pricing
+# Construction Cost Tracking Software: <span class="highlight">Simple, Transparent Pricing</span>
 
 <p class="tagline">Professional-grade tools. Mid-market pricing. No surprises.</p>
 
@@ -81,10 +98,10 @@ format:
 <p class="price">Free</p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 3 projects</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ 1 team member</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Core cost tracking</li>
-<li style="padding: 0.5rem 0;">✓ Community support</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 3 projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">1 team member</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Core cost tracking</li>
+<li style="padding: 0.5rem 0;">Community support</li>
 </ul>
 
 <a href="https://app.praevius.app/login" class="btn btn-secondary" style="width: 100%;">Start Free</a>
@@ -97,12 +114,12 @@ format:
 <p class="price">$99<span>/month</span></p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 10 projects</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 3 team members</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Cost Control</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Google Drive Sync</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ SharePoint Document Sync</li>
-<li style="padding: 0.5rem 0;">✓ 1 accounting integration (Xero Invoicing, QuickBooks Online, or Sage Intacct)</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 10 projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 3 team members</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Cost Control</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Google Drive Sync</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">SharePoint Document Sync</li>
+<li style="padding: 0.5rem 0;">1 accounting integration (Xero Invoicing, QuickBooks Online, or Sage Intacct)</li>
 </ul>
 
 <a href="https://app.praevius.app/start-trial?bundle=essential" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
@@ -116,16 +133,16 @@ format:
 <p class="price">$229<span>/month</span></p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 25 projects</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Up to 10 team members</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Cost Control</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Google Drive Sync</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Xero Invoicing</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ QuickBooks Online</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Sage Intacct</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ SharePoint Document Sync</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ <strong>AI Assistant</strong></li>
-<li style="padding: 0.5rem 0;">✓ <strong>Voice Commands</strong></li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 25 projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 10 team members</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Cost Control</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Google Drive Sync</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Xero Invoicing</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">QuickBooks Online</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Sage Intacct</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">SharePoint Document Sync</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;"><strong>AI Assistant</strong></li>
+<li style="padding: 0.5rem 0;"><strong>Voice Commands</strong></li>
 </ul>
 
 <a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="width: 100%;">Start Free Trial</a>
@@ -138,17 +155,17 @@ format:
 <p class="price">$449<span>/month</span></p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Unlimited projects</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Unlimited team members</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Cost Control</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Google Drive Sync</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Xero Invoicing</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ QuickBooks Online</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ Sage Intacct</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ SharePoint Document Sync</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ <strong>AI Assistant</strong></li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">✓ <strong>Voice Commands</strong></li>
-<li style="padding: 0.5rem 0;">✓ <strong>Procore ↔ SharePoint Sync</strong></li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited team members</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Cost Control</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Google Drive Sync</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Xero Invoicing</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">QuickBooks Online</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Sage Intacct</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">SharePoint Document Sync</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;"><strong>AI Assistant</strong></li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;"><strong>Voice Commands</strong></li>
+<li style="padding: 0.5rem 0;"><strong>Procore / SharePoint Sync</strong></li>
 </ul>
 
 <a href="https://app.praevius.app/start-trial?bundle=scale" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
@@ -190,6 +207,11 @@ format:
 <div class="feature-card">
 <h3>What's included in support?</h3>
 <p>Essential: Email support (48hr response). Professional: Priority email (24hr response). Scale: Dedicated success manager + phone support.</p>
+</div>
+
+<div class="feature-card">
+<h3>How does Praevius compare to Procore?</h3>
+<p>Praevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. Professional-grade cost control at mid-market pricing.</p>
 </div>
 
 </div>

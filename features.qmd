@@ -1,7 +1,8 @@
 ---
-title: "Features | Praevius"
-pagetitle: "Features - AI-Powered Cost Control for Construction"
-description: "Real-time budget tracking, AI-powered reports, S-curve forecasting, and seamless integrations. Everything you need to control construction costs."
+title: "Construction Cost Control Features | Real-Time Tracking & AI Insights | Praevius"
+pagetitle: "Construction Cost Control Features | Real-Time Tracking & AI Insights | Praevius"
+description: "Real-time budget tracking, AI-powered variance reports, S-curve forecasting, change order management, and progress claim automation. Complete construction cost control features."
+keywords: "construction cost tracking features, real-time budget tracking, AI variance reports, S-curve forecasting, change order management, progress claim automation"
 format:
   html:
     page-layout: full
@@ -11,7 +12,7 @@ format:
 <div class="hero-section full-width" style="padding: 4rem 2rem;">
 <div class="container">
 
-# Everything You Need to <span class="highlight">Control Costs</span>
+# Construction Cost Control Features: <span class="highlight">Real-Time Tracking & AI Insights</span>
 
 <p class="tagline">From real-time tracking to AI-powered forecasting. One platform, complete visibility.</p>
 
@@ -176,7 +177,7 @@ Instant project health visibility using the traffic light system every construct
 
 <div class="feature-card" style="border-left-color: #10B981;">
 <span class="badge badge-green" style="font-size: 1.5rem; padding: 1rem 2rem;"><i class="bi bi-check-circle"></i> On Budget</span>
-<p class="mt-2">Variance within ±5%. Project performing as planned. Continue current trajectory.</p>
+<p class="mt-2">Variance within +/-5%. Project performing as planned. Continue current trajectory.</p>
 </div>
 
 <div class="feature-card" style="border-left-color: #F59E0B;">

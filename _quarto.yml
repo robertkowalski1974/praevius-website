@@ -7,22 +7,25 @@ project:
     - images/**
 
 website:
-  title: ""
+  title: "Praevius"
   site-url: "https://praevius.app"
-  description: "AI-Powered Cost Control for Construction | See costs before they spiral"
+  description: "AI-Powered Construction Cost Control Software for Subcontractors and QS Professionals"
   favicon: images/praevius-icon-orange.svg
-  
+
+  # XML Sitemap configuration
+  site-path: "/"
+
   # Open Graph metadata for social sharing
   open-graph:
     locale: en_GB
     site-name: "Praevius"
     image: "images/praevius-app-icon.svg"
-  
+
   navbar:
     background: "#2C2C2C"
     foreground: "#FFFFFF"
     logo: "images/praevius-logo-white.svg"
-    logo-alt: "Praevius - See costs before they spiral"
+    logo-alt: "Praevius - AI-Powered Construction Cost Control Software"
     left:
       - text: "Home"
         href: index.qmd
@@ -41,9 +44,9 @@ website:
       - text: "Start Free Trial"
         href: "https://app.praevius.app/start-trial?bundle=professional"
         icon: arrow-right
-    
+
   sidebar: false
-  
+
   page-footer:
     background: "#2C2C2C"
     foreground: "#FFFFFF"
@@ -60,10 +63,10 @@ website:
 
 format:
   html:
-    theme: 
+    theme:
       - cosmo
       - custom.scss
-    css: 
+    css:
       - css/styles.css
     toc: false
     page-layout: full
@@ -74,67 +77,104 @@ format:
     link-external-icon: false
     lang: en-GB
     include-in-header:
-      text: |
-        <!-- Google Fonts: Inter -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-        
-        <!-- Bootstrap Icons -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        
-        <!-- Twitter Card metadata -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Praevius - AI-Powered Cost Control for Construction">
-        <meta name="twitter:description" content="See costs before they spiral. Professional-grade insights without enterprise complexity.">
-        
-        <!-- Organization Structured Data -->
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "Praevius",
-          "applicationCategory": "BusinessApplication",
-          "operatingSystem": "Web",
-          "description": "AI-powered cost control for construction subcontractors and QS professionals",
-          "url": "https://praevius.app",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD",
-            "priceValidUntil": "2025-12-31"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "50"
+      - file: includes/gtm-head.html
+      - text: |
+          <!-- Google Fonts: Inter -->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+          <!-- Bootstrap Icons -->
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+          <!-- Twitter Card metadata -->
+          <meta name="twitter:card" content="summary_large_image">
+          <meta name="twitter:title" content="Praevius - AI-Powered Construction Cost Control Software">
+          <meta name="twitter:description" content="See costs before they spiral. AI-powered cost control for construction subcontractors and QS professionals.">
+
+          <!-- Organization Schema (site-wide) -->
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Praevius",
+            "legalName": "Praevius",
+            "url": "https://praevius.app",
+            "logo": "https://praevius.app/images/praevius-logo-full.svg",
+            "description": "AI-powered construction cost control software for subcontractors and quantity surveying professionals.",
+            "foundingDate": "2024",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "GB"
+            },
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "email": "info@praevius.app",
+                "contactType": "customer support",
+                "availableLanguage": ["English"]
+              },
+              {
+                "@type": "ContactPoint",
+                "email": "sales@praevius.app",
+                "contactType": "sales",
+                "availableLanguage": ["English"]
+              }
+            ],
+            "sameAs": [
+              "https://linkedin.com/company/praevius",
+              "https://twitter.com/praeviusapp",
+              "https://github.com/praevius"
+            ],
+            "parentOrganization": {
+              "@type": "Organization",
+              "name": "BIM Takeoff",
+              "url": "https://bimtakeoff.com"
+            }
           }
-        }
-        </script>
+          </script>
+
+          <!-- WebSite Schema for sitelinks search box -->
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Praevius",
+            "url": "https://praevius.app",
+            "description": "AI-powered construction cost control software",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Praevius"
+            }
+          }
+          </script>
+    include-before-body:
+      - file: includes/gtm-body.html
     include-after-body:
-      text: |
-        <!-- Pipedrive LeadBooster Chatbot -->
-        <script>
-        window.pipedriveLeadboosterConfig = {
-          base: 'leadbooster-chat.pipedrive.com',
-          companyId: 14252767,
-          playbookUuid: '3b0cbec4-32bf-4f0a-b62a-749ab23e1634',
-          version: 2
-        };
-        (function () {
-          var w = window;
-          if (w.LeadBooster) {
-            console.warn('LeadBooster already exists');
-          } else {
-            w.LeadBooster = {
-              q: [],
-              on: function (n, h) { this.q.push({ t: 'o', n: n, h: h }); },
-              trigger: function (n) { this.q.push({ t: 't', n: n }); },
-            };
-          }
-        })();
-        </script>
-        <script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async></script>
+      - file: includes/analytics-events.html
+      - text: |
+          <!-- Pipedrive LeadBooster Chatbot -->
+          <script>
+          window.pipedriveLeadboosterConfig = {
+            base: 'leadbooster-chat.pipedrive.com',
+            companyId: 14252767,
+            playbookUuid: '3b0cbec4-32bf-4f0a-b62a-749ab23e1634',
+            version: 2
+          };
+          (function () {
+            var w = window;
+            if (w.LeadBooster) {
+              console.warn('LeadBooster already exists');
+            } else {
+              w.LeadBooster = {
+                q: [],
+                on: function (n, h) { this.q.push({ t: 'o', n: n, h: h }); },
+                trigger: function (n) { this.q.push({ t: 't', n: n }); },
+              };
+            }
+          })();
+          </script>
+          <script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async></script>
 
 execute:
   freeze: auto
