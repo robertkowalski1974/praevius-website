@@ -11,7 +11,7 @@ format:
 <div class="hero-section full-width">
 <div class="container">
 
-<img src="images/praevius-icon-orange.svg" alt="Praevius" style="height: 160px; margin-bottom: 1.5rem;">
+<img src="images/praevius-icon-orange.svg" alt="Praevius" class="hero-logo" style="height: 160px; margin-bottom: 1.5rem;">
 
 # See costs <span class="highlight">before they spiral</span>
 
