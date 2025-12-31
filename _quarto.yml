@@ -22,6 +22,7 @@ website:
     image: "images/praevius-app-icon.svg"
 
   navbar:
+    title: false
     background: "#2C2C2C"
     foreground: "#FFFFFF"
     logo: "images/praevius-logo-white.svg"
