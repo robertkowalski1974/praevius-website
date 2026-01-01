@@ -141,8 +141,7 @@ format:
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">QuickBooks Online</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Sage Intacct</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">SharePoint Document Sync</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;"><strong>AI Assistant</strong></li>
-<li style="padding: 0.5rem 0;"><strong>Voice Commands</strong></li>
+<li style="padding: 0.5rem 0;"><strong>Claude AI Reports</strong></li>
 </ul>
 
 <a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="width: 100%;">Start Free Trial</a>
@@ -163,9 +162,9 @@ format:
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">QuickBooks Online</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Sage Intacct</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">SharePoint Document Sync</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;"><strong>AI Assistant</strong></li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;"><strong>Voice Commands</strong></li>
-<li style="padding: 0.5rem 0;"><strong>Procore / SharePoint Sync</strong></li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;"><strong>Claude AI Reports</strong></li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;"><strong>Procore ↔ SharePoint Sync</strong></li>
+<li style="padding: 0.5rem 0;"><strong>Schedule of Values</strong></li>
 </ul>
 
 <a href="https://app.praevius.app/start-trial?bundle=scale" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>

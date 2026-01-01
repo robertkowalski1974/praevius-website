@@ -27,6 +27,7 @@ format:
             "S-curve forecasting (EVM)",
             "Change order management",
             "Progress claim automation",
+            "Schedule of Values (SOV)",
             "Xero integration",
             "QuickBooks integration",
             "Procore sync"
@@ -76,7 +77,7 @@ format:
                 "priceCurrency": "USD",
                 "billingDuration": "P1M"
               },
-              "description": "Unlimited projects and team members, Procore sync"
+              "description": "Unlimited projects and team members, Procore sync, Schedule of Values"
             }
           ],
           "publisher": {
@@ -263,7 +264,8 @@ Start free, upgrade as you grow. No per-user fees, no hidden costs.
 <li>Unlimited projects</li>
 <li>Unlimited team members</li>
 <li>Claude AI Reports</li>
-<li>Procore / SharePoint Sync</li>
+<li>Procore ↔ SharePoint Sync</li>
+<li>Schedule of Values</li>
 </ul>
 <a href="https://app.praevius.app/start-trial?bundle=scale" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
 </div>

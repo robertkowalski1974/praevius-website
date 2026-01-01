@@ -109,16 +109,18 @@ quarto render && git add . && git commit -m "Update" && git push
 ### Pricing Tiers
 | Tier | Price | Key Features |
 |------|-------|--------------|
-| **Essential** | £79/mo | Core tracking, 1 accounting integration, 10 projects |
-| **Professional** | £179/mo | AI reports, S-curves, unlimited projects |
-| **Scale** | £349/mo | Procore sync, API, white-label |
+| **Free** | Free | 3 projects, 1 team member, core cost tracking |
+| **Essential** | $99/mo | 10 projects, 3 team members, 1 accounting integration |
+| **Professional** | $229/mo | 25 projects, 10 team members, Claude AI Reports |
+| **Scale** | $449/mo | Unlimited projects/members, Procore sync, Schedule of Values |
 
 ### Key Features
 - Real-time budget tracking
-- AI-powered variance reports
+- AI-powered variance reports (Claude AI Reports)
 - S-curve forecasting (EVM)
 - Change order management
 - Progress claim automation
+- Schedule of Values (SOV) - multi-format support (UK JCT/NEC, US AIA, AU SOPA)
 - Integrations: Xero, QuickBooks, Sage, Google Drive, SharePoint, Procore
 
 ### Coming Soon
@@ -183,4 +185,4 @@ See **[IMPROVEMENTS.md](.claude/IMPROVEMENTS.md)** for prioritized list of websi
 
 ---
 
-*Last updated: December 2025*
+*Last updated: January 2026*
