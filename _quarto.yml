@@ -123,9 +123,8 @@ format:
               }
             ],
             "sameAs": [
-              "https://linkedin.com/company/praevius",
-              "https://twitter.com/praeviusapp",
-              "https://github.com/praevius"
+              "https://linkedin.com/company/praeviuspp",
+              "https://x.com/praeviusapp"
             ],
             "parentOrganization": {
               "@type": "Organization",
