@@ -117,6 +117,7 @@ quarto render && git add . && git commit -m "Update" && git push
 ### Key Features
 - Real-time budget tracking
 - AI-powered variance reports (Claude AI Reports)
+- Voice commands for field use
 - S-curve forecasting (EVM)
 - Change order management
 - Progress claim automation
@@ -124,7 +125,6 @@ quarto render && git add . && git commit -m "Update" && git push
 - Integrations: Xero, QuickBooks, Sage, Google Drive, SharePoint, Procore
 
 ### Coming Soon
-- Voice input for field data entry
 - Native mobile app
 - Predictive analytics
 
