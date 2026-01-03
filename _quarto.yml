@@ -5,6 +5,11 @@ project:
     - CNAME
     - css/**
     - images/**
+  render:
+    - "*.qmd"
+    - "!CLAUDE.qmd"
+    - "!.claude/"
+    - "!includes/*.html"
 
 website:
   title: "Praevius"
@@ -32,6 +37,8 @@ website:
         href: index.qmd
       - text: "Features"
         href: features.qmd
+      - text: "Compare"
+        href: compare.qmd
       - text: "Pricing"
         href: pricing.qmd
       - text: "About"
@@ -53,14 +60,15 @@ website:
     foreground: "#FFFFFF"
     left: |
       © 2025 Praevius. All rights reserved.<br>
-      AI-Powered Cost Control for Construction
+      AI-Powered Construction Cost Control Software
     center: |
-      **Quick Links**<br>
-      [Privacy Policy](/privacy-policy.html) | [Terms of Service](/terms-of-service.html)
+      **Product:** [Features](/features.html) | [Compare](/compare.html) | [Pricing](/pricing.html)<br>
+      **Company:** [About](/about.html) | [Contact](/contact.html)<br>
+      **Legal:** [Privacy Policy](/privacy-policy.html) | [Terms of Service](/terms-of-service.html)
     right: |
       **Contact**<br>
       [info@praevius.app](mailto:info@praevius.app)<br>
-      Part of the BIM Takeoff ecosystem
+      Part of the [BIM Takeoff](https://bimtakeoff.com) ecosystem
 
 format:
   html:

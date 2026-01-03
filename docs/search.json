@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "privacy-policy.html#overview",
-    "href": "privacy-policy.html#overview",
-    "title": "Privacy Policy | Praevius",
-    "section": "Overview",
-    "text": "Overview\nPraevius (“we”, “our”, “us”) is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information when you use praevius.app."
-  },
-  {
-    "objectID": "privacy-policy.html#information-we-collect",
-    "href": "privacy-policy.html#information-we-collect",
-    "title": "Privacy Policy | Praevius",
-    "section": "Information We Collect",
-    "text": "Information We Collect\n\nInformation You Provide\n\nAccount Information: Name, email address, company name, job title\nBilling Information: Payment details (processed securely via Stripe)\nProject Data: Cost data, budgets, variations, and other construction information you enter\nCommunications: Messages, support requests, and feedback\n\n\n\nInformation Collected Automatically\n\nUsage Data: Features used, pages visited, time spent\nDevice Information: Browser type, operating system, device type\nLog Data: IP address, access times, referral URLs"
-  },
-  {
-    "objectID": "privacy-policy.html#how-we-use-your-information",
-    "href": "privacy-policy.html#how-we-use-your-information",
-    "title": "Privacy Policy | Praevius",
-    "section": "How We Use Your Information",
-    "text": "How We Use Your Information\nWe use your information to:\n\nProvide and improve our services\nProcess payments and manage subscriptions\nSend service-related communications\nProvide customer support\nAnalyse usage patterns to improve the platform\nComply with legal obligations"
-  },
-  {
-    "objectID": "privacy-policy.html#data-security",
-    "href": "privacy-policy.html#data-security",
-    "title": "Privacy Policy | Praevius",
-    "section": "Data Security",
-    "text": "Data Security\nWe implement industry-standard security measures including:\n\nEncryption in transit (TLS 1.3)\nEncryption at rest (AES-256)\nRegular security audits\nAccess controls and authentication\nSecure data centres (EU/UK based)"
-  },
-  {
-    "objectID": "privacy-policy.html#data-retention",
-    "href": "privacy-policy.html#data-retention",
-    "title": "Privacy Policy | Praevius",
-    "section": "Data Retention",
-    "text": "Data Retention\nWe retain your data for as long as your account is active. Upon account deletion:\n\nAccount data: Deleted within 30 days\nBackup data: Deleted within 90 days\nAnonymised analytics: May be retained indefinitely"
-  },
-  {
-    "objectID": "privacy-policy.html#your-rights",
-    "href": "privacy-policy.html#your-rights",
-    "title": "Privacy Policy | Praevius",
-    "section": "Your Rights",
-    "text": "Your Rights\nUnder GDPR and UK Data Protection Act 2018, you have the right to:\n\nAccess your personal data\nRectify inaccurate data\nErase your data (“right to be forgotten”)\nRestrict processing\nData portability\nObject to processing\n\nTo exercise these rights, contact us at info@praevius.app."
-  },
-  {
-    "objectID": "privacy-policy.html#third-party-services",
-    "href": "privacy-policy.html#third-party-services",
-    "title": "Privacy Policy | Praevius",
-    "section": "Third-Party Services",
-    "text": "Third-Party Services\nWe use the following third-party services:\n\nStripe: Payment processing\nAWS/GCP: Cloud infrastructure\nAnalytics: Usage analytics (anonymised)"
-  },
-  {
-    "objectID": "privacy-policy.html#cookies",
-    "href": "privacy-policy.html#cookies",
-    "title": "Privacy Policy | Praevius",
-    "section": "Cookies",
-    "text": "Cookies\nWe use essential cookies for authentication and session management. Optional analytics cookies require your consent."
-  },
-  {
-    "objectID": "privacy-policy.html#changes-to-this-policy",
-    "href": "privacy-policy.html#changes-to-this-policy",
-    "title": "Privacy Policy | Praevius",
-    "section": "Changes to This Policy",
-    "text": "Changes to This Policy\nWe may update this policy periodically. Significant changes will be communicated via email or in-app notification."
-  },
-  {
-    "objectID": "privacy-policy.html#contact-us",
-    "href": "privacy-policy.html#contact-us",
-    "title": "Privacy Policy | Praevius",
-    "section": "Contact Us",
-    "text": "Contact Us\nFor privacy-related questions:\nEmail: info@praevius.app\n\nPraevius is part of the BIM Takeoff ecosystem."
-  },
-  {
     "objectID": "terms-of-service.html#agreement-to-terms",
     "href": "terms-of-service.html#agreement-to-terms",
     "title": "Terms of Service | Praevius",
@@ -175,164 +105,115 @@
     "text": "15. Contact\nFor questions about these terms:\nEmail: info@praevius.app\n\nPraevius is part of the BIM Takeoff ecosystem."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Praevius | AI-Powered Construction Cost Control Software",
+    "objectID": "pricing.html",
+    "href": "pricing.html",
+    "title": "Pricing | Construction Cost Tracking from $99/month | Praevius",
     "section": "",
-    "text": "AI-Powered Construction Cost Control: See Costs Before They Spiral\n\nAI-powered cost control for construction. Just ask.No training. No manuals. Professional-grade insights.\n\n\n Start Free Trial See How It Works\n\n\n\n\n\n\n\n\nThe Cost Overrun Crisis\n\n\n\n\n 88% Error Rate\n\n\nConstruction spreadsheets contain costly errors. Manual tracking means missed variances and budget overruns discovered too late.\n\n\n\n\n Hours Wasted\n\n\nBilling cycles require hunting through spreadsheets and PDFs, re-keying numbers, comparing line items manually.\n\n\n\n\n Cash Flow Blind\n\n\nOnly 12% of contractors get paid on time. Without real-time visibility, you’re always reacting, never anticipating.\n\n\n\n\n\n\n\n\n\nProactive Intelligence\n\n\nPraevius (from Latin “going before”) anticipates cost problems before they escalate. Connect your data once, get insights forever.\n\n\n\n\n Real-Time Tracking\n\n\nBudget vs. actual at a glance. Know your cost performance index the moment it changes.\n\n\n\n\n AI-Powered Reports\n\n\nGenerate variance reports in 2 minutes instead of 2 hours. Just ask for the report you need—the AI handles the rest.\n\n\n\n\n AI Assistant\n\n\nTell it what you need in plain English. Create reports, track costs, approve variations—no training required.\n\n\n\n\n S-Curve Forecasting\n\n\nSee where your project is headed, not just where it’s been. EVM precision meets construction practicality.\n\n\n\n\n Seamless Integrations\n\n\nConnect to Xero, QuickBooks, Sage, Google Drive, SharePoint—even sync with Procore for GC collaboration.\n\n\n\n\n Mobile Ready\n\n\nUpdate costs from the field. Approve variations on site. Real construction happens beyond the office.\n\n\n\n\n Voice Commands\n\n\nSpeak your requests on site. “Show me Project Alpha status” or “Approve the variation”—hands-free cost control.\n\n\n\n\n\n\n\n\n\nBuilt for Your Business\n\n\n\n\n Trade Contractors\n\n\nElectrical, mechanical, plumbing specialists with 10-50 employees. You need cost control that understands your world—variations, retainage, progress claims.\n\n\n\n\n QS Professionals\n\n\nGrowing quantity surveying practices serving multiple clients. Professional tools that scale with your workload without enterprise complexity.\n\n\n\n\n\n\n\n\n\nSimple, Transparent Pricing\n\n\nStart free, upgrade as you grow. No per-user fees, no hidden costs.\n\n\n\n\nFree\n\n\nFree\n\n\n\nUp to 3 projects\n\n\n1 team member\n\n\nCore cost tracking\n\n\nStart Free\n\n\n\nEssential\n\n\n$99/month\n\n\n\nUp to 10 projects\n\n\nUp to 3 team members\n\n\nGoogle Drive Sync\n\n\n1 accounting integration\n\n\nStart Free Trial\n\n\n\nProfessional\n\n\n$229/month\n\n\n\nUp to 25 projects\n\n\nUp to 10 team members\n\n\nAll integrations\n\n\nClaude AI Reports\n\n\nStart Free Trial\n\n\n\nScale\n\n\n$449/month\n\n\n\nUnlimited projects\n\n\nUnlimited team members\n\n\nClaude AI Reports\n\n\nProcore ↔︎ SharePoint Sync\n\n\nSchedule of Values\n\n\nStart Free Trial\n\n\n\n\n\n\n\n\nReady to See Costs Before They Spiral?\n\n\nStart your free trial today. Experience AI-powered cost control built specifically for construction professionals.\n\n\n Start Free Trial\n\n30-day free trial. No credit card required.\n\n\n\n\n\n\n\n\nPraevius is the cost control intelligence layer of the BIM Takeoff ecosystem. 20 years of construction expertise, now powered by AI."
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#quick-start-checklist",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#quick-start-checklist",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Quick Start Checklist",
-    "text": "Quick Start Checklist\n\nCreate Google Tag Manager account and container\nGet GTM Container ID (GTM-XXXXXXX)\nCreate Google Analytics 4 property\nGet GA4 Measurement ID (G-XXXXXXXXXX)\nUpdate includes/gtm-head.html with your GTM Container ID\nUpdate includes/gtm-body.html with your GTM Container ID\nAdd Google Search Console verification code\nRun quarto render to build the site\nDeploy and verify tracking in GTM Preview mode\nPublish GTM container"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#step-1-google-tag-manager-setup",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#step-1-google-tag-manager-setup",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Step 1: Google Tag Manager Setup",
-    "text": "Step 1: Google Tag Manager Setup\n\n1.1 Create GTM Account\n\nGo to tagmanager.google.com\nClick Create Account\nFill in:\n\nAccount Name: Praevius or your company name\nCountry: United Kingdom\n\nContainer Name: praevius.app\nTarget Platform: Web\nAccept Terms of Service\n\n\n\n1.2 Get Your Container ID\nAfter creation, note your Container ID (format: GTM-XXXXXXX)\n\n\n1.3 Update Include Files\nEdit /Users/robertkowalski/Documents/praevius-website/includes/gtm-head.html:\nReplace GTM-XXXXXXX with your actual Container ID in this line:\n})(window,document,'script','dataLayer','GTM-XXXXXXX');&lt;/script&gt;\nEdit /Users/robertkowalski/Documents/praevius-website/includes/gtm-body.html:\nReplace GTM-XXXXXXX with your actual Container ID:\n&lt;noscript&gt;&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX\""
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#step-2-google-analytics-4-setup",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#step-2-google-analytics-4-setup",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Step 2: Google Analytics 4 Setup",
-    "text": "Step 2: Google Analytics 4 Setup\n\n2.1 Create GA4 Property\n\nGo to analytics.google.com\nClick Admin (gear icon)\nClick Create &gt; Property\nFill in:\n\nProperty Name: Praevius - Production\nReporting Time Zone: United Kingdom\nCurrency: British Pound (GBP)\n\nBusiness details:\n\nIndustry: Technology\nSize: Small or Medium\n\n\n\n\n2.2 Create Data Stream\n\nSelect Web platform\nWebsite URL: https://praevius.app\nStream Name: Praevius Website\nEnable all Enhanced Measurement options\nNote your Measurement ID (format: G-XXXXXXXXXX)\n\n\n\n2.3 Configure GA4 in GTM\nIn GTM:\n\nGo to Tags &gt; New\nTag Configuration: Google Analytics: GA4 Configuration\nMeasurement ID: Enter your G-XXXXXXXXXX\nTrigger: All Pages\nName: GA4 - Config - Praevius\nSave\n\nOR Import the container:\n\nGo to Admin &gt; Import Container\nSelect /includes/gtm-container-export.json\nChoose workspace\nSelect Merge &gt; Rename conflicting\nUpdate the “GA4 Measurement ID” variable with your ID"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#step-3-conversion-tracking-events",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#step-3-conversion-tracking-events",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Step 3: Conversion Tracking Events",
-    "text": "Step 3: Conversion Tracking Events\n\nEvents Tracked Automatically\nThe analytics-events.html file automatically tracks:\n\n\n\n\n\n\n\n\nEvent\nDescription\nParameters\n\n\n\n\nview_pricing\nPricing page visit\npage_path, referrer\n\n\nview_features\nFeatures page visit\npage_path\n\n\nfree_trial_click\nTrial button clicks\ncta_text, cta_location, plan_interest\n\n\ndemo_request_click\nDemo button clicks\ncta_location\n\n\ncontact_click\nContact button clicks\ncta_location\n\n\ncta_click\nGeneral CTA clicks\ncta_text, cta_url, cta_location\n\n\ncontact_form_started\nForm interaction begins\nform_id, form_location\n\n\ncontact_form_submitted\nForm submission\nform_id, form_location\n\n\nscroll_depth\nScroll milestones (25/50/75/90%)\nscroll_percentage\n\n\nchatbot_opened\nPipedrive chat opened\nchatbot_type\n\n\noutbound_link_click\nExternal link clicks\nlink_url, link_text\n\n\n\n\n\nMark Events as Conversions in GA4\n\nIn GA4, go to Admin &gt; Events\nWait for events to appear (24-48 hours after first occurrence)\nToggle Mark as conversion for:\n\nfree_trial_click\ndemo_request\ncontact_form_submitted"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#step-4-google-search-console",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#step-4-google-search-console",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Step 4: Google Search Console",
-    "text": "Step 4: Google Search Console\n\n4.1 Add Property\n\nGo to search.google.com/search-console\nClick Add Property\nChoose URL prefix\nEnter: https://praevius.app\n\n\n\n4.2 Verify Ownership\nOption A: HTML Meta Tag (Recommended)\n\nSelect “HTML tag” verification\nCopy the verification code\nEdit /includes/gtm-head.html\nReplace YOUR_VERIFICATION_CODE with your code:\n\n&lt;meta name=\"google-site-verification\" content=\"YOUR_ACTUAL_CODE\" /&gt;\nOption B: DNS TXT Record\n\nSelect “Domain name provider”\nAdd TXT record to your DNS:\n\nType: TXT\nHost: @ or praevius.app\nValue: google-site-verification=YOUR_CODE\n\n\n\n\n4.3 Connect to GA4\n\nIn GA4: Admin &gt; Product Links &gt; Search Console Links\nClick Link\nSelect your Search Console property\nSubmit\n\n\n\n4.4 Submit Sitemap\nAdd sitemap generation to _quarto.yml (if not already present):\nwebsite:\n  site-url: \"https://praevius.app\"\n  # ... other config\nThe sitemap will be at https://praevius.app/sitemap.xml\nIn Search Console: 1. Go to Sitemaps 2. Enter: sitemap.xml 3. Click Submit"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#step-5-microsoft-clarity-optional---free-heatmaps",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#step-5-microsoft-clarity-optional---free-heatmaps",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Step 5: Microsoft Clarity (Optional - Free Heatmaps)",
-    "text": "Step 5: Microsoft Clarity (Optional - Free Heatmaps)\n\n5.1 Create Clarity Project\n\nGo to clarity.microsoft.com\nSign up with Microsoft account\nCreate new project: Praevius\nGet your Clarity tracking code\n\n\n\n5.2 Add via GTM\n\nIn GTM: Tags &gt; New\nTag Type: Custom HTML\nHTML:\n\n&lt;script type=\"text/javascript\"&gt;\n    (function(c,l,a,r,i,t,y){\n        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\n        t=l.createElement(r);t.async=1;t.src=\"https://www.clarity.ms/tag/\"+i;\n        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\n    })(window, document, \"clarity\", \"script\", \"YOUR_CLARITY_PROJECT_ID\");\n&lt;/script&gt;\n\nTrigger: All Pages\nName: Clarity - Heatmaps\nSave"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#step-6-build-and-deploy",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#step-6-build-and-deploy",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Step 6: Build and Deploy",
-    "text": "Step 6: Build and Deploy\n\n6.1 Render the Site\ncd /Users/robertkowalski/Documents/praevius-website\nquarto render\n\n\n6.2 Verify Files\nCheck that GTM code is present in output:\ngrep -l \"googletagmanager\" docs/*.html\n\n\n6.3 Deploy\ngit add .\ngit commit -m \"Add Google Tag Manager and analytics tracking\"\ngit push"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#step-7-testing-and-verification",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#step-7-testing-and-verification",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Step 7: Testing and Verification",
-    "text": "Step 7: Testing and Verification\n\n7.1 GTM Preview Mode\n\nIn GTM, click Preview\nEnter: https://praevius.app\nNavigate around the site\nCheck that tags fire correctly\n\n\n\n7.2 GA4 DebugView\n\nIn GA4: Admin &gt; DebugView\nBrowse your site with GTM Preview active\nVerify events appear in real-time\n\n\n\n7.3 Chrome Extensions\nInstall these for testing: - Tag Assistant Legacy (by Google) - GA Debugger - dataLayer Inspector+\n\n\n7.4 Common Issues\n\n\n\n\n\n\n\nIssue\nSolution\n\n\n\n\nTags not firing\nCheck GTM container is published\n\n\nEvents not in GA4\nVerify Measurement ID is correct\n\n\nSearch Console not verified\nWait 24-48 hours, check meta tag placement\n\n\nClarity not loading\nCheck project ID, ensure no ad blockers"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#step-8-publish-gtm-container",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#step-8-publish-gtm-container",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Step 8: Publish GTM Container",
-    "text": "Step 8: Publish GTM Container\nOnce testing is complete:\n\nIn GTM: Click Submit\nAdd version name: Initial Analytics Setup\nAdd description of changes\nClick Publish"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#event-reference",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#event-reference",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Event Reference",
-    "text": "Event Reference\n\nData Layer Events\nThese events are pushed to dataLayer by analytics-events.html:\n// CTA Click\n{\n  'event': 'cta_click',\n  'cta_text': 'Start Free Trial',\n  'cta_url': 'https://app.praevius.app/start-trial',\n  'cta_location': 'hero',\n  'page_url': 'https://praevius.app/',\n  'page_path': '/',\n  'timestamp': '2025-12-31T12:00:00.000Z'\n}\n\n// Free Trial Click\n{\n  'event': 'free_trial_click',\n  'cta_text': 'Start Free Trial',\n  'cta_url': 'https://app.praevius.app/start-trial?bundle=professional',\n  'cta_location': 'pricing_section',\n  'plan_interest': 'professional',\n  'page_url': 'https://praevius.app/pricing.html',\n  'page_path': '/pricing.html',\n  'timestamp': '2025-12-31T12:00:00.000Z'\n}\n\n// Form Submitted\n{\n  'event': 'contact_form_submitted',\n  'form_id': 'contact-form',\n  'form_location': 'body',\n  'page_url': 'https://praevius.app/contact.html',\n  'page_path': '/contact.html',\n  'timestamp': '2025-12-31T12:00:00.000Z'\n}"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#files-created",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#files-created",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Files Created",
-    "text": "Files Created\n\n\n\n\n\n\n\nFile\nPurpose\n\n\n\n\n/includes/gtm-head.html\nGTM head code + Search Console verification\n\n\n/includes/gtm-body.html\nGTM noscript fallback\n\n\n/includes/analytics-events.html\nCustom event tracking JavaScript\n\n\n/includes/gtm-container-export.json\nGTM container import file\n\n\n/includes/ANALYTICS_SETUP_GUIDE.md\nThis guide"
-  },
-  {
-    "objectID": "includes/ANALYTICS_SETUP_GUIDE.html#support-resources",
-    "href": "includes/ANALYTICS_SETUP_GUIDE.html#support-resources",
-    "title": "Praevius Analytics Setup Guide",
-    "section": "Support Resources",
-    "text": "Support Resources\n\nGTM Help Center\nGA4 Documentation\nSearch Console Help\nMicrosoft Clarity Docs\n\n\nLast updated: December 2025"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Praevius | Get a Demo or Support",
-    "section": "",
-    "text": "Contact Praevius: Get a Demo or Support\n\nQuestions about Praevius? Ready for a demo? We’d love to hear from you.\n\n\n\n\n\n\n\n\n\n\nSend us a Message\n\n\n\nName \n\n\nEmail \n\n\nCompany \n\n\nTopic  Request a Demo Pricing Question Feature Enquiry Enterprise Sales Partnership Other \n\n\nMessage\n\n\n\n Send Message\n\n\n\n\n\n\n\n\n\n\n\n General Enquiries\n\n\nSupport, questions, and partnerships:\n\ninfo@praevius.app\n\n\n\n Sales\n\n\nPricing, demos, and enterprise features:\n\nsales@praevius.app\n\n\n\n Connect\n\n\n \n\n\n\n\n\n\n\n\n\n\nWe Respond Quickly\n\n\n\n\n&lt; 24h\n\n\nGeneral Enquiries\n\n\n\n\n&lt; 4h\n\n\nSales & Demos\n\n\n\n\n&lt; 1h\n\n\nPriority Support (Scale)\n\n\n\n\n\n\n\n\n\nPraevius is part of the BIM Takeoff ecosystem. For quantity surveying and cost estimation services, visit bimtakeoff.com."
+    "text": "Construction Cost Tracking Software: Simple, Transparent Pricing\n\nProfessional-grade tools. Mid-market pricing. No surprises.\n\n\n\n\n\n\n\n\n\n\nFree\n\n\nGet started with basic cost tracking at no cost.\n\n\nFree\n\n\n\nUp to 3 projects\n\n\n1 team member\n\n\nCore cost tracking\n\n\nCommunity support\n\n\nStart Free\n\n\n\n\nEssential\n\n\nFor small trade contractors getting started with digital cost control.\n\n\n$99/month\n\n\n\nUp to 10 projects\n\n\nUp to 3 team members\n\n\nCost Control\n\n\nGoogle Drive Sync\n\n\nSharePoint Document Sync\n\n\n1 accounting integration (Xero Invoicing, QuickBooks Online, or Sage Intacct)\n\n\nStart Free Trial\n\n\n\n\nPOPULAR\n\n\nProfessional\n\n\nFor growing contractors and QS practices who need full automation.\n\n\n$229/month\n\n\n\nUp to 25 projects\n\n\nUp to 10 team members\n\n\nCost Control\n\n\nGoogle Drive Sync\n\n\nXero Invoicing\n\n\nQuickBooks Online\n\n\nSage Intacct\n\n\nSharePoint Document Sync\n\n\nClaude AI Reports\n\n\nStart Free Trial\n\n\n\n\nScale\n\n\nFor multi-project operations needing unlimited capacity.\n\n\n$449/month\n\n\n\nUnlimited projects\n\n\nUnlimited team members\n\n\nCost Control\n\n\nGoogle Drive Sync\n\n\nXero Invoicing\n\n\nQuickBooks Online\n\n\nSage Intacct\n\n\nSharePoint Document Sync\n\n\nClaude AI Reports\n\n\nProcore ↔︎ SharePoint Sync\n\n\nSchedule of Values\n\n\nStart Free Trial\n\n\n\n\n\n\n\n\nFrequently Asked\n\n\n\n\nIs there a free plan?\n\n\nYes! Our Free plan lets you track up to 3 projects with 1 team member. Upgrade anytime as your needs grow.\n\n\n\n\nAre there any per-user fees?\n\n\nNo. Each plan includes a set number of users, and our Scale plan includes unlimited users. No hidden per-seat charges.\n\n\n\n\nCan I change plans later?\n\n\nAbsolutely. Upgrade or downgrade anytime. Changes take effect immediately, with prorated billing adjustments.\n\n\n\n\nWhat about annual billing?\n\n\nPay annually and save 17%. Contact us for annual billing options.\n\n\n\n\nWhat’s included in support?\n\n\nEssential: Email support (48hr response). Professional: Priority email (24hr response). Scale: Dedicated success manager + phone support.\n\n\n\n\nHow does Praevius compare to Procore?\n\n\nPraevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. Professional-grade cost control at mid-market pricing.\n\n\n\n\n\n\n\n\n\nPraevius vs Procore: Built for Subcontractors\n\n\nLooking for a Procore alternative for subcontractors? Here’s why trade contractors and QS professionals choose Praevius:\n\n\n\n\nProcore\n\n\n\n Built for general contractors\n\n\n Per-user pricing adds up fast\n\n\n Complex setup and training\n\n\n Overkill for specialty trades\n\n\n Enterprise-level cost\n\n\n\n\n\nPraevius\n\n\n\n Built for subcontractors and QS firms\n\n\n Simple per-project pricing, no user fees\n\n\n Learn in hours, not weeks\n\n\n Focused on what you actually need\n\n\n From $99/month (Procore syncs at Scale tier)\n\n\n\n\n\nCompare all features | Talk to sales about switching\n\n\n\n\n\n\n\nNeed Enterprise Features?\n\n\nLarge subcontractors and QS firms with complex requirements can discuss custom plans including SSO, advanced security, custom integrations, and SLA guarantees.\n\nTalk to Sales\n\n\n\n\n\n\n30-Day Money Back Guarantee\n\n\nIf Praevius doesn’t save you time and money in your first month, we’ll refund your payment. No questions asked. We’re that confident.\n\n Start Free Trial"
   },
   {
     "objectID": "features.html",
     "href": "features.html",
     "title": "Construction Cost Control Features | Real-Time Tracking & AI Insights | Praevius",
     "section": "",
-    "text": "Construction Cost Control Features: Real-Time Tracking & AI Insights\n\nFrom real-time tracking to AI-powered forecasting. One platform, complete visibility.\n\n\n\n\n\n\n\nYour AI Assistant\n\n\nNo menus to learn. No training required. Just tell Praevius what you need in plain English—or speak it on site.\n\n\n\n\nJust Ask\n\n\n\n“Show me projects over budget”\n\n\n“Generate variance report for Project Alpha”\n\n\n“What’s the CPI on the hospital job?”\n\n\n“Approve the steel variation”\n\n\n\n\n\nAI Handles the Rest\n\n\n\n Instant dashboards & reports\n\n\n Voice commands from the field\n\n\n Permission-aware actions\n\n\n Confirmation for critical tasks\n\n\n\n\n\n\n\n\n\n\nCore Capabilities\n\n\n\n\n Real-Time Budget Tracking\n\n\nSee your budget vs. actual costs the moment data changes. No more waiting for month-end reports to discover problems. Dashboard views show project health at a glance with traffic-light status indicators.\n\n\n\nLive cost performance index (CPI)\n\n\nBudget consumption tracking\n\n\nVariance alerts and thresholds\n\n\nMulti-project portfolio view\n\n\n\n\n\n AI-Powered Reporting\n\n\nJust ask for the report you need—the AI handles the rest. Generate professional variance reports in minutes, not hours. Plain English explanations of the “why” behind your numbers.\n\n\n\nAutomated variance explanations\n\n\nTrend analysis and forecasting\n\n\nExecutive summary generation\n\n\nExport to PDF, Word, or share live\n\n\n\n\n\n S-Curve Forecasting\n\n\nEarned Value Management made practical. See where your project is headed, not just where it’s been. Plan interventions before problems escalate.\n\n\n\nPlanned vs. actual vs. forecast curves\n\n\nSchedule Performance Index (SPI)\n\n\nEstimate at Completion (EAC) projections\n\n\nWhat-if scenario modeling\n\n\n\n\n\n Change Order Management\n\n\nTrack every variation from inception to approval to payment. Never leave money on the table again. Change orders account for 8-14% of project costs—capture them all.\n\n\n\nVariation register with status tracking\n\n\nAutomated entitlement flagging\n\n\nImpact assessment tools\n\n\nApproval workflow automation\n\n\n\n\n\n Progress Claim Automation\n\n\nGenerate accurate progress claims in minutes. Centralized dashboard eliminates hunting through spreadsheets and rechecking every line item manually.\n\n\n\nPercentage complete calculations\n\n\nRetainage management\n\n\nClaim history and audit trail\n\n\nMulti-format export support\n\n\n\n\n\n Schedule of Values\n\n\nClient billing structures often differ from internal cost codes. SOV management bridges this gap with many-to-many mapping between your WBS and client billing formats.\n\n\n\nMulti-format support (UK JCT/NEC, US AIA G702/G703, AU SOPA)\n\n\nCost code to SOV line mapping\n\n\nPayment application tracking\n\n\nProgress sync from budget data\n\n\n\n\n\n Seamless Integrations\n\n\nConnect to the tools you already use. Praevius syncs with accounting, storage, and project management platforms for a single source of truth.\n\n\n\nXero, QuickBooks, Sage\n\n\nGoogle Drive, SharePoint, OneDrive\n\n\nProcore (for GC collaboration)\n\n\nOpen API for custom connections\n\n\n\n\n\n Voice Commands\n\n\nSpeak your requests on the jobsite. “Show me Project Alpha” or “Approve the variation”—hands-free cost control that works in noisy environments.\n\n\n\nNatural language processing\n\n\nWorks in noisy environments\n\n\nField-ready voice input\n\n\nPermission-aware actions\n\n\n\n\n\n\n\n\n\n\nComing Soon\n\n\n\n\n Native Mobile App\n\n\nBeyond responsive web—a true native experience. Offline capability, camera integration for documentation, push notifications for approvals.\n\n\n\n\n Predictive Analytics\n\n\nAI that learns from your historical data to predict likely cost overruns before they happen. Early warning, not post-mortem.\n\n\n\n\n\n\n\n\n\nIndustry-Standard Variance Indicators\n\n\nInstant project health visibility using the traffic light system every construction professional understands.\n\n\n\n On Budget\n\nVariance within +/-5%. Project performing as planned. Continue current trajectory.\n\n\n\n Watch\n\nVariance 5-10%. Early warning. Investigate and plan corrective action.\n\n\n\n Over Budget\n\nVariance exceeds 10%. Immediate attention required. Intervention needed.\n\n\n\n\n\n\n\n\n\nReady to Take Control?\n\n\nStart your free trial and experience all features.\n\n Start Free Trial"
+    "text": "Construction Cost Control Features: Real-Time Tracking & AI Insights\n\nFrom real-time tracking to AI-powered forecasting. One platform, complete visibility.\n\n\n\n\n\n\n\nYour AI Assistant\n\n\nNo menus to learn. No training required. Just tell Praevius what you need in plain English—or speak it on site.\n\n\n\n\nJust Ask\n\n\n\n“Show me projects over budget”\n\n\n“Generate variance report for Project Alpha”\n\n\n“What’s the CPI on the hospital job?”\n\n\n“Approve the steel variation”\n\n\n\n\n\nAI Handles the Rest\n\n\n\n Instant dashboards & reports\n\n\n Voice commands from the field\n\n\n Permission-aware actions\n\n\n Confirmation for critical tasks\n\n\n\n\n\n\n\n\n\n\nCore Capabilities\n\n\n\n\n Real-Time Budget Tracking\n\n\nSee your budget vs. actual costs the moment data changes. No more waiting for month-end reports to discover problems. Dashboard views show project health at a glance with traffic-light status indicators.\n\n\n\nLive cost performance index (CPI)\n\n\nBudget consumption tracking\n\n\nVariance alerts and thresholds\n\n\nMulti-project portfolio view\n\n\n\n\n\n AI-Powered Reporting\n\n\nJust ask for the report you need—the AI handles the rest. Generate professional variance reports in minutes, not hours. Plain English explanations of the “why” behind your numbers.\n\n\n\nAutomated variance explanations\n\n\nTrend analysis and forecasting\n\n\nExecutive summary generation\n\n\nExport to PDF, Word, or share live\n\n\n\nAI Reports available on Professional tier and above\n\n\n\n\n S-Curve Forecasting\n\n\nEarned Value Management made practical. See where your project is headed, not just where it’s been. Plan interventions before problems escalate.\n\n\n\nPlanned vs. actual vs. forecast curves\n\n\nSchedule Performance Index (SPI)\n\n\nEstimate at Completion (EAC) projections\n\n\nWhat-if scenario modeling\n\n\n\n\n\n Change Order Management\n\n\nTrack every variation from inception to approval to payment with our dedicated change order management system. Never leave money on the table again. Change orders account for 8-14% of project costs—capture them all.\n\n\n\nComplete variation register with status tracking\n\n\nAutomated entitlement flagging\n\n\nImpact assessment and pricing tools\n\n\nApproval workflow automation\n\n\n\n\n\n Construction Progress Claim Software\n\n\nGenerate accurate progress claims in minutes, not hours. Our progress claim automation eliminates the manual process of hunting through spreadsheets, recalculating percentages, and rechecking every line item.\n\n\n\nPercentage complete calculations with audit trail\n\n\nRetainage and retention tracking\n\n\nClaim history and documentation\n\n\nMulti-format export (UK JCT, AU SOPA, US AIA)\n\n\n\nView pricing for progress claim features\n\n\n\n\n Schedule of Values\n\n\nClient billing structures often differ from internal cost codes. SOV management bridges this gap with many-to-many mapping between your WBS and client billing formats.\n\n\n\nMulti-format support (UK JCT/NEC, US AIA G702/G703, AU SOPA)\n\n\nCost code to SOV line mapping\n\n\nPayment application tracking\n\n\nProgress sync from budget data\n\n\n\nSchedule of Values available on Scale tier\n\n\n\n\n Seamless Integrations\n\n\nConnect to the tools you already use. Praevius syncs with accounting, storage, and project management platforms for a single source of truth.\n\n\n\nXero, QuickBooks, Sage\n\n\nGoogle Drive, SharePoint, OneDrive\n\n\nProcore (for GC collaboration)\n\n\nOpen API for custom connections\n\n\n\n\n\n Voice Commands\n\n\nSpeak your requests on the jobsite. “Show me Project Alpha” or “Approve the variation”—hands-free cost control that works in noisy environments.\n\n\n\nNatural language processing\n\n\nWorks in noisy environments\n\n\nField-ready voice input\n\n\nPermission-aware actions\n\n\n\n\n\n\n\n\n\n\nComing Soon\n\n\n\n\n Native Mobile App\n\n\nBeyond responsive web—a true native experience. Offline capability, camera integration for documentation, push notifications for approvals.\n\n\n\n\n Predictive Analytics\n\n\nAI that learns from your historical data to predict likely cost overruns before they happen. Early warning, not post-mortem.\n\n\n\n\n\n\n\n\n\nIndustry-Standard Variance Indicators\n\n\nInstant project health visibility using the traffic light system every construction professional understands.\n\n\n\n On Budget\n\nVariance within +/-5%. Project performing as planned. Continue current trajectory.\n\n\n\n Watch\n\nVariance 5-10%. Early warning. Investigate and plan corrective action.\n\n\n\n Over Budget\n\nVariance exceeds 10%. Immediate attention required. Intervention needed.\n\n\n\n\n\n\n\n\n\nReady to Take Control?\n\n\nStart your free trial and experience all features. Request a demo or learn about our team.\n\n Start Free Trial"
   },
   {
-    "objectID": "pricing.html",
-    "href": "pricing.html",
-    "title": "Pricing | Construction Cost Tracking from $99/month | Praevius",
+    "objectID": "compare.html",
+    "href": "compare.html",
+    "title": "Praevius vs Procore vs Knowify | Construction Software Comparison",
     "section": "",
-    "text": "Construction Cost Tracking Software: Simple, Transparent Pricing\n\nProfessional-grade tools. Mid-market pricing. No surprises.\n\n\n\n\n\n\n\n\n\n\nFree\n\n\nGet started with basic cost tracking at no cost.\n\n\nFree\n\n\n\nUp to 3 projects\n\n\n1 team member\n\n\nCore cost tracking\n\n\nCommunity support\n\n\nStart Free\n\n\n\n\nEssential\n\n\nFor small trade contractors getting started with digital cost control.\n\n\n$99/month\n\n\n\nUp to 10 projects\n\n\nUp to 3 team members\n\n\nCost Control\n\n\nGoogle Drive Sync\n\n\nSharePoint Document Sync\n\n\n1 accounting integration (Xero Invoicing, QuickBooks Online, or Sage Intacct)\n\n\nStart Free Trial\n\n\n\n\nPOPULAR\n\n\nProfessional\n\n\nFor growing contractors and QS practices who need full automation.\n\n\n$229/month\n\n\n\nUp to 25 projects\n\n\nUp to 10 team members\n\n\nCost Control\n\n\nGoogle Drive Sync\n\n\nXero Invoicing\n\n\nQuickBooks Online\n\n\nSage Intacct\n\n\nSharePoint Document Sync\n\n\nClaude AI Reports\n\n\nStart Free Trial\n\n\n\n\nScale\n\n\nFor multi-project operations needing unlimited capacity.\n\n\n$449/month\n\n\n\nUnlimited projects\n\n\nUnlimited team members\n\n\nCost Control\n\n\nGoogle Drive Sync\n\n\nXero Invoicing\n\n\nQuickBooks Online\n\n\nSage Intacct\n\n\nSharePoint Document Sync\n\n\nClaude AI Reports\n\n\nProcore ↔︎ SharePoint Sync\n\n\nSchedule of Values\n\n\nStart Free Trial\n\n\n\n\n\n\n\n\nFrequently Asked\n\n\n\n\nIs there a free plan?\n\n\nYes! Our Free plan lets you track up to 3 projects with 1 team member. Upgrade anytime as your needs grow.\n\n\n\n\nAre there any per-user fees?\n\n\nNo. Each plan includes a set number of users, and our Scale plan includes unlimited users. No hidden per-seat charges.\n\n\n\n\nCan I change plans later?\n\n\nAbsolutely. Upgrade or downgrade anytime. Changes take effect immediately, with prorated billing adjustments.\n\n\n\n\nWhat about annual billing?\n\n\nPay annually and save 17%. Contact us for annual billing options.\n\n\n\n\nWhat’s included in support?\n\n\nEssential: Email support (48hr response). Professional: Priority email (24hr response). Scale: Dedicated success manager + phone support.\n\n\n\n\nHow does Praevius compare to Procore?\n\n\nPraevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. Professional-grade cost control at mid-market pricing.\n\n\n\n\n\n\n\n\n\nNeed Enterprise Features?\n\n\nLarge subcontractors and QS firms with complex requirements can discuss custom plans including SSO, advanced security, custom integrations, and SLA guarantees.\n\nTalk to Sales\n\n\n\n\n\n\n30-Day Money Back Guarantee\n\n\nIf Praevius doesn’t save you time and money in your first month, we’ll refund your payment. No questions asked. We’re that confident.\n\n Start Free Trial"
+    "text": "Construction Cost Software Comparison: Praevius vs Alternatives\n\nFind the right construction cost tracking software for your business\n\n\n\n\n\n\n\nLooking for a Procore alternative for subcontractors? Comparing construction cost tracking software? We’ve broken down the key differences to help you make the right choice for your business.\n\n\n\n\n\n\n\nFeature Comparison\n\n\n\n\n\n\nFeature\n\n\nPraevius\n\n\nProcore\n\n\nKnowify\n\n\n\n\n\n\nTarget User\n\n\nSubcontractors & QS\n\n\nGeneral Contractors\n\n\nTrade Contractors\n\n\n\n\nStarting Price\n\n\n\\(99/mo&lt;/td&gt;\n&lt;td style=\"padding: 1rem; text-align: center; border-bottom: 1px solid #F0F0F0;\"&gt;Custom (\\)$$$)\n\n\n$149/mo\n\n\n\n\nPer-User Fees\n\n\n None\n\n\n Yes\n\n\n Yes\n\n\n\n\nAI-Powered Reports\n\n\n Claude AI\n\n\nLimited\n\n\n No\n\n\n\n\nVoice Commands\n\n\n Yes\n\n\n No\n\n\n No\n\n\n\n\nProgress Claims\n\n\n Yes\n\n\n Yes\n\n\n Yes\n\n\n\n\nChange Order Management\n\n\n Yes\n\n\n Yes\n\n\n Yes\n\n\n\n\nUK/AU Format Support\n\n\n Native\n\n\nUS-focused\n\n\nUS-focused\n\n\n\n\nSchedule of Values\n\n\n Yes\n\n\n Yes\n\n\n Yes\n\n\n\n\nTime to Learn\n\n\nHours\n\n\nWeeks\n\n\nDays\n\n\n\n\n\n\n\n\n\n\n\nWhich Solution is Right for You?\n\n\n\n\n Choose Praevius If:\n\n\n\nYou’re a subcontractor or QS practice\n\n\nYou want simple, predictable pricing\n\n\nYou value AI-powered automation\n\n\nYou work in UK or Australia\n\n\nYou’ve outgrown spreadsheets\n\n\nYou need to be productive in hours, not weeks\n\n\nView Praevius Pricing\n\n\n\n Choose Procore If:\n\n\n\nYou’re a general contractor\n\n\nYou need full project management\n\n\nBudget is not a primary concern\n\n\nYou have a dedicated training team\n\n\nYou need enterprise-level features\n\n\nYou’re primarily US-based\n\n\n\n\n\n Choose Knowify If:\n\n\n\nYou’re a US-based trade contractor\n\n\nYou need strong job costing\n\n\nYou want QuickBooks integration\n\n\nYou focus on residential projects\n\n\nYou need time tracking features\n\n\n\n\n\n\n\n\n\n\nDetailed Comparisons\n\n\n\n\nPraevius vs Procore\n\n\nProcore is the industry leader for general contractors managing complex, multi-trade projects. But for subcontractors, it’s often overkill—and overpriced.\n\n\nKey Differences:\n\n\n\nPricing: Praevius from $99/mo vs Procore’s enterprise pricing\n\n\nPer-user fees: None with Praevius vs per-seat charges with Procore\n\n\nFocus: Subcontractor cost control vs general contractor project management\n\n\nLearning curve: Hours vs weeks of training\n\n\n\n\n\nPraevius vs Knowify\n\n\nKnowify focuses on job costing and financial management for US trade contractors. Praevius offers AI-powered insights and international format support.\n\n\nKey Differences:\n\n\n\nAI Features: Claude AI reports with Praevius vs basic reporting\n\n\nVoice Commands: Yes with Praevius vs No\n\n\nInternational: UK/AU/US formats vs US-only\n\n\nProcore Sync: Available with Praevius Scale tier\n\n\n\n\n\nPraevius vs Spreadsheets\n\n\nSpreadsheets are free, but the hidden costs are enormous: errors, time wasted, missed variations, and late discovery of overruns.\n\n\nWhat You Gain:\n\n\n\nAccuracy: Eliminate the 88% spreadsheet error rate\n\n\nTime: Generate reports in 2 minutes vs 2 hours\n\n\nVisibility: Real-time dashboards vs monthly reconciliation\n\n\nCollaboration: Team access vs version control chaos\n\n\n\n\n\nWhy Subcontractors Choose Praevius\n\n\nMid-market subcontractors need professional tools without enterprise complexity.\n\n\nPraevius Advantages:\n\n\n\nBuilt for you: Designed by QS professionals, not generalists\n\n\nSimple pricing: No per-user fees, no hidden costs\n\n\nFast ROI: Save time on your first progress claim\n\n\nAI-powered: Ask questions in plain English\n\n\n\n\n\n\n\n\n\n\nReady to Switch from Spreadsheets or Procore?\n\n\nStart your free trial and experience the difference. No credit card required.\n\n\n Start Free Trial Request a Demo\n\n\nView all features | See pricing details | About our team"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Praevius | AI Cost Control for Construction Subcontractors",
     "section": "",
-    "text": "About Praevius: AI Cost Control for Construction Subcontractors\n\n20 years of construction cost management expertise, now powered by AI.\n\n\n\n\n\n\n\nThe Story\n\n\n\nPraevius (from Latin “praevius” meaning “going before”) was born from a simple observation: construction subcontractors are drowning in spreadsheets while enterprise platforms price them out of modern cost control.\n\n\nAfter two decades working as a quantity surveyor across the UK, Australia, and Poland—handling everything from 500K fitouts to 50M commercial developments—the pattern became undeniable. Specialty trade contractors, the backbone of every construction project, were consistently:\n\n\n\nLosing 3-5% margins to poor variation tracking\n\n\nWasting 10+ hours monthly on manual billing cycles\n\n\nDiscovering cost overruns weeks after they could have acted\n\n\nBeing priced out of tools designed for general contractors\n\n\n\nPraevius is the solution: professional-grade cost control without enterprise complexity. Simple enough to learn in hours, powerful enough to replace spreadsheet chaos.\n\n\n\n\n\n\n\n\nOur Philosophy\n\n\n\n\n Proactive, Not Reactive\n\n\nThe best cost control happens before problems arise. Praevius anticipates variances, flags anomalies, and surfaces insights—so you can act, not just react.\n\n\n\n\n Built for Construction\n\n\nNot accounting software with construction labels. Every feature designed around real QS workflows: progress claims, variations, retainage, percentage complete.\n\n\n\n\n AI as Assistant\n\n\nAI enhances your expertise, it doesn’t replace it. Specific, measurable outcomes—not vague promises. You make the decisions; Praevius handles the grunt work.\n\n\n\n\n\n\n\n\n\nPart of BIM Takeoff\n\n\n\n\n BIM Takeoff\n\n\nProfessional BIM 5D cost estimation and quantity surveying services. 20 years of international experience across UK, Australia, and Poland. Delivering quantity takeoffs with +/-5% accuracy in 3-10 days.\n\nVisit BIM Takeoff\n\n\n\n Praevius.app\n\n\nThe cost control intelligence layer. Where BIM Takeoff delivers project-specific expertise, Praevius provides the ongoing visibility and control that keeps projects profitable.\n\nStart Free Trial\n\n\n\n\n\n\n\n\nReady to Work Smarter?\n\n\nStart your free trial today. Experience construction cost control done right.\n\n Start Free Trial"
+    "text": "About Praevius: AI Cost Control for Construction Subcontractors\n\n20 years of construction cost management expertise, now powered by AI.\n\n\n\n\n\n\n\nThe Story\n\n\n\nPraevius (from Latin “praevius” meaning “going before”) was born from a simple observation: construction subcontractors are drowning in spreadsheets while enterprise platforms price them out of modern cost control.\n\n\nAfter two decades working as a quantity surveyor across the UK, Australia, and Poland—handling everything from 500K fitouts to 50M commercial developments—the pattern became undeniable. Specialty trade contractors, the backbone of every construction project, were consistently:\n\n\n\nLosing 3-5% margins to poor variation tracking\n\n\nWasting 10+ hours monthly on manual billing cycles\n\n\nDiscovering cost overruns weeks after they could have acted\n\n\nBeing priced out of tools designed for general contractors\n\n\n\nPraevius is the solution: professional-grade cost control without enterprise complexity. Simple enough to learn in hours, powerful enough to replace spreadsheet chaos.\n\n\n\n\n\n\n\n\nWhy Quantity Surveying Software Needed to Change\n\n\n\nTraditional quantity surveying software was designed for enterprise clients with dedicated IT teams and training budgets. That left mid-market contractors with two options: expensive platforms that required weeks of training, or spreadsheets that created more problems than they solved.\n\n\nThe construction industry loses billions annually to:\n\n\n\nSpreadsheet errors - 88% of spreadsheets contain errors (KPMG study)\n\n\nPoor cash flow visibility - Only 12% of contractors get paid on time\n\n\nMissed variations - Change orders represent 8-14% of project value\n\n\nReactive cost control - Problems discovered weeks after they occurred\n\n\n\nPraevius bridges this gap: professional-grade construction cost control software with mid-market pricing and learning curves measured in hours, not weeks.\n\n\n\n\n\n\n\n\nWho Uses Praevius?\n\n\n\n\n Electrical Contractors\n\n\nManaging 10-50 concurrent projects with complex variation tracking and progress billing requirements. Track every cable run, switchboard, and conduit installation.\n\n\n\n\n Mechanical & Plumbing Subcontractors\n\n\nTracking variations across multiple job sites with different billing cycles and retention requirements. Never lose track of a variation again.\n\n\n\n\n Growing QS Practices\n\n\nQuantity surveying practices serving multiple clients simultaneously need professional tools that scale without enterprise complexity.\n\n\n\n\n Trade Contractors Outgrowing Spreadsheets\n\n\nSpecialty trades who’ve hit the limits of Excel but don’t need—or can’t afford—Procore-level solutions.\n\n\n\n\nWhether you’re a specialty contractor in the UK, Australia, or expanding internationally, Praevius adapts to your progress claim requirements and local billing formats.\n\n\n\n\n\n\n\nOur Philosophy\n\n\n\n\n Proactive, Not Reactive\n\n\nThe best cost control happens before problems arise. Praevius anticipates variances, flags anomalies, and surfaces insights—so you can act, not just react.\n\n\n\n\n Built for Construction\n\n\nNot accounting software with construction labels. Every feature designed around real QS workflows: progress claims, variations, retainage, percentage complete.\n\n\n\n\n AI as Assistant\n\n\nAI enhances your expertise, it doesn’t replace it. Specific, measurable outcomes—not vague promises. You make the decisions; Praevius handles the grunt work.\n\n\n\n\n\n\n\n\n\nConstruction Expertise Built In\n\n\n\n\n 20 Years QS Experience\n\n\nFounded by practicing quantity surveyors who understand real-world construction cost management challenges—not software developers guessing what you need.\n\n\n\n\n International Projects\n\n\nExperience across UK, Australia, and Poland informs support for multiple billing formats and contract types (JCT, NEC, AIA, SOPA).\n\n\n\n\n AI-First Approach\n\n\nLeveraging Claude AI for intelligent reporting while keeping construction professionals in control. AI enhances your expertise—it doesn’t replace it.\n\n\n\n\n\n\n\n\n\nPart of BIM Takeoff\n\n\n\n\n BIM Takeoff\n\n\nProfessional BIM 5D cost estimation and quantity surveying services. 20 years of international experience across UK, Australia, and Poland. Delivering quantity takeoffs with +/-5% accuracy in 3-10 days.\n\nVisit BIM Takeoff\n\n\n\n Praevius.app\n\n\nThe cost control intelligence layer. Where BIM Takeoff delivers project-specific expertise, Praevius provides the ongoing visibility and control that keeps projects profitable.\n\nStart Free Trial\n\n\n\n\n\n\n\n\nReady to Work Smarter?\n\n\nStart your free trial today. Experience construction cost control done right. Explore our features or view pricing options.\n\n Start Free Trial"
   },
   {
-    "objectID": "CLAUDE.html#quick-reference",
-    "href": "CLAUDE.html#quick-reference",
-    "title": "CLAUDE.md - Praevius Website",
-    "section": "Quick Reference",
-    "text": "Quick Reference\nPraevius (praevius.app) - AI-powered cost control for construction.\nTagline: “See costs before they spiral”"
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Praevius | Get a Demo or Support",
+    "section": "",
+    "text": "Contact Praevius: Get a Demo or Support\n\nQuestions about Praevius? Ready for a demo? We’d love to hear from you.\n\n\n\n\n\n\n\n\n\n\nSend us a Message\n\n\n\nName \n\n\nEmail \n\n\nCompany \n\n\nTopic  Request a Demo Pricing Question Feature Enquiry Enterprise Sales Partnership Other \n\n\nMessage\n\n\n\n Send Message\n\n\n\n\n\n\n\n\n\n\n\n General Enquiries\n\n\nSupport, questions, and partnerships:\n\ninfo@praevius.app\n\n\n\n Sales\n\n\nPricing, demos, and enterprise features:\n\nsales@praevius.app\n\n\n\n Connect\n\n\n \n\n\n\n\n\n\n\n\n\n\nWe Respond Quickly\n\n\n\n\n&lt; 24h\n\n\nGeneral Enquiries\n\n\n\n\n&lt; 4h\n\n\nSales & Demos\n\n\n\n\n&lt; 1h\n\n\nPriority Support (Scale)\n\n\n\n\n\n\n\n\n\nExplore More\n\n\nView all features | See pricing plans | About our team\n\n\nPraevius is part of the BIM Takeoff ecosystem. For quantity surveying and cost estimation services, visit bimtakeoff.com."
   },
   {
-    "objectID": "CLAUDE.html#brand-guidelines-location",
-    "href": "CLAUDE.html#brand-guidelines-location",
-    "title": "CLAUDE.md - Praevius Website",
-    "section": "Brand Guidelines Location",
-    "text": "Brand Guidelines Location\nAll brand guidelines are in the .claude/ folder:\n\n.claude/CLAUDE.md - Full project context\n.claude/Praevius_Brand_Guidelines.md - Complete brand system\n.claude/PRAEVIUS_LOGO_USAGE_GUIDE.md - Logo usage rules\n\nRead these before making visual changes!"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Praevius | AI-Powered Construction Cost Control Software",
+    "section": "",
+    "text": "AI-Powered Construction Cost Control: See Costs Before They Spiral\n\nAI-powered cost control for construction. Just ask.No training. No manuals. Professional-grade insights.\n\n\n Start Free Trial See How It Works\n\n\n\n\n\n\n\n\nComplete Subcontractor Cost Tracking Solution\n\n\nPraevius is quantity surveying software built specifically for UK and Australian trade contractors. Our construction progress claim software eliminates spreadsheet chaos and gives you real-time visibility into every project’s budget performance. Explore all features.\n\n\n\n\n\n\n\nThe Cost Overrun Crisis\n\n\n\n\n 88% Error Rate\n\n\nConstruction spreadsheets contain costly errors. Manual tracking means missed variances and budget overruns discovered too late. See how our real-time tracking features solve this.\n\n\n\n\n Hours Wasted\n\n\nBilling cycles require hunting through spreadsheets and PDFs, re-keying numbers, comparing line items manually.\n\n\n\n\n Cash Flow Blind\n\n\nOnly 12% of contractors get paid on time. Without real-time visibility, you’re always reacting, never anticipating.\n\n\n\n\n\n\n\n\n\nProactive Intelligence\n\n\nPraevius (from Latin “going before”) anticipates cost problems before they escalate. Connect your data once, get insights forever.\n\n\n\n\n Real-Time Tracking\n\n\nBudget vs. actual at a glance. Know your cost performance index the moment it changes.\n\n\n\n\n AI-Powered Reports\n\n\nGenerate variance reports in 2 minutes instead of 2 hours. Just ask for the report you need—the AI handles the rest. Learn more about AI-powered reporting.\n\n\n\n\n AI Assistant\n\n\nTell it what you need in plain English. Create reports, track costs, approve variations—no training required.\n\n\n\n\n S-Curve Forecasting\n\n\nSee where your project is headed, not just where it’s been. EVM precision meets construction practicality.\n\n\n\n\n Seamless Integrations\n\n\nConnect to Xero, QuickBooks, Sage, Google Drive, SharePoint—even sync with Procore for GC collaboration.\n\n\n\n\n Mobile Ready\n\n\nUpdate costs from the field. Approve variations on site. Real construction happens beyond the office.\n\n\n\n\n Voice Commands\n\n\nSpeak your requests on site. “Show me Project Alpha status” or “Approve the variation”—hands-free cost control.\n\n\n\n\n\n\n\n\n\nBuilt for Your Business\n\n\n\n\n Trade Contractors\n\n\nElectrical, mechanical, plumbing specialists with 10-50 employees. You need cost control that understands your world—variations, retainage, progress claims.\n\n\n\n\n QS Professionals\n\n\nGrowing quantity surveying practices serving multiple clients. Professional quantity surveying software that scales with your workload without enterprise complexity. See how our QS background shaped Praevius.\n\n\n\n\n\n\n\n\n\nSimple, Transparent Pricing\n\n\nStart free, upgrade as you grow. No per-user fees, no hidden costs. View full pricing details.\n\n\n\n\nFree\n\n\nFree\n\n\n\nUp to 3 projects\n\n\n1 team member\n\n\nCore cost tracking\n\n\nStart Free\n\n\n\nEssential\n\n\n$99/month\n\n\n\nUp to 10 projects\n\n\nUp to 3 team members\n\n\nGoogle Drive Sync\n\n\n1 accounting integration\n\n\nStart Free Trial\n\n\n\nProfessional\n\n\n$229/month\n\n\n\nUp to 25 projects\n\n\nUp to 10 team members\n\n\nAll integrations\n\n\nClaude AI Reports\n\n\nStart Free Trial\n\n\n\nScale\n\n\n$449/month\n\n\n\nUnlimited projects\n\n\nUnlimited team members\n\n\nClaude AI Reports\n\n\nProcore ↔︎ SharePoint Sync\n\n\nSchedule of Values\n\n\nStart Free Trial\n\n\n\n\n\n\n\n\nReady to See Costs Before They Spiral?\n\n\nStart your free trial today. Experience AI-powered cost control built specifically for construction professionals.\n\n\n Start Free Trial\n\n30-day free trial. No credit card required.\n\n\n\n\n\n\n\n\nPraevius is the cost control intelligence layer of the BIM Takeoff ecosystem. 20 years of construction expertise, now powered by AI."
   },
   {
-    "objectID": "CLAUDE.html#quick-commands",
-    "href": "CLAUDE.html#quick-commands",
-    "title": "CLAUDE.md - Praevius Website",
-    "section": "Quick Commands",
-    "text": "Quick Commands\nquarto preview    # Preview locally\nquarto render     # Build site"
+    "objectID": "privacy-policy.html#overview",
+    "href": "privacy-policy.html#overview",
+    "title": "Privacy Policy | Praevius",
+    "section": "Overview",
+    "text": "Overview\nPraevius (“we”, “our”, “us”) is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information when you use praevius.app."
   },
   {
-    "objectID": "CLAUDE.html#key-colors",
-    "href": "CLAUDE.html#key-colors",
-    "title": "CLAUDE.md - Praevius Website",
-    "section": "Key Colors",
-    "text": "Key Colors\n\n\n\nColor\nHex\n\n\n\n\nOrange\n#FF9900\n\n\nCharcoal\n#2C2C2C\n\n\nLight Gray\n#F0F0F0\n\n\nGreen (On Budget)\n#10B981\n\n\nYellow (Warning)\n#F59E0B\n\n\nRed (Critical)\n#EF4444"
+    "objectID": "privacy-policy.html#information-we-collect",
+    "href": "privacy-policy.html#information-we-collect",
+    "title": "Privacy Policy | Praevius",
+    "section": "Information We Collect",
+    "text": "Information We Collect\n\nInformation You Provide\n\nAccount Information: Name, email address, company name, job title\nBilling Information: Payment details (processed securely via Stripe)\nProject Data: Cost data, budgets, variations, and other construction information you enter\nCommunications: Messages, support requests, and feedback\n\n\n\nInformation Collected Automatically\n\nUsage Data: Features used, pages visited, time spent\nDevice Information: Browser type, operating system, device type\nLog Data: IP address, access times, referral URLs"
   },
   {
-    "objectID": "CLAUDE.html#project-structure",
-    "href": "CLAUDE.html#project-structure",
-    "title": "CLAUDE.md - Praevius Website",
-    "section": "Project Structure",
-    "text": "Project Structure\n\nindex.qmd - Homepage\nfeatures.qmd - Features\npricing.qmd - Pricing\nabout.qmd - About\ncontact.qmd - Contact\nimages/ - Logo files\ncss/ - Styles\ndocs/ - Built output\n\n\nSee .claude/CLAUDE.md for complete documentation."
+    "objectID": "privacy-policy.html#how-we-use-your-information",
+    "href": "privacy-policy.html#how-we-use-your-information",
+    "title": "Privacy Policy | Praevius",
+    "section": "How We Use Your Information",
+    "text": "How We Use Your Information\nWe use your information to:\n\nProvide and improve our services\nProcess payments and manage subscriptions\nSend service-related communications\nProvide customer support\nAnalyse usage patterns to improve the platform\nComply with legal obligations"
   },
   {
-    "objectID": "CLAUDE.html#current-improvements",
-    "href": "CLAUDE.html#current-improvements",
-    "title": "CLAUDE.md - Praevius Website",
-    "section": "📋 Current Improvements",
-    "text": "📋 Current Improvements\nSee .claude/IMPROVEMENTS.md for prioritized list of website improvements."
+    "objectID": "privacy-policy.html#data-security",
+    "href": "privacy-policy.html#data-security",
+    "title": "Privacy Policy | Praevius",
+    "section": "Data Security",
+    "text": "Data Security\nWe implement industry-standard security measures including:\n\nEncryption in transit (TLS 1.3)\nEncryption at rest (AES-256)\nRegular security audits\nAccess controls and authentication\nSecure data centres (EU/UK based)"
+  },
+  {
+    "objectID": "privacy-policy.html#data-retention",
+    "href": "privacy-policy.html#data-retention",
+    "title": "Privacy Policy | Praevius",
+    "section": "Data Retention",
+    "text": "Data Retention\nWe retain your data for as long as your account is active. Upon account deletion:\n\nAccount data: Deleted within 30 days\nBackup data: Deleted within 90 days\nAnonymised analytics: May be retained indefinitely"
+  },
+  {
+    "objectID": "privacy-policy.html#your-rights",
+    "href": "privacy-policy.html#your-rights",
+    "title": "Privacy Policy | Praevius",
+    "section": "Your Rights",
+    "text": "Your Rights\nUnder GDPR and UK Data Protection Act 2018, you have the right to:\n\nAccess your personal data\nRectify inaccurate data\nErase your data (“right to be forgotten”)\nRestrict processing\nData portability\nObject to processing\n\nTo exercise these rights, contact us at info@praevius.app."
+  },
+  {
+    "objectID": "privacy-policy.html#third-party-services",
+    "href": "privacy-policy.html#third-party-services",
+    "title": "Privacy Policy | Praevius",
+    "section": "Third-Party Services",
+    "text": "Third-Party Services\nWe use the following third-party services:\n\nStripe: Payment processing\nAWS/GCP: Cloud infrastructure\nAnalytics: Usage analytics (anonymised)"
+  },
+  {
+    "objectID": "privacy-policy.html#cookies",
+    "href": "privacy-policy.html#cookies",
+    "title": "Privacy Policy | Praevius",
+    "section": "Cookies",
+    "text": "Cookies\nWe use essential cookies for authentication and session management. Optional analytics cookies require your consent."
+  },
+  {
+    "objectID": "privacy-policy.html#changes-to-this-policy",
+    "href": "privacy-policy.html#changes-to-this-policy",
+    "title": "Privacy Policy | Praevius",
+    "section": "Changes to This Policy",
+    "text": "Changes to This Policy\nWe may update this policy periodically. Significant changes will be communicated via email or in-app notification."
+  },
+  {
+    "objectID": "privacy-policy.html#contact-us",
+    "href": "privacy-policy.html#contact-us",
+    "title": "Privacy Policy | Praevius",
+    "section": "Contact Us",
+    "text": "Contact Us\nFor privacy-related questions:\nEmail: info@praevius.app\n\nPraevius is part of the BIM Takeoff ecosystem."
   }
 ]

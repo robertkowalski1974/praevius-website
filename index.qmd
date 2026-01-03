@@ -7,86 +7,103 @@ format:
   html:
     page-layout: full
     include-in-header:
-      text: |
-        <!-- SoftwareApplication Schema for Homepage -->
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "Praevius",
-          "applicationCategory": "BusinessApplication",
-          "applicationSubCategory": "Construction Cost Management",
-          "operatingSystem": "Web Browser",
-          "description": "AI-powered cost control software for construction subcontractors and QS professionals. Real-time budget tracking, variance detection, and progress claim automation.",
-          "url": "https://praevius.app",
-          "image": "https://praevius.app/images/praevius-app-icon.svg",
-          "screenshot": "https://praevius.app/images/praevius-app-icon.svg",
-          "featureList": [
-            "Real-time budget tracking",
-            "AI-powered variance reports",
-            "S-curve forecasting (EVM)",
-            "Change order management",
-            "Progress claim automation",
-            "Schedule of Values (SOV)",
-            "Xero integration",
-            "QuickBooks integration",
-            "Procore sync"
-          ],
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Free",
-              "price": "0",
-              "priceCurrency": "USD",
-              "description": "Up to 3 projects, 1 team member"
-            },
-            {
-              "@type": "Offer",
-              "name": "Essential",
-              "price": "99",
-              "priceCurrency": "USD",
-              "priceSpecification": {
-                "@type": "UnitPriceSpecification",
+      - text: |
+          <link rel="canonical" href="https://praevius.app/" />
+          <!-- BreadcrumbList Schema -->
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://praevius.app/"
+              }
+            ]
+          }
+          </script>
+      - text: |
+          <!-- SoftwareApplication Schema for Homepage -->
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Praevius",
+            "applicationCategory": "BusinessApplication",
+            "applicationSubCategory": "Construction Cost Management",
+            "operatingSystem": "Web Browser",
+            "description": "AI-powered cost control software for construction subcontractors and QS professionals. Real-time budget tracking, variance detection, and progress claim automation.",
+            "url": "https://praevius.app",
+            "image": "https://praevius.app/images/praevius-app-icon.svg",
+            "screenshot": "https://praevius.app/images/praevius-app-icon.svg",
+            "featureList": [
+              "Real-time budget tracking",
+              "AI-powered variance reports",
+              "S-curve forecasting (EVM)",
+              "Change order management",
+              "Progress claim automation",
+              "Schedule of Values (SOV)",
+              "Xero integration",
+              "QuickBooks integration",
+              "Procore sync"
+            ],
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Free",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Up to 3 projects, 1 team member"
+              },
+              {
+                "@type": "Offer",
+                "name": "Essential",
                 "price": "99",
                 "priceCurrency": "USD",
-                "billingDuration": "P1M"
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": "99",
+                  "priceCurrency": "USD",
+                  "billingDuration": "P1M"
+                },
+                "description": "Up to 10 projects, 3 team members"
               },
-              "description": "Up to 10 projects, 3 team members"
-            },
-            {
-              "@type": "Offer",
-              "name": "Professional",
-              "price": "229",
-              "priceCurrency": "USD",
-              "priceSpecification": {
-                "@type": "UnitPriceSpecification",
+              {
+                "@type": "Offer",
+                "name": "Professional",
                 "price": "229",
                 "priceCurrency": "USD",
-                "billingDuration": "P1M"
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": "229",
+                  "priceCurrency": "USD",
+                  "billingDuration": "P1M"
+                },
+                "description": "Up to 25 projects, 10 team members, AI Reports"
               },
-              "description": "Up to 25 projects, 10 team members, AI Reports"
-            },
-            {
-              "@type": "Offer",
-              "name": "Scale",
-              "price": "449",
-              "priceCurrency": "USD",
-              "priceSpecification": {
-                "@type": "UnitPriceSpecification",
+              {
+                "@type": "Offer",
+                "name": "Scale",
                 "price": "449",
                 "priceCurrency": "USD",
-                "billingDuration": "P1M"
-              },
-              "description": "Unlimited projects and team members, Procore sync, Schedule of Values"
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": "449",
+                  "priceCurrency": "USD",
+                  "billingDuration": "P1M"
+                },
+                "description": "Unlimited projects and team members, Procore sync, Schedule of Values"
+              }
+            ],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Praevius",
+              "url": "https://praevius.app"
             }
-          ],
-          "publisher": {
-            "@type": "Organization",
-            "name": "Praevius",
-            "url": "https://praevius.app"
           }
-        }
-        </script>
+          </script>
 ---
 
 <!-- Hero Section -->
@@ -107,6 +124,19 @@ format:
 </div>
 </div>
 
+<!-- Intro Section with Keywords -->
+<div class="section section-gray">
+<div class="container">
+
+<h2 class="section-title">Complete <span>Subcontractor Cost Tracking</span> Solution</h2>
+
+<p class="text-center mb-4" style="max-width: 800px; margin: 0 auto;">
+Praevius is <strong>quantity surveying software</strong> built specifically for UK and Australian trade contractors. Our <strong>construction progress claim software</strong> eliminates spreadsheet chaos and gives you real-time visibility into every project's budget performance. <a href="features.html">Explore all features</a>.
+</p>
+
+</div>
+</div>
+
 <!-- Problem Section -->
 <div class="section section-light">
 <div class="container">
@@ -117,7 +147,7 @@ format:
 
 <div class="feature-card">
 <h3><i class="bi bi-graph-down"></i> 88% Error Rate</h3>
-<p>Construction spreadsheets contain costly errors. Manual tracking means missed variances and budget overruns discovered too late.</p>
+<p>Construction spreadsheets contain costly errors. Manual tracking means missed variances and budget overruns discovered too late. See how our <a href="features.html">real-time tracking features</a> solve this.</p>
 </div>
 
 <div class="feature-card">
@@ -154,7 +184,7 @@ Praevius (from Latin "going before") anticipates cost problems before they escal
 
 <div class="feature-card">
 <h3><i class="bi bi-robot"></i> AI-Powered Reports</h3>
-<p>Generate variance reports in 2 minutes instead of 2 hours. Just ask for the report you need—the AI handles the rest.</p>
+<p>Generate variance reports in 2 minutes instead of 2 hours. Just ask for the report you need—the AI handles the rest. Learn more about <a href="features.html#ai-reporting">AI-powered reporting</a>.</p>
 </div>
 
 <div class="feature-card">
@@ -202,7 +232,7 @@ Praevius (from Latin "going before") anticipates cost problems before they escal
 
 <div class="feature-card">
 <h3><i class="bi bi-rulers"></i> QS Professionals</h3>
-<p>Growing quantity surveying practices serving multiple clients. Professional tools that scale with your workload without enterprise complexity.</p>
+<p>Growing quantity surveying practices serving multiple clients. Professional <strong>quantity surveying software</strong> that scales with your workload without enterprise complexity. See how <a href="about.html">our QS background</a> shaped Praevius.</p>
 </div>
 
 </div>
@@ -217,7 +247,7 @@ Praevius (from Latin "going before") anticipates cost problems before they escal
 <h2 class="section-title">Simple, <span>Transparent</span> Pricing</h2>
 
 <p class="text-center mb-4" style="max-width: 600px; margin: 0 auto 3rem;">
-Start free, upgrade as you grow. No per-user fees, no hidden costs.
+Start free, upgrade as you grow. No per-user fees, no hidden costs. <a href="pricing.html">View full pricing details</a>.
 </p>
 
 <div class="grid-4">

@@ -2,10 +2,34 @@
 title: "About Praevius | AI Cost Control for Construction Subcontractors"
 pagetitle: "About Praevius | AI Cost Control for Construction Subcontractors"
 description: "Built by quantity surveyors with 20 years of construction experience. Praevius delivers AI-powered cost control designed specifically for trade contractors and QS professionals."
-keywords: "about Praevius, construction cost control company, QS software company, subcontractor software"
+keywords: "about Praevius, construction cost control company, QS software company, subcontractor software, quantity surveying software"
 format:
   html:
     page-layout: full
+    include-in-header:
+      text: |
+        <link rel="canonical" href="https://praevius.app/about.html" />
+        <!-- BreadcrumbList Schema -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://praevius.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About",
+              "item": "https://praevius.app/about.html"
+            }
+          ]
+        }
+        </script>
 ---
 
 <!-- Hero Section -->
@@ -45,6 +69,69 @@ format:
 </div>
 </div>
 
+<!-- Why QS Software Needed to Change -->
+<div class="section section-gray">
+<div class="container">
+
+<h2 class="section-title">Why <span>Quantity Surveying Software</span> Needed to Change</h2>
+
+<div style="max-width: 800px; margin: 0 auto; line-height: 1.8;">
+
+<p>Traditional <strong>quantity surveying software</strong> was designed for enterprise clients with dedicated IT teams and training budgets. That left mid-market contractors with two options: expensive platforms that required weeks of training, or spreadsheets that created more problems than they solved.</p>
+
+<p>The construction industry loses billions annually to:</p>
+
+<ul style="margin: 2rem 0;">
+<li><strong>Spreadsheet errors</strong> - 88% of spreadsheets contain errors (KPMG study)</li>
+<li><strong>Poor cash flow visibility</strong> - Only 12% of contractors get paid on time</li>
+<li><strong>Missed variations</strong> - Change orders represent 8-14% of project value</li>
+<li><strong>Reactive cost control</strong> - Problems discovered weeks after they occurred</li>
+</ul>
+
+<p>Praevius bridges this gap: <strong>professional-grade construction cost control software</strong> with mid-market pricing and learning curves measured in hours, not weeks.</p>
+
+</div>
+
+</div>
+</div>
+
+<!-- Who Uses Praevius -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">Who Uses <span>Praevius?</span></h2>
+
+<div class="grid-2">
+
+<div class="feature-card">
+<h3><i class="bi bi-lightning-charge"></i> Electrical Contractors</h3>
+<p>Managing 10-50 concurrent projects with complex variation tracking and progress billing requirements. Track every cable run, switchboard, and conduit installation.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-droplet"></i> Mechanical & Plumbing Subcontractors</h3>
+<p>Tracking variations across multiple job sites with different billing cycles and retention requirements. Never lose track of a variation again.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-rulers"></i> Growing QS Practices</h3>
+<p>Quantity surveying practices serving multiple clients simultaneously need professional tools that scale without enterprise complexity.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-arrow-up-right"></i> Trade Contractors Outgrowing Spreadsheets</h3>
+<p>Specialty trades who've hit the limits of Excel but don't need—or can't afford—Procore-level solutions.</p>
+</div>
+
+</div>
+
+<p class="text-center" style="margin-top: 2rem;">
+Whether you're a specialty contractor in the UK, Australia, or expanding internationally, Praevius adapts to your <a href="features.html#progress-claims">progress claim requirements</a> and local billing formats.
+</p>
+
+</div>
+</div>
+
 <!-- Philosophy Section -->
 <div class="section section-gray">
 <div class="container">
@@ -73,8 +160,36 @@ format:
 </div>
 </div>
 
-<!-- BIM Takeoff Ecosystem -->
+<!-- Construction Expertise -->
 <div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">Construction <span>Expertise</span> Built In</h2>
+
+<div class="grid-3">
+
+<div class="feature-card">
+<h3><i class="bi bi-award"></i> 20 Years QS Experience</h3>
+<p>Founded by practicing quantity surveyors who understand real-world construction cost management challenges—not software developers guessing what you need.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-globe"></i> International Projects</h3>
+<p>Experience across UK, Australia, and Poland informs support for multiple billing formats and contract types (JCT, NEC, AIA, SOPA).</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-robot"></i> AI-First Approach</h3>
+<p>Leveraging Claude AI for intelligent reporting while keeping construction professionals in control. AI enhances your expertise—it doesn't replace it.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- BIM Takeoff Ecosystem -->
+<div class="section section-gray">
 <div class="container">
 
 <h2 class="section-title">Part of <span>BIM Takeoff</span></h2>
@@ -105,7 +220,7 @@ format:
 <h2 class="section-title">Ready to Work <span>Smarter?</span></h2>
 
 <p style="max-width: 600px; margin: 0 auto 2rem;">
-Start your free trial today. Experience construction cost control done right.
+Start your free trial today. Experience construction cost control done right. <a href="features.html">Explore our features</a> or <a href="pricing.html">view pricing options</a>.
 </p>
 
 <a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>

@@ -6,6 +6,30 @@ keywords: "construction cost tracking features, real-time budget tracking, AI va
 format:
   html:
     page-layout: full
+    include-in-header:
+      text: |
+        <link rel="canonical" href="https://praevius.app/features.html" />
+        <!-- BreadcrumbList Schema -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://praevius.app/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Features",
+              "item": "https://praevius.app/features.html"
+            }
+          ]
+        }
+        </script>
 ---
 
 <!-- Hero Section -->
@@ -75,7 +99,7 @@ No menus to learn. No training required. Just tell Praevius what you need in pla
 </ul>
 </div>
 
-<div class="feature-card">
+<div class="feature-card" id="ai-reporting">
 <h3><i class="bi bi-robot"></i> AI-Powered Reporting</h3>
 <p>Just ask for the report you need—the AI handles the rest. Generate professional variance reports in minutes, not hours. Plain English explanations of the "why" behind your numbers.</p>
 <ul style="color: #757575; margin-top: 1rem;">
@@ -84,6 +108,7 @@ No menus to learn. No training required. Just tell Praevius what you need in pla
 <li>Executive summary generation</li>
 <li>Export to PDF, Word, or share live</li>
 </ul>
+<p style="margin-top: 1rem;"><a href="pricing.html">AI Reports available on Professional tier and above</a></p>
 </div>
 
 <div class="feature-card">
@@ -97,29 +122,30 @@ No menus to learn. No training required. Just tell Praevius what you need in pla
 </ul>
 </div>
 
-<div class="feature-card">
+<div class="feature-card" id="change-orders">
 <h3><i class="bi bi-file-earmark-diff"></i> Change Order Management</h3>
-<p>Track every variation from inception to approval to payment. Never leave money on the table again. Change orders account for 8-14% of project costs—capture them all.</p>
+<p>Track every variation from inception to approval to payment with our dedicated <strong>change order management</strong> system. Never leave money on the table again. Change orders account for 8-14% of project costs—capture them all.</p>
 <ul style="color: #757575; margin-top: 1rem;">
-<li>Variation register with status tracking</li>
+<li>Complete variation register with status tracking</li>
 <li>Automated entitlement flagging</li>
-<li>Impact assessment tools</li>
+<li>Impact assessment and pricing tools</li>
 <li>Approval workflow automation</li>
 </ul>
 </div>
 
-<div class="feature-card">
-<h3><i class="bi bi-receipt"></i> Progress Claim Automation</h3>
-<p>Generate accurate progress claims in minutes. Centralized dashboard eliminates hunting through spreadsheets and rechecking every line item manually.</p>
+<div class="feature-card" id="progress-claims">
+<h3><i class="bi bi-receipt"></i> Construction Progress Claim Software</h3>
+<p>Generate accurate <strong>progress claims</strong> in minutes, not hours. Our <strong>progress claim automation</strong> eliminates the manual process of hunting through spreadsheets, recalculating percentages, and rechecking every line item.</p>
 <ul style="color: #757575; margin-top: 1rem;">
-<li>Percentage complete calculations</li>
-<li>Retainage management</li>
-<li>Claim history and audit trail</li>
-<li>Multi-format export support</li>
+<li>Percentage complete calculations with audit trail</li>
+<li>Retainage and retention tracking</li>
+<li>Claim history and documentation</li>
+<li>Multi-format export (UK JCT, AU SOPA, US AIA)</li>
 </ul>
+<p style="margin-top: 1rem;"><a href="pricing.html">View pricing for progress claim features</a></p>
 </div>
 
-<div class="feature-card">
+<div class="feature-card" id="schedule-of-values">
 <h3><i class="bi bi-table"></i> Schedule of Values</h3>
 <p>Client billing structures often differ from internal cost codes. SOV management bridges this gap with many-to-many mapping between your WBS and client billing formats.</p>
 <ul style="color: #757575; margin-top: 1rem;">
@@ -128,6 +154,7 @@ No menus to learn. No training required. Just tell Praevius what you need in pla
 <li>Payment application tracking</li>
 <li>Progress sync from budget data</li>
 </ul>
+<p style="margin-top: 1rem;"><a href="pricing.html">Schedule of Values available on Scale tier</a></p>
 </div>
 
 <div class="feature-card">
@@ -218,7 +245,7 @@ Instant project health visibility using the traffic light system every construct
 
 <h2 class="section-title" style="color: white;">Ready to Take <span>Control?</span></h2>
 
-<p style="color: #F0F0F0; margin-bottom: 2rem;">Start your free trial and experience all features.</p>
+<p style="color: #F0F0F0; margin-bottom: 2rem;">Start your free trial and experience all features. <a href="contact.html" style="color: #FF9900;">Request a demo</a> or <a href="about.html" style="color: #FF9900;">learn about our team</a>.</p>
 
 <a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
 

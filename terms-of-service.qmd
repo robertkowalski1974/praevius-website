@@ -5,6 +5,19 @@ description: "Praevius terms of service. Terms and conditions for using praevius
 format:
   html:
     page-layout: article
+    include-in-header:
+      text: |
+        <link rel="canonical" href="https://praevius.app/terms-of-service.html" />
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://praevius.app/"},
+            {"@type": "ListItem", "position": 2, "name": "Terms of Service", "item": "https://praevius.app/terms-of-service.html"}
+          ]
+        }
+        </script>
 ---
 
 # Terms of Service
