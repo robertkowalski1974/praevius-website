@@ -37,8 +37,6 @@ website:
         href: index.qmd
       - text: "Features"
         href: features.qmd
-      - text: "Compare"
-        href: compare.qmd
       - text: "Pricing"
         href: pricing.qmd
       - text: "About"
@@ -62,7 +60,7 @@ website:
       © 2025 Praevius. All rights reserved.<br>
       AI-Powered Construction Cost Control Software
     center: |
-      **Product:** [Features](/features.html) | [Compare](/compare.html) | [Pricing](/pricing.html)<br>
+      **Product:** [Features](/features.html) | [Pricing](/pricing.html)<br>
       **Company:** [About](/about.html) | [Contact](/contact.html)<br>
       **Legal:** [Privacy Policy](/privacy-policy.html) | [Terms of Service](/terms-of-service.html)
     right: |
