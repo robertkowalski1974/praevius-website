@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+    - scripts/fix-sitemap.sh
   resources:
     - CNAME
     - css/**
