@@ -124,9 +124,13 @@ format:
 </div>
 </div>
 
-<!-- Intro Section with Keywords -->
+<!-- Product Definition (LLM-extractable summary) -->
 <div class="section section-gray">
 <div class="container">
+
+<div class="definition-box">
+<strong>Praevius</strong> is AI-powered construction cost control software that gives subcontractors and quantity surveying professionals real-time budget visibility, automated variance detection, and progress claim automation. Starting at $99/month with a free tier available, it replaces manual cost tracking with professional-grade tools including AI-generated variance reports, S-curve forecasting, change order management, and integrations with Xero, QuickBooks, Sage, and Procore. Built by quantity surveyors with 20 years of international construction experience. Supports UK (JCT/NEC), US (AIA), and Australian (SOPA) contract formats.
+</div>
 
 <h2 class="section-title">Complete <span>Subcontractor Cost Tracking</span> Solution</h2>
 

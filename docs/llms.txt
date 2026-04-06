@@ -1,0 +1,44 @@
+# Praevius
+
+> AI-powered construction cost control software for subcontractors and QS professionals. See costs before they spiral.
+
+## About
+
+Praevius is a SaaS platform providing real-time budget tracking, AI-powered variance reports, S-curve forecasting (Earned Value Management), change order management, and progress claim automation for construction trade contractors and quantity surveying professionals. Founded by quantity surveyors with 20 years of international construction experience across the UK, Australia, and Poland. Part of the BIM Takeoff ecosystem.
+
+## Target Market
+
+- Trade contractors (electrical, mechanical, plumbing) with 10-50 employees
+- Quantity surveying practices serving multiple clients
+- UK and Australia primary markets
+
+## Pricing
+
+- Free: $0/mo — 3 projects, 1 user, core cost tracking
+- Essential: $99/mo — 10 projects, 3 users, 1 accounting integration
+- Professional: $229/mo — 25 projects, 10 users, all integrations, Claude AI Reports
+- Scale: $449/mo — unlimited projects and users, Procore sync, Schedule of Values
+
+No per-user fees. 30-day free trial. 17% annual billing discount.
+
+## Key Features
+
+- Real-time budget vs. actual cost tracking with traffic light indicators
+- AI-powered variance reports generated in minutes via natural language
+- S-curve forecasting with CPI, SPI, EAC projections
+- Change order management with entitlement flagging (captures 8-14% project value)
+- Progress claim automation (UK JCT/NEC, US AIA, AU SOPA formats)
+- Schedule of Values with many-to-many WBS-to-billing mapping
+- Voice commands for field use
+- Integrations: Xero, QuickBooks, Sage, Google Drive, SharePoint, Procore
+
+## Links
+
+- [Homepage](https://praevius.app/)
+- [Features](https://praevius.app/features.html)
+- [Pricing](https://praevius.app/pricing.html)
+- [About](https://praevius.app/about.html)
+- [Contact](https://praevius.app/contact.html)
+- [Cost Variance Tracking Guide](https://praevius.app/construction-cost-variance-tracking.html)
+- [Start Free Trial](https://app.praevius.app/start-trial?bundle=professional)
+- [Full LLM Context](https://praevius.app/llms-full.txt)

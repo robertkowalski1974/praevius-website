@@ -7,6 +7,8 @@ project:
     - CNAME
     - css/**
     - images/**
+    - llms.txt
+    - llms-full.txt
   render:
     - "*.qmd"
     - "!CLAUDE.qmd"
@@ -63,6 +65,7 @@ website:
       AI-Powered Construction Cost Control Software
     center: |
       **Product:** [Features](/features.html) | [Pricing](/pricing.html)<br>
+      **Resources:** [Cost Variance Tracking Guide](/construction-cost-variance-tracking.html)<br>
       **Company:** [About](/about.html) | [Contact](/contact.html)<br>
       **Legal:** [Privacy Policy](/privacy-policy.html) | [Terms of Service](/terms-of-service.html)
     right: |

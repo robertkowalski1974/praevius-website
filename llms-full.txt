@@ -1,0 +1,180 @@
+# Praevius — Complete Product Information
+
+> AI-powered construction cost control software for subcontractors and QS professionals. See costs before they spiral.
+
+Website: https://praevius.app
+Contact: info@praevius.app | sales@praevius.app
+Free Trial: https://app.praevius.app/start-trial?bundle=professional
+
+---
+
+## What is Praevius?
+
+Praevius (from Latin "praevius" meaning "going before") is a cloud-based cost control platform that gives construction subcontractors and quantity surveying professionals real-time budget visibility, automated variance detection, and progress claim automation. It replaces spreadsheet-based cost tracking with professional-grade tools including AI-generated variance reports, S-curve forecasting, change order management, and integrations with major accounting platforms.
+
+Founded by practising quantity surveyors with 20 years of international construction experience handling projects from 500K fitouts to 50M commercial developments across the UK, Australia, and Poland. Praevius is the cost control intelligence layer of the BIM Takeoff (https://bimtakeoff.com) ecosystem.
+
+## Who is Praevius For?
+
+### Primary: Trade Contractors
+Electrical, mechanical, and plumbing contractors with 10-50 employees who need cost control that understands their world — variations, retainage, progress claims, and multi-site operations.
+
+### Secondary: QS Professionals
+Growing quantity surveying practices serving multiple clients who need professional software that scales with their workload without enterprise complexity or pricing.
+
+### Geography
+UK and Australia first (supporting local contract formats: JCT, NEC, SOPA), then expansion.
+
+## Core Features
+
+### Real-Time Budget Tracking
+See budget vs. actual costs the moment data changes. Dashboard views show project health at a glance with traffic-light status indicators (green: on budget within ±5%, yellow: watch at 5-10% variance, red: over budget exceeding 10%). Includes live cost performance index (CPI), budget consumption tracking, variance alerts and thresholds, and multi-project portfolio view.
+
+### AI-Powered Reporting (Professional Tier+)
+Generate professional variance reports in minutes, not hours, using natural language. Just ask for the report you need — the AI handles the rest. Provides plain English explanations of the "why" behind your numbers. Includes automated variance explanations, trend analysis and forecasting, executive summary generation, and export to PDF, Word, or live sharing.
+
+### S-Curve Forecasting (Earned Value Management)
+See where your project is headed, not just where it's been. Earned Value Management made practical for construction. Includes planned vs. actual vs. forecast curves, Schedule Performance Index (SPI), Estimate at Completion (EAC) projections, and what-if scenario modelling.
+
+### Change Order Management
+Track every variation from inception to approval to payment. Change orders account for 8-14% of project costs — capture them all. Includes complete variation register with status tracking, automated entitlement flagging, impact assessment and pricing tools, and approval workflow automation.
+
+### Progress Claim Automation
+Generate accurate progress claims in minutes, not hours. Eliminates the manual process of hunting through spreadsheets, recalculating percentages, and rechecking every line item. Includes percentage complete calculations with audit trail, retainage and retention tracking, claim history and documentation, and multi-format export (UK JCT, AU SOPA, US AIA).
+
+### Schedule of Values (Scale Tier)
+Client billing structures often differ from internal cost codes. SOV management bridges this gap with many-to-many mapping between your WBS and client billing formats. Supports UK JCT/NEC, US AIA G702/G703, and AU SOPA formats. Includes cost code to SOV line mapping, payment application tracking, and progress sync from budget data.
+
+### Voice Commands
+Speak your requests on the jobsite. "Show me Project Alpha" or "Approve the variation" — hands-free cost control that works in noisy environments. Includes natural language processing, field-ready voice input, and permission-aware actions with confirmation for critical tasks.
+
+### AI Assistant Interface
+No menus to learn. No training required. Tell Praevius what you need in plain English — or speak it on site. Example prompts: "Show me projects over budget", "Generate variance report for Project Alpha", "What's the CPI on the hospital job?", "Approve the steel variation".
+
+### Integrations
+- Accounting: Xero, QuickBooks, Sage
+- Cloud Storage: Google Drive, SharePoint, OneDrive
+- Project Management: Procore (for GC collaboration, Scale tier)
+- Open API for custom connections
+
+Essential tier: 1 accounting integration + Google Drive. Professional tier: all integrations. Scale tier: all integrations + Procore sync.
+
+## Pricing
+
+All prices in USD. No per-user fees. No hidden costs. 30-day free trial on all paid plans. No credit card required. 17% discount with annual billing.
+
+### Free — $0/month
+- Up to 3 projects
+- 1 team member
+- Core cost tracking
+- Dashboard views
+
+### Essential — $99/month
+- Up to 10 projects
+- Up to 3 team members
+- Google Drive sync
+- 1 accounting integration (Xero, QuickBooks, or Sage)
+- Email support (48hr response)
+
+### Professional — $229/month (Most Popular)
+- Up to 25 projects
+- Up to 10 team members
+- All integrations (Xero, QuickBooks, Sage, Google Drive, SharePoint)
+- Claude AI Reports — AI-powered variance analysis
+- Priority email support (24hr response)
+
+### Scale — $449/month
+- Unlimited projects
+- Unlimited team members
+- All Professional features
+- Procore ↔ SharePoint sync
+- Schedule of Values (SOV)
+- Dedicated success manager + phone support
+
+## How Praevius Compares
+
+### vs. Procore
+Praevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. While Procore targets general contractors with enterprise features and enterprise pricing, Praevius delivers professional-grade cost control at mid-market pricing starting at $99/month. Praevius integrates with Procore on the Scale tier for GC collaboration.
+
+### vs. Spreadsheets
+Construction spreadsheets contain an 88% error rate (per industry studies). Praevius provides real-time variance detection, automated progress claims, and AI-generated reports — capabilities impossible to replicate reliably in Excel. However, Praevius is not anti-spreadsheet: it replaces the cost tracking and reporting workflow, not project-specific calculations.
+
+## Variance Tracking System
+
+Praevius uses an industry-standard traffic light system for instant project health visibility:
+- Green (On Budget): Variance within ±5%. Project performing as planned.
+- Yellow (Watch): Variance 5-10%. Early warning. Investigate and plan corrective action.
+- Red (Over Budget): Variance exceeds 10%. Immediate attention required.
+
+## Contract Format Support
+
+- UK: JCT (Joint Contracts Tribunal), NEC (New Engineering Contract)
+- US: AIA (American Institute of Architects) G702/G703
+- Australia: SOPA (Security of Payment Act)
+
+## Coming Soon
+
+- Native mobile app (beyond responsive web — offline capability, camera integration, push notifications)
+- Predictive analytics (AI that learns from historical data to predict likely cost overruns)
+
+## Company Information
+
+- Company: Praevius
+- Website: https://praevius.app
+- Parent Organisation: BIM Takeoff (https://bimtakeoff.com)
+- Founded: 2024
+- Country: United Kingdom
+- Email: info@praevius.app (general), sales@praevius.app (sales)
+- LinkedIn: https://linkedin.com/company/praeviuspp
+- X (Twitter): https://x.com/praeviusapp
+
+## Frequently Asked Questions
+
+### Is there a free plan?
+Yes. The Free plan lets you track up to 3 projects with 1 team member. Upgrade anytime as your needs grow.
+
+### Are there any per-user fees?
+No. Each plan includes a set number of users, and the Scale plan includes unlimited users. No hidden per-seat charges.
+
+### Can I change plans later?
+Yes. Upgrade or downgrade anytime. Changes take effect immediately, with prorated billing adjustments.
+
+### What about annual billing?
+Pay annually and save 17%. Contact sales@praevius.app for annual billing options.
+
+### What's included in support?
+Essential: Email support (48hr response). Professional: Priority email (24hr response). Scale: Dedicated success manager + phone support.
+
+### How does Praevius compare to Procore?
+Praevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. While Procore targets general contractors with enterprise features, Praevius delivers professional-grade cost control at mid-market pricing starting at $99/month.
+
+### What integrations are included?
+Praevius integrates with Xero, QuickBooks, Sage, Google Drive, SharePoint, and Procore (Scale plan). Professional and Scale plans include all integrations.
+
+### What is AI-powered cost reporting?
+Praevius uses AI to generate professional variance reports from natural language requests. Ask "Generate variance report for Project Alpha" and receive a complete report with plain English explanations of cost drivers, trend analysis, and executive summaries — in minutes instead of hours. Available on Professional tier and above.
+
+### How does variance tracking work?
+Praevius monitors the difference between your budgeted and actual project costs in real time. When costs deviate from the baseline, the traffic light system flags it immediately: green (within ±5%), yellow (5-10% variance), red (over 10%). AI-generated reports explain the root causes and suggest corrective actions.
+
+### Can I use voice commands on a construction site?
+Yes. Praevius supports natural language voice input designed for noisy construction environments. Speak commands like "Show me Project Alpha status" or "Approve the variation" for hands-free cost control in the field. All voice actions are permission-aware with confirmation for critical operations.
+
+### What is Earned Value Management in Praevius?
+Praevius implements Earned Value Management (EVM) through S-curve forecasting. It tracks planned vs. actual vs. forecast cost curves, calculates Schedule Performance Index (SPI) and Cost Performance Index (CPI), and projects Estimate at Completion (EAC). What-if scenario modelling helps you plan interventions before problems escalate.
+
+### What is progress claim automation?
+Praevius automates the creation of progress claims by calculating percentage complete from your budget data, tracking retainage and retention, maintaining a full audit trail, and exporting claims in multiple contract formats (UK JCT, AU SOPA, US AIA). What used to take hours of spreadsheet work now takes minutes.
+
+## Links
+
+- Homepage: https://praevius.app/
+- Features: https://praevius.app/features.html
+- Pricing: https://praevius.app/pricing.html
+- About: https://praevius.app/about.html
+- Contact: https://praevius.app/contact.html
+- Cost Variance Tracking Guide: https://praevius.app/construction-cost-variance-tracking.html
+- Privacy Policy: https://praevius.app/privacy-policy.html
+- Terms of Service: https://praevius.app/terms-of-service.html
+- Start Free Trial: https://app.praevius.app/start-trial?bundle=professional
+- Login: https://app.praevius.app/login

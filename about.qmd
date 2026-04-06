@@ -7,29 +7,71 @@ format:
   html:
     page-layout: full
     include-in-header:
-      text: |
-        <link rel="canonical" href="https://praevius.app/about.html" />
-        <!-- BreadcrumbList Schema -->
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://praevius.app/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "About",
-              "item": "https://praevius.app/about.html"
-            }
-          ]
-        }
-        </script>
+      - text: |
+          <link rel="canonical" href="https://praevius.app/about.html" />
+          <!-- BreadcrumbList Schema -->
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://praevius.app/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About",
+                "item": "https://praevius.app/about.html"
+              }
+            ]
+          }
+          </script>
+      - text: |
+          <!-- FAQPage Schema -->
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Who built Praevius?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Praevius was built by practising quantity surveyors with over 20 years of international construction experience across the UK, Australia, and Poland — handling projects from 500K fitouts to 50M commercial developments. The software is designed by the people who understand construction cost management first-hand."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is Praevius used for?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Praevius is AI-powered cost control software used by construction subcontractors and quantity surveying professionals for real-time budget tracking, variance detection, AI-generated reports, S-curve forecasting, change order management, and progress claim automation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What makes Praevius different from other construction software?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Praevius is built specifically for subcontractors and QS professionals, not enterprise general contractors. It offers professional-grade cost control at mid-market pricing (from $99/month with no per-user fees), uses AI for natural language reporting and voice commands, and supports multiple contract formats (UK JCT/NEC, US AIA, AU SOPA). The AI assistant interface means no training or manuals are required."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is Praevius related to BIM Takeoff?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Praevius is the cost control intelligence layer of the BIM Takeoff ecosystem. BIM Takeoff (bimtakeoff.com) provides quantity takeoff and estimation tools, while Praevius handles ongoing cost control, variance tracking, and progress claim management throughout the project lifecycle."
+                }
+              }
+            ]
+          }
+          </script>
 ---
 
 <!-- Hero Section -->

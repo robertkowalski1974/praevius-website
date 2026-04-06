@@ -1,0 +1,341 @@
+---
+title: "Construction Cost Variance Tracking | Real-Time Monitoring Guide | Praevius"
+pagetitle: "Construction Cost Variance Tracking | Real-Time Monitoring Guide | Praevius"
+description: "How to track construction cost variances in real time. Learn about CPI, SPI, traffic light indicators, and AI-powered variance detection for subcontractors and QS professionals."
+keywords: "construction cost variance, cost variance tracking, construction budget variance, cost performance index construction, real-time cost tracking construction"
+format:
+  html:
+    page-layout: full
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://praevius.app/construction-cost-variance-tracking.html" />
+          <!-- BreadcrumbList Schema -->
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://praevius.app/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Cost Variance Tracking Guide",
+                "item": "https://praevius.app/construction-cost-variance-tracking.html"
+              }
+            ]
+          }
+          </script>
+      - text: |
+          <!-- Article Schema -->
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Construction Cost Variance Tracking: A Real-Time Monitoring Guide",
+            "description": "How to track construction cost variances in real time using CPI, SPI, traffic light indicators, and AI-powered variance detection.",
+            "author": {
+              "@type": "Organization",
+              "name": "Praevius",
+              "url": "https://praevius.app"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Praevius",
+              "url": "https://praevius.app",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://praevius.app/images/praevius-logo-full.svg"
+              }
+            },
+            "datePublished": "2026-04-06",
+            "dateModified": "2026-04-06",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://praevius.app/construction-cost-variance-tracking.html"
+            }
+          }
+          </script>
+      - text: |
+          <!-- FAQPage Schema -->
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is an acceptable cost variance in construction?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In construction, a cost variance within ±5% of the baseline budget is generally considered acceptable and indicates the project is performing as planned. Variances between 5-10% are early warnings that require investigation. Variances exceeding 10% require immediate corrective action. These thresholds can be adjusted based on project size, complexity, and contractual requirements."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How often should you check cost variance on a construction project?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cost variance should be monitored continuously with real-time data where possible. At minimum, review cost variance weekly during active construction phases and at every progress claim milestone. Monthly reviews are insufficient for catching overruns early — by the time a month-end report reveals a problem, the opportunity to correct course has often passed."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What causes cost variance in construction projects?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Common causes of construction cost variance include: untracked change orders and variations (accounting for 8-14% of project value), scope creep without corresponding budget adjustments, material price escalation, labour productivity differences from estimates, rework due to quality issues, weather delays, and subcontractor claims. Many of these can be detected early through real-time variance tracking before they compound."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is Cost Performance Index (CPI) in construction?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cost Performance Index (CPI) is the ratio of earned value to actual cost: CPI = EV / AC. A CPI of 1.0 means the project is on budget. A CPI below 1.0 means the project is over budget (for example, CPI of 0.85 means you are getting 85 cents of work for every dollar spent). CPI above 1.0 means under budget. CPI is considered the most reliable early indicator of final project cost in Earned Value Management."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do you calculate cost variance in construction?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cost Variance (CV) is calculated as: CV = Earned Value (EV) minus Actual Cost (AC). A positive CV means under budget; a negative CV means over budget. For percentage variance: CV% = (CV / EV) × 100. For example, if a task was budgeted at $100,000 (and is 100% complete, so EV = $100,000) but actually cost $112,000, the CV is -$12,000 or -12%, indicating a significant overrun."
+                }
+              }
+            ]
+          }
+          </script>
+---
+
+<!-- Hero Section -->
+<div class="hero-section full-width" style="padding: 4rem 2rem;">
+<div class="container">
+
+# Construction Cost Variance Tracking: <span class="highlight">A Real-Time Monitoring Guide</span>
+
+<p class="tagline">Detect cost overruns before they escalate. Practical guide to variance tracking for construction subcontractors and QS professionals.</p>
+
+</div>
+</div>
+
+<!-- Definition -->
+<div class="section section-light">
+<div class="container">
+
+<div class="definition-box">
+<strong>Construction cost variance tracking</strong> is the process of monitoring the difference between budgeted and actual project costs in real time, enabling project teams to identify overruns before they escalate. For subcontractors managing multiple projects on tight margins, effective variance tracking is the difference between profitable operations and cash flow crises.
+</div>
+
+</div>
+</div>
+
+<!-- What is Cost Variance -->
+<div class="section section-gray">
+<div class="container">
+
+<h2 class="section-title">What is <span>Cost Variance</span> in Construction?</h2>
+
+<div style="max-width: 800px; margin: 0 auto; line-height: 1.8;">
+
+<p>Cost variance (CV) measures how project spending compares to the baseline budget at any point during construction. The formula is straightforward:</p>
+
+<p style="text-align: center; font-size: 1.25rem; font-weight: 600; color: var(--praevius-charcoal); margin: 2rem 0;"><strong>Cost Variance = Earned Value (EV) - Actual Cost (AC)</strong></p>
+
+<p>A positive CV means the project is under budget. A negative CV means over budget. But a single number lacks context — what matters is the <strong>percentage variance</strong> and whether it is trending better or worse.</p>
+
+<p>The <strong>Cost Performance Index (CPI)</strong> provides a normalised view: CPI = EV / AC. A CPI of 1.0 is on budget, below 1.0 is over budget, above 1.0 is under budget. Research consistently shows that CPI rarely improves significantly after a project reaches 20% completion — making early detection critical.</p>
+
+</div>
+
+<div class="grid-3" style="margin-top: 3rem;">
+
+<div class="feature-card" style="border-left-color: #10B981;">
+<span class="badge badge-green" style="font-size: 1.25rem; padding: 0.75rem 1.5rem;"><i class="bi bi-check-circle"></i> On Budget</span>
+<p class="mt-2">Variance within <strong>±5%</strong>. Project performing as planned. Continue current trajectory with routine monitoring.</p>
+</div>
+
+<div class="feature-card" style="border-left-color: #F59E0B;">
+<span class="badge badge-yellow" style="font-size: 1.25rem; padding: 0.75rem 1.5rem;"><i class="bi bi-exclamation-triangle"></i> Watch</span>
+<p class="mt-2">Variance <strong>5-10%</strong>. Early warning. Investigate root causes and plan corrective action before the variance compounds.</p>
+</div>
+
+<div class="feature-card" style="border-left-color: #EF4444;">
+<span class="badge badge-red" style="font-size: 1.25rem; padding: 0.75rem 1.5rem;"><i class="bi bi-x-circle"></i> Over Budget</span>
+<p class="mt-2">Variance exceeds <strong>10%</strong>. Immediate attention required. Intervention needed to prevent further cost escalation.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Why Real-Time Tracking Matters -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">Why <span>Real-Time Tracking</span> Matters</h2>
+
+<div class="grid-2" style="max-width: 900px; margin: 0 auto;">
+
+<div class="feature-card">
+<h3><i class="bi bi-calendar-x"></i> The Month-End Shock</h3>
+<p>Most subcontractors discover cost overruns in monthly reports — weeks after the spending occurred. By then, the window for corrective action has closed. A $10,000 overrun caught in week one is manageable; the same overrun discovered at month-end has already compounded across downstream tasks.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-cash-stack"></i> Change Order Revenue Leakage</h3>
+<p>Change orders represent <strong>8-14% of total project value</strong>. Without real-time tracking, variations get missed, under-valued, or claimed late. Every day a variation goes untracked is potential revenue lost — and most subcontractors lack the systems to flag entitlements automatically.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-graph-down"></i> Cash Flow Forecasting Blind Spots</h3>
+<p>Only <strong>12% of contractors get paid on time</strong>. Accurate variance tracking feeds directly into cash flow forecasting — you cannot predict next month's cash position if you do not know this month's true cost position. Late discovery of overruns cascades into incorrect progress claims and delayed payments.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-arrow-repeat"></i> Compounding Errors</h3>
+<p>Construction cost variances compound. A 3% overrun in foundations affects every subsequent trade. Without continuous monitoring, small variances accumulate into major overruns that consume the project's contingency before anyone notices.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- How to Track Effectively -->
+<div class="section section-gray">
+<div class="container">
+
+<h2 class="section-title">How to Track Cost Variances <span>Effectively</span></h2>
+
+<div style="max-width: 800px; margin: 0 auto;">
+
+<div class="feature-card" style="margin-bottom: 1.5rem;">
+<h3><i class="bi bi-1-circle"></i> Establish a Baseline Budget</h3>
+<p>Every variance is measured against a baseline. Lock your project budget at tender acceptance, including all trade packages, preliminaries, and contingency. Without a clear baseline, variance tracking becomes meaningless — you are comparing actuals to a moving target.</p>
+</div>
+
+<div class="feature-card" style="margin-bottom: 1.5rem;">
+<h3><i class="bi bi-2-circle"></i> Connect Your Accounting Data</h3>
+<p>Manual data entry introduces errors and delays. Connect your accounting platform (Xero, QuickBooks, or Sage) so that actual costs flow into your tracking system automatically. Praevius syncs with major accounting platforms to eliminate the gap between spending and reporting.</p>
+</div>
+
+<div class="feature-card" style="margin-bottom: 1.5rem;">
+<h3><i class="bi bi-3-circle"></i> Define Variance Thresholds</h3>
+<p>Set thresholds that trigger alerts — the traffic light system (±5% green, 5-10% yellow, >10% red) is an industry standard. Different project types may warrant different thresholds: a high-margin fitout can absorb more variance than a competitive tender won at 2% margin.</p>
+</div>
+
+<div class="feature-card" style="margin-bottom: 1.5rem;">
+<h3><i class="bi bi-4-circle"></i> Automate Variance Alerts</h3>
+<p>Do not rely on someone remembering to check the numbers. Automated alerts ensure that threshold breaches are flagged the moment they occur — not at the next project meeting. Real-time CPI monitoring catches trends before they become crises.</p>
+</div>
+
+<div class="feature-card" style="margin-bottom: 1.5rem;">
+<h3><i class="bi bi-5-circle"></i> Generate Variance Reports with Context</h3>
+<p>Numbers without context do not drive decisions. Effective variance reports explain the <em>why</em> behind the numbers — which cost codes are driving the overrun, whether the variance is a one-off or a trend, and what corrective actions are available. Praevius uses AI to generate these explanations automatically in plain English, turning raw data into actionable intelligence.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Common Indicators -->
+<div class="section section-light">
+<div class="container">
+
+<h2 class="section-title">Common Cost Variance <span>Indicators</span></h2>
+
+<div class="grid-2" style="max-width: 900px; margin: 0 auto;">
+
+<div class="feature-card">
+<h3><i class="bi bi-currency-dollar"></i> Cost Performance Index (CPI)</h3>
+<p><strong>CPI = Earned Value / Actual Cost</strong></p>
+<p>The most reliable indicator of final project cost. A CPI of 0.90 means you are getting 90 cents of planned work for every dollar spent — a 10% overrun. CPI below 1.0 at 20% project completion rarely recovers without significant intervention.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-clock-history"></i> Schedule Performance Index (SPI)</h3>
+<p><strong>SPI = Earned Value / Planned Value</strong></p>
+<p>Measures schedule efficiency. SPI below 1.0 means behind schedule. Schedule delays often cause cost overruns through extended prelims, acceleration costs, and liquidated damages. Tracking SPI alongside CPI gives the full picture.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-calculator"></i> Estimate at Completion (EAC)</h3>
+<p><strong>EAC = Budget at Completion / CPI</strong></p>
+<p>Projects the final cost based on current performance. If your $1M project has a CPI of 0.85, EAC projects a final cost of $1.18M — an $180K overrun. This is the number that drives management decisions and client conversations.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-arrow-down-right"></i> Variance at Completion (VAC)</h3>
+<p><strong>VAC = Budget at Completion - EAC</strong></p>
+<p>The expected budget overrun or underrun at project completion. A negative VAC means the project will exceed its budget if current trends continue. This metric is essential for contingency management and early stakeholder communication.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- FAQ Section -->
+<div class="section section-gray">
+<div class="container">
+
+<h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+
+<div style="max-width: 800px; margin: 0 auto;">
+
+<div class="faq-item">
+<h3>What is an acceptable cost variance in construction?</h3>
+<p>A cost variance within ±5% of the baseline budget is generally considered acceptable and indicates the project is performing as planned. Variances between 5-10% are early warnings that require investigation. Variances exceeding 10% require immediate corrective action. These thresholds can be adjusted based on project size, complexity, and contractual requirements.</p>
+</div>
+
+<div class="faq-item">
+<h3>How often should you check cost variance on a construction project?</h3>
+<p>Cost variance should be monitored continuously with real-time data where possible. At minimum, review cost variance weekly during active construction phases and at every progress claim milestone. Monthly reviews are insufficient for catching overruns early — by the time a month-end report reveals a problem, the opportunity to correct course has often passed.</p>
+</div>
+
+<div class="faq-item">
+<h3>What causes cost variance in construction projects?</h3>
+<p>Common causes include: untracked change orders and variations (accounting for 8-14% of project value), scope creep without corresponding budget adjustments, material price escalation, labour productivity differences from estimates, rework due to quality issues, weather delays, and subcontractor claims. Many of these can be detected early through real-time variance tracking before they compound.</p>
+</div>
+
+<div class="faq-item">
+<h3>What is Cost Performance Index (CPI) in construction?</h3>
+<p>Cost Performance Index (CPI) is the ratio of earned value to actual cost: CPI = EV / AC. A CPI of 1.0 means the project is on budget. A CPI below 1.0 means the project is over budget (for example, CPI of 0.85 means you are getting 85 cents of work for every dollar spent). CPI above 1.0 means under budget. CPI is considered the most reliable early indicator of final project cost in Earned Value Management.</p>
+</div>
+
+<div class="faq-item">
+<h3>How do you calculate cost variance in construction?</h3>
+<p>Cost Variance (CV) = Earned Value (EV) minus Actual Cost (AC). A positive CV means under budget; a negative CV means over budget. For percentage: CV% = (CV / EV) × 100. For example, if a task with a $100,000 budget is complete but actually cost $112,000, the CV is -$12,000 or -12%, indicating a significant overrun requiring immediate attention.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- CTA -->
+<div class="section section-dark">
+<div class="container text-center">
+
+<h2 class="section-title" style="color: white;">Track Variances <span>Before They Escalate</span></h2>
+
+<p style="color: #F0F0F0; max-width: 600px; margin: 0 auto 2rem;">
+Praevius gives you real-time cost variance tracking with AI-powered reporting, traffic light indicators, and automated alerts. Built for subcontractors and QS professionals.
+</p>
+
+<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
+<a href="features.html" class="btn btn-white">See All Features</a>
+</div>
+
+<p style="color: #757575; font-size: 0.875rem; margin-top: 1rem;">30-day free trial. No credit card required.</p>
+
+</div>
+</div>
