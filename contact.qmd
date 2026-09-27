@@ -160,7 +160,8 @@ async function submitContactForm(event) {
 
 <div class="feature-card" style="margin-bottom: 2rem;">
 <h3><i class="bi bi-headset"></i> Live Support on Paid Plans</h3>
-<p>Customers on Essential, Professional and Scale can talk to our team by Microsoft Teams, phone or WhatsApp, including help with your first programme import. Email <a href="mailto:support@praevius.app">support@praevius.app</a> to arrange a call.</p>
+<p>Customers on Essential, Professional and Scale can talk to our team by Microsoft Teams, phone or WhatsApp, including help with your first programme import. Call us to arrange a session:</p>
+<a href="tel:+442032399967" style="font-size: 1.25rem; font-weight: 600;">+44 (0) 20 3239 9967</a>
 </div>
 
 <div class="feature-card" style="margin-bottom: 2rem;">
