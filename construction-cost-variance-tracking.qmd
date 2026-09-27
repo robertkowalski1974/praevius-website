@@ -337,5 +337,9 @@ Praevius gives you real-time cost variance tracking with AI-powered reporting, t
 
 <p style="color: #757575; font-size: 0.875rem; margin-top: 1rem;">30-day free trial. No credit card required.</p>
 
+<p style="color: #F0F0F0; margin-top: 1rem;">
+Praevius also runs your construction programme. <a href="features.html#programme">See the programme features</a>.
+</p>
+
 </div>
 </div>

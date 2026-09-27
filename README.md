@@ -1,12 +1,16 @@
 # Praevius Website
 
-AI-Powered Cost Control for Construction - [praevius.app](https://praevius.app)
+Construction programme software you can talk to - [praevius.app](https://praevius.app)
+
+**Tagline:** "Talk to your programme."
 
 ## Overview
 
 This is the marketing website for Praevius, built with [Quarto](https://quarto.org/) and deployed via GitHub Pages.
 
-Praevius is the cost control intelligence layer of the [BIM Takeoff](https://bimtakeoff.com) ecosystem.
+Praevius is voice-first construction programme software: import an MS Project, Asta or Primavera programme, update it by voice or keyboard in the browser, and export it for MS Project or Primavera. One price per company. Cost control is a secondary module on Essential and above. Praevius is the programme and cost platform of the [BIM Takeoff](https://bimtakeoff.com) ecosystem.
+
+All website claims must trace to `~/claude-brain/runs/repo/praevius-website/claims-sheet.md` (outside this repository).
 
 ## Technology Stack
 
@@ -70,7 +74,7 @@ git push origin main
 
 ## Brand Guidelines
 
-See `/images/` for logo files and the [Praevius Brand Guidelines](https://github.com/robertkowalski1974/praevius-website/blob/main/_archive/Praevius_Brand_Guidelines.md) for complete brand documentation.
+See `/images/` for logo files and the Praevius Brand Guidelines (`.claude/Praevius_Brand_Guidelines.md`) for complete brand documentation.
 
 ### Key Brand Colors
 

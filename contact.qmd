@@ -1,8 +1,8 @@
 ---
 title: "Contact Praevius | Get a Demo or Support"
 pagetitle: "Contact Praevius | Get a Demo or Support"
-description: "Contact Praevius for a demo, pricing questions, or support. Request a personalized walkthrough of our construction cost control software. Response within 24 hours."
-keywords: "contact Praevius, construction software demo, Praevius support, construction cost control demo"
+description: "Contact Praevius for a demo, pricing questions or help importing your MS Project, Asta or Primavera programme into our voice-first construction programme software."
+keywords: "contact Praevius, construction programme software demo, construction scheduling software demo, programme import help, Praevius support"
 format:
   html:
     page-layout: full
@@ -76,6 +76,7 @@ format:
 <option value="demo">Request a Demo</option>
 <option value="pricing">Pricing Question</option>
 <option value="features">Feature Enquiry</option>
+<option value="features">Programme import help</option>
 <option value="enterprise">Enterprise Sales</option>
 <option value="partnership">Partnership</option>
 <option value="other">Other</option>
@@ -171,34 +172,6 @@ async function submitContactForm(event) {
 </div>
 </div>
 
-</div>
-
-</div>
-
-</div>
-</div>
-
-<!-- Response Time -->
-<div class="section section-gray">
-<div class="container text-center">
-
-<h2 class="section-title">We Respond <span>Quickly</span></h2>
-
-<div class="grid-3">
-
-<div>
-<p style="font-size: 2.5rem; font-weight: 800; color: #FF9900; margin: 0;">< 24h</p>
-<p>General Enquiries</p>
-</div>
-
-<div>
-<p style="font-size: 2.5rem; font-weight: 800; color: #FF9900; margin: 0;">< 4h</p>
-<p>Sales & Demos</p>
-</div>
-
-<div>
-<p style="font-size: 2.5rem; font-weight: 800; color: #FF9900; margin: 0;">< 1h</p>
-<p>Priority Support (Scale)</p>
 </div>
 
 </div>

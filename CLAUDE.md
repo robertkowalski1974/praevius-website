@@ -2,9 +2,11 @@
 
 ## Quick Reference
 
-**Praevius** (praevius.app) - AI-powered cost control for construction.
+**Praevius** (praevius.app) - voice-first construction programme software. Import your MS Project, Asta or Primavera programme, update it by voice or keyboard in the browser, and export it for MS Project or Primavera. One price per company. Cost control is a secondary module (Essential and above).
 
-**Tagline:** "See costs before they spiral"
+**Tagline:** "Talk to your programme."
+
+**Claims:** All website claims must trace to `~/claude-brain/runs/repo/praevius-website/claims-sheet.md`. See the forbidden claims list and the pricing table in `.claude/CLAUDE.md`.
 
 ---
 
@@ -57,6 +59,10 @@ quarto render     # Build site
 
 See `.claude/CLAUDE.md` for complete documentation.
 
-## 📋 Current Improvements
+## Current Improvements
 
-See **`.claude/IMPROVEMENTS.md`** for prioritized list of website improvements.
+See **`_archive/improvements.md`** for the prioritised list of website improvements.
+
+---
+
+*Last updated: September 2026*

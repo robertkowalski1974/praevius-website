@@ -2,11 +2,13 @@
 
 ## Project Overview
 
-**Praevius** (praevius.app) is an AI-powered cost control platform for construction subcontractors and QS professionals. This is the marketing website built with Quarto.
+**Praevius** (praevius.app) is construction programme software you can talk to. Import your MS Project, Asta or Primavera programme, update it by voice or keyboard in the browser, and export it for MS Project or Primavera. One price per company. Cost control is a secondary module (Essential and above). This is the marketing website built with Quarto.
 
-**Tagline:** "See costs before they spiral"
+**Tagline:** "Talk to your programme."
 
-**Relationship:** Praevius is the cost control intelligence layer of the [BIM Takeoff](https://bimtakeoff.com) ecosystem.
+**Relationship:** Praevius is the programme and cost platform of the [BIM Takeoff](https://bimtakeoff.com) ecosystem.
+
+**Claims source:** All website claims must trace to `~/claude-brain/runs/repo/praevius-website/claims-sheet.md`. That sheet overrides anything in this file, the brand guidelines or the agent definitions.
 
 ---
 
@@ -101,32 +103,64 @@ quarto render && git add . && git commit -m "Update" && git push
 
 ## Key Product Information
 
+### Positioning
+Construction programme software, voice first. The lead workflow is **import → update by voice → check → export**. Voice supports the workflow; typing always works.
+
+Sell three things:
+1. **Easy to use** — in the browser, nothing to install, keyboard grid like MS Project, undo and history.
+2. **Compatibility** — import MS Project (`.mpp`, `.xml`), Asta Powerproject (`.pp`) and Primavera (`.xer`); export for MS Project (XML) or Primavera (XER), plus PDF and Excel. Each import and export shows a report of what could not be carried.
+3. **Voice and AI** — click the mic, speak, edit the live transcript; it sends after a short pause; replies are on screen. Chrome, Edge and Safari, with a connection. English and Polish.
+
+State the limits wherever the programme is sold: no resource or cost loading; up to 2,000 tasks per programme (150 on Free); no native `.mpp` or `.pp` export.
+
+Language: UK "programme" in body copy; "scheduling"/"schedule" in titles, subheads and FAQs, paired with "critical path" or "Gantt". About wording: "built by quantity surveyors with 20 years in construction". Never "built by planners".
+
 ### Target Market
-- **Primary:** Trade contractors (electrical, mechanical, plumbing) with 10-50 employees
-- **Secondary:** Growing QS practices serving multiple clients
+- **Primary:** UK and Australian subcontractors, package planners, site managers and small to mid-size main contractors
+- **Secondary:** QS practices that also use the cost control module
+- **Not for:** 10,000-activity P6 megaprojects
 - **Geography:** UK and Australia first, then expansion
 
 ### Pricing Tiers
-| Tier | Price | Key Features |
-|------|-------|--------------|
-| **Free** | Free | 3 projects, 1 team member, core cost tracking |
-| **Essential** | $99/mo | 10 projects, 3 team members, 1 accounting integration |
-| **Professional** | $229/mo | 25 projects, 10 team members, Claude AI Reports |
-| **Scale** | $449/mo | Unlimited projects/members, Procore sync, Schedule of Values |
+One plan per organisation, USD, monthly. No per-user fees, no per-module prices, no add-ons. 30-day free trial on Essential and Professional, no credit card; Scale starts through sales (contact page).
 
-### Key Features
-- Real-time budget tracking
-- AI-powered variance reports (Claude AI Reports)
-- Voice commands for field use
-- S-curve forecasting (EVM)
-- Change order management
-- Progress claim automation
-- Schedule of Values (SOV) - multi-format support (UK JCT/NEC, US AIA, AU SOPA)
-- Integrations: Xero, QuickBooks, Sage, Google Drive, SharePoint, Procore
+| | Free | Essential | Professional | Scale |
+|---|---|---|---|---|
+| Price per month | $0 | $99 | $229 | $449 |
+| Projects | 3 | 10 | 25 | Unlimited |
+| Team members | 1 | 3 | 10 | Unlimited |
+| Programmes | 1 | 10 | Unlimited | Unlimited |
+| Tasks per programme | 150 | 2,000 | 2,000 | 2,000 |
+| Baselines per programme | 1 | 10 | 50 | Unlimited |
+| Schedule imports per month | 1 | 20 | 100 | Unlimited |
+| Exports per month | 3 | Unlimited | Unlimited | Unlimited |
+| Programme assistant requests per month | 150 | 3,000 | Not counted | Not counted |
+| Cost Control | No | Yes | Yes | Yes |
+| Google Drive Sync, SharePoint Document Sync | No | Yes | Yes | Yes |
+| Accounting (Xero Invoicing, QuickBooks Online, Sage Intacct) | No | 1 of the 3 | All 3 | All 3 |
+| AI Assistant and Agent Access | No (programme assistant only) | No (programme assistant only) | Yes | Yes |
+| Procore ↔ SharePoint Sync | No | No | No | Yes |
+| Schedule of Values | No | No | No | Yes |
+
+Use the module names exactly as written above. Schedule of Values is **Scale only**.
+
+**Annual billing:** write only "Annual billing available at a lower price." No annual amounts and no saving percentage until Robert confirms the Stripe annual prices.
+
+### Key Features (in this order)
+1. Programme: critical path, total and free float, Gantt with drag to move/stretch/link, keyboard grid, constraints, deadlines, milestones, WBS, baselines and comparison, progress, Validate
+2. Import and export: MS Project, Asta Powerproject, Primavera in; MS Project XML, Primavera XER, PDF A3, Excel out; import and export reports
+3. Voice and programme AI assistant: builds and edits programmes from speech or text, lists assumptions, explains the critical path; ordinary edits apply at once and can be undone, larger or destructive changes run only on confirmation
+4. Agent access over MCP with OAuth sign-in: read on every plan; write actions need Professional or Scale and your confirmation
+5. Cost Control module (Essential and above): budget tracking, variance reports, change orders, progress claims, Schedule of Values (Scale only)
+6. Integrations: Xero, QuickBooks, Sage, Google Drive, SharePoint, Procore (per plan, see table)
 
 ### Coming Soon
-- Native mobile app
-- Predictive analytics
+- Check every "coming soon" item against the claims sheet before it is published. Do not claim phone or tablet programme screens.
+
+### Forbidden Claims
+Resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support tiers/response times, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates.
+
+Also forbidden: "open any programme", "send back as .mpp/.pp", Asta version numbers, "tested with Claude/Codex", annual amounts or saving percentages.
 
 ---
 
@@ -140,15 +174,16 @@ quarto render && git add . && git commit -m "Update" && git push
 
 ### Writing Style
 - Lead with benefits, not features
-- Use specific outcomes ("2 minutes instead of 2 hours")
+- Use specific outcomes, but only outcomes that trace to the claims sheet
 - Avoid jargon overload
 - Explain technical terms when necessary
 
 ### Key Messages
-1. "See costs before they spiral" (primary tagline)
-2. "Proactive cost intelligence for construction"
-3. "Professional-grade insights, mid-market pricing"
-4. "AI-powered variance detection"
+1. "Talk to your programme." (primary tagline; body copy clarifies: speak or type, replies on screen)
+2. Import your MS Project, Asta or Primavera programme → update it by voice → export it for MS Project or Primavera
+3. Easy to use, in the browser, nothing to install
+4. One price per company, no per-user fees
+5. Costs on the same platform (secondary: Cost Control module on Essential and above)
 
 ---
 
@@ -176,13 +211,14 @@ quarto render && git add . && git commit -m "Update" && git push
 4. **Keep Inter font** for all text
 5. **Follow the pricing structure** as defined above
 6. **Link back to BIM Takeoff** where appropriate - Praevius is part of that ecosystem
+7. **All website claims must trace to `~/claude-brain/runs/repo/praevius-website/claims-sheet.md`.** Keep every URL and existing anchor; visible FAQ = FAQPage JSON-LD; UK spelling; no new images
 
 ---
 
 ## Current Improvements
 
-See **[IMPROVEMENTS.md](.claude/IMPROVEMENTS.md)** for prioritized list of website improvements and fixes.
+See **[improvements.md](../_archive/improvements.md)** (`_archive/improvements.md`) for the prioritised list of website improvements and fixes.
 
 ---
 
-*Last updated: January 2026*
+*Last updated: September 2026*

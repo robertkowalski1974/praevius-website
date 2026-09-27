@@ -2,11 +2,13 @@
 
 ## Overview
 
-This document provides Praevius.app's official brand identity, colors, and typography for creating professional construction cost control materials. Apply these guidelines to presentations, documents, websites, and any visual content representing the Praevius brand at **praevius.app**.
+This document provides Praevius.app's official brand identity, colors, and typography for creating professional construction programme and cost materials. Apply these guidelines to presentations, documents, websites, and any visual content representing the Praevius brand at **praevius.app**.
 
-**Praevius** is the cost control intelligence layer of the BIM Takeoff ecosystem, maintaining visual consistency while establishing its own identity as a proactive cost management platform.
+**Praevius** is voice-first construction programme software and the programme and cost platform of the BIM Takeoff ecosystem. It keeps visual consistency with BIM Takeoff while it has its own identity.
 
-**Keywords**: cost control, construction, variance analysis, EVM, forecasting, AI-powered, proactive intelligence, quantity surveying, budget management, praevius.app
+**Claims:** All website claims must trace to `~/claude-brain/runs/repo/praevius-website/claims-sheet.md`. This document sets the messaging; the claims sheet sets the facts.
+
+**Keywords**: construction programme software, construction scheduling, Gantt, critical path, voice, MS Project import, Asta Powerproject import, Primavera import, AI assistant, cost control (secondary), praevius.app
 
 ---
 
@@ -14,20 +16,22 @@ This document provides Praevius.app's official brand identity, colors, and typog
 
 ### Brand Essence
 
-**Praevius** derives from Latin "praevius" meaning "going before" or "leading the way." The brand represents proactive intelligence—seeing cost issues before they become problems.
+**Praevius** derives from Latin "praevius" meaning "going before" or "leading the way." The brand represents going before the work: a programme that is always up to date because updating it is as easy as saying what changed.
 
 ### Core Values
 
-- **Proactive Intelligence**: Anticipating cost variances before they escalate
-- **Professional Precision**: Accuracy in every calculation and forecast  
-- **Modern Simplicity**: Complex cost control made accessible
-- **Trusted Insight**: AI-powered recommendations grounded in industry standards
+- **Easy to Use**: In the browser, nothing to install; speak or type, with undo and full history
+- **Compatible**: Import MS Project, Asta and Primavera programmes; export for MS Project or Primavera, with a report of what could not be carried
+- **Honest**: State the limits (no resource or cost loading, up to 2,000 tasks per programme, no native .mpp/.pp export)
+- **You Stay in Control**: The AI assists; you review, and larger or destructive changes need your confirmation
 
 ### Brand Positioning
 
-**Tagline**: "See costs before they spiral"
+**Tagline**: "Talk to your programme."
 
-**Positioning Statement**: Simple, AI-powered cost control for growing contractors and QS firms—professional-grade insights without enterprise complexity.
+**Positioning Statement**: Construction programme software you can talk to. Import your MS Project, Asta or Primavera programme, update it by voice or keyboard in the browser, and export it for MS Project or Primavera. One price per company.
+
+**Secondary module**: Cost Control (Essential and above), on the same platform and projects. Never claim the programme feeds budgets or cost.
 
 **Tone of Voice**:
 - Professional yet approachable
@@ -170,17 +174,19 @@ Located in `/images/`:
 
 ## Key Messages
 
-**Primary Tagline:** "See costs before they spiral"
+**Primary Tagline:** "Talk to your programme." (body copy clarifies: speak or type, replies on screen)
 
 **Supporting Messages:**
-- "Proactive cost intelligence for construction"
-- "AI-powered variance detection"
-- "Professional-grade insights, mid-market pricing"
-- "From budget to forecast, all in one view"
+- "Import your MS Project, Asta or Primavera programme, update it by voice, export it for MS Project or Primavera"
+- "Easy to use, in the browser, nothing to install"
+- "One price per company, no per-user fees"
+- "Costs on the same platform" (secondary, Cost Control on Essential and above)
 
 **Feature Benefits (not features):**
-- ❌ "Real-time EVM calculations"
-- ✓ "Know your cost performance index the moment it changes"
+- ❌ "18 programme tools"
+- ✓ "Say 'push frame out a week' and the programme moves, with Undo if you change your mind"
+
+**Forbidden claims:** resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support tiers/response times, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates.
 
 ---
 
@@ -236,4 +242,4 @@ Located in `/images/`:
 
 ---
 
-*© 2025 Praevius. Part of the BIM Takeoff ecosystem.*
+*© 2025 Praevius. Part of the BIM Takeoff ecosystem. Messaging last updated September 2026.*

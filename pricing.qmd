@@ -1,8 +1,8 @@
 ---
-title: "Pricing | Construction Cost Tracking from $99/month | Praevius"
-pagetitle: "Pricing | Construction Cost Tracking Software from $99/month | Praevius"
-description: "Praevius pricing: Free plan, Essential $99/mo, Professional $229/mo. Programme module in every plan. No per-user fees. 30-day free trial."
-keywords: "construction software pricing, cost tracking software price, Procore alternative pricing, affordable construction software"
+title: "Construction Programme Software Pricing | Praevius"
+pagetitle: "Construction Programme Software Pricing | Praevius"
+description: "Praevius pricing: Free, Essential $99, Professional $229 and Scale $449 a month. Gantt, critical path and voice programme on every plan. No per-user fees."
+keywords: "construction programme software pricing, construction scheduling software price, Gantt chart software pricing, critical path software cost, no per-user fees, MS Project import, Primavera XER export, construction cost control pricing"
 format:
   html:
     page-layout: full
@@ -38,26 +38,18 @@ format:
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Is there a free plan?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes. The Free plan gives you 3 projects, 1 team member and the programme module with 1 programme. Upgrade any time as your needs grow."
-                }
-              },
-              {
-                "@type": "Question",
                 "name": "Is the programme module included in every plan?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Every plan includes the programme module with Gantt, critical path, baselines and MS Project or Asta import. The plan sets how many programmes, baselines and imports you get: Free includes 1 programme, Essential 10, and Professional and Scale unlimited programmes of up to 2,000 tasks each."
+                  "text": "Yes. Every plan includes the programme module with Gantt, critical path, baselines, the programme assistant with voice input, import from MS Project, Asta or Primavera, and export for MS Project or Primavera. The plan sets how many programmes, baselines, imports and assistant requests you get: Free includes 1 programme of up to 150 tasks, Essential 10 programmes, and Professional and Scale unlimited programmes, each of up to 2,000 tasks."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What is Agent Access?",
+                "name": "Is there a free plan?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Agent Access connects your own AI agent (Claude, Cursor or Codex) to the Praevius MCP server with OAuth sign-in. Read access is available on every plan, including Free. Write tools need Professional or Scale, and every write needs your confirmation. You can revoke access at any time under Settings → Security → Connected agents."
+                  "text": "Yes. The Free plan gives you 3 projects, 1 team member and the programme module with 1 programme of up to 150 tasks. Upgrade any time as your needs grow."
                 }
               },
               {
@@ -78,6 +70,14 @@ format:
               },
               {
                 "@type": "Question",
+                "name": "How does the price compare with per-user programme licences?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Praevius charges one monthly price per company, not a licence for each user. Each plan includes a set number of team members: 1 on Free, 3 on Essential, 10 on Professional and unlimited on Scale. Adding a planner, site manager or QS to the team costs nothing extra until you reach the plan limit. Many scheduling tools are licensed per user, so compare the total cost for your whole team with the plan that fits."
+                }
+              },
+              {
+                "@type": "Question",
                 "name": "Can I change plans later?",
                 "acceptedAnswer": {
                   "@type": "Answer",
@@ -86,10 +86,10 @@ format:
               },
               {
                 "@type": "Question",
-                "name": "What about annual billing?",
+                "name": "Is annual billing available?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Pay annually and save 17%. Annual prices are $821.70 for Essential, $1,900.70 for Professional and $3,726.70 for Scale."
+                  "text": "Yes. Annual billing available at a lower price."
                 }
               },
               {
@@ -102,18 +102,18 @@ format:
               },
               {
                 "@type": "Question",
-                "name": "What's included in support?",
+                "name": "What is Agent Access?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Every plan includes email support at support@praevius.app."
+                  "text": "Agent Access connects your own AI agent to the Praevius MCP server. Agent access is available over MCP with OAuth sign-in; read on every plan, write actions need Professional or Scale and your confirmation."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How does Praevius compare to Procore?",
+                "name": "What's included in support?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Praevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. While Procore targets general contractors with enterprise features, Praevius delivers professional-grade cost control at mid-market pricing starting at $99/month."
+                  "text": "Every plan includes email support at support@praevius.app."
                 }
               }
             ]
@@ -125,9 +125,9 @@ format:
 <div class="hero-section full-width" style="padding: 4rem 2rem;">
 <div class="container">
 
-# Construction Cost Tracking Software: <span class="highlight">Simple, Transparent Pricing</span>
+# Construction Programme Software Pricing: <span class="highlight">One Price per Company</span>
 
-<p class="tagline">Professional-grade tools. Mid-market pricing. No surprises.</p>
+<p class="tagline">Talk to your programme on every plan. No per-user fees. Cost Control from Essential.</p>
 
 </div>
 </div>
@@ -137,10 +137,10 @@ format:
 <div class="container">
 
 <p style="text-align: center; max-width: 760px; margin: 0 auto 2.5rem; font-size: 1.125rem; color: #2C2C2C;">
-<strong>Every plan includes the programme module</strong> with Gantt, critical path, baselines and MS Project or Asta import. The plan sets how many programmes, baselines and imports you get.
+<strong>Every plan includes the programme module</strong> with Gantt, critical path, baselines, the programme assistant with voice input, import from MS Project, Asta or Primavera, and export for MS Project or Primavera. The plan sets how many programmes, baselines, imports and assistant requests you get. Each programme holds up to 2,000 tasks (150 on Free).
 </p>
 
-<p style="text-align: center; margin: 0 auto 2.5rem; color: #757575;">Prices in USD. Annual billing saves 17%. 30-day free trial on Essential and Professional, no credit card needed.</p>
+<p style="text-align: center; margin: 0 auto 2.5rem; color: #757575;">Monthly prices in USD, one plan per organisation. Annual billing available at a lower price. 30-day free trial on Essential and Professional, no credit card needed.</p>
 
 <div class="grid-4">
 
@@ -151,9 +151,6 @@ format:
 <p class="price">Free</p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
-<li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 3 projects</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">1 team member</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Programme</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">1 programme</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">150 tasks per programme</li>
@@ -161,24 +158,24 @@ format:
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">1 schedule import per month</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">3 exports per month</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">150 programme assistant requests per month</li>
+<li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 3 projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">1 team member</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Modules</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Agent Access (read only)</li>
 <li style="padding: 0.5rem 0;">Cost Control from Essential</li>
 </ul>
 
-<a href="https://app.praevius.app/login" class="btn btn-secondary" style="width: 100%;">Get Started</a>
+<a href="https://app.praevius.app/login" class="btn btn-secondary" style="width: 100%;" data-plan="free" data-cta="signup">Get Started</a>
 </div>
 
 <!-- Essential -->
 <div class="pricing-card">
 <h3>Essential</h3>
-<p style="color: #757575;">For solo QS and small subcontractors.</p>
+<p style="color: #757575;">For small subcontractors and solo planners or QS.</p>
 <p class="price">$99<span>/month</span></p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
-<li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 10 projects</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 3 team members</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Programme</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">10 programmes</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">2,000 tasks per programme</li>
@@ -186,6 +183,9 @@ format:
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">20 schedule imports per month</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited exports</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">3,000 programme assistant requests per month</li>
+<li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 10 projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 3 team members</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Modules</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Cost Control</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Google Drive Sync</li>
@@ -194,20 +194,17 @@ format:
 <li style="padding: 0.5rem 0;">Agent Access (read only)</li>
 </ul>
 
-<a href="https://app.praevius.app/start-trial?bundle=essential" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
+<a href="https://app.praevius.app/start-trial?bundle=essential" class="btn btn-secondary" style="width: 100%;" data-plan="essential" data-cta="trial">Start Free Trial</a>
 </div>
 
 <!-- Professional -->
 <div class="pricing-card featured">
 <div style="background: #FF9900; color: white; padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; margin-bottom: 1rem; font-size: 0.875rem; font-weight: 600;">MOST POPULAR</div>
 <h3>Professional</h3>
-<p style="color: #757575;">For growing firms with multiple projects.</p>
+<p style="color: #757575;">For growing firms running several jobs at once.</p>
 <p class="price">$229<span>/month</span></p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
-<li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 25 projects</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 10 team members</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Programme</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited programmes</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">2,000 tasks per programme</li>
@@ -215,6 +212,9 @@ format:
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">100 schedule imports per month</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited exports</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Programme assistant included in the full AI Assistant</li>
+<li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 25 projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 10 team members</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Modules</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Cost Control</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Google Drive Sync</li>
@@ -225,7 +225,7 @@ format:
 <li style="padding: 0.5rem 0;"><strong>AI Assistant and Agent Access</strong></li>
 </ul>
 
-<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="width: 100%;">Start Free Trial</a>
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="width: 100%;" data-plan="professional" data-cta="trial">Start Free Trial</a>
 </div>
 
 <!-- Scale -->
@@ -235,9 +235,6 @@ format:
 <p class="price">$449<span>/month</span></p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
-<li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited projects</li>
-<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited team members</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Programme</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited programmes</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">2,000 tasks per programme</li>
@@ -245,6 +242,9 @@ format:
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited schedule imports</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited exports</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Programme assistant included in the full AI Assistant</li>
+<li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited projects</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited team members</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Modules</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Cost Control</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Google Drive Sync</li>
@@ -257,7 +257,7 @@ format:
 <li style="padding: 0.5rem 0;"><strong>Schedule of Values</strong></li>
 </ul>
 
-<a href="contact.html" class="btn btn-secondary" style="width: 100%;">Contact Sales</a>
+<a href="contact.html" class="btn btn-secondary" style="width: 100%;" data-plan="scale" data-cta="contact-sales">Contact Sales</a>
 </div>
 
 </div>
@@ -274,18 +274,13 @@ format:
 <div class="grid-2">
 
 <div class="feature-card">
-<h3>Is there a free plan?</h3>
-<p>Yes. The Free plan gives you 3 projects, 1 team member and the programme module with 1 programme. Upgrade any time as your needs grow.</p>
-</div>
-
-<div class="feature-card">
 <h3>Is the programme module included in every plan?</h3>
-<p>Yes. Every plan includes the programme module with Gantt, critical path, baselines and MS Project or Asta import. The plan sets how many programmes, baselines and imports you get: Free includes 1 programme, Essential 10, and Professional and Scale unlimited programmes of up to 2,000 tasks each.</p>
+<p>Yes. Every plan includes the programme module with Gantt, critical path, baselines, the programme assistant with voice input, import from MS Project, Asta or Primavera, and export for MS Project or Primavera. The plan sets how many programmes, baselines, imports and assistant requests you get: Free includes 1 programme of up to 150 tasks, Essential 10 programmes, and Professional and Scale unlimited programmes, each of up to 2,000 tasks.</p>
 </div>
 
 <div class="feature-card">
-<h3>What is Agent Access?</h3>
-<p>Agent Access connects your own AI agent (Claude, Cursor or Codex) to the Praevius MCP server with OAuth sign-in. Read access is available on every plan, including Free. Write tools need Professional or Scale, and every write needs your confirmation. You can revoke access at any time under Settings → Security → Connected agents.</p>
+<h3>Is there a free plan?</h3>
+<p>Yes. The Free plan gives you 3 projects, 1 team member and the programme module with 1 programme of up to 150 tasks. Upgrade any time as your needs grow.</p>
 </div>
 
 <div class="feature-card">
@@ -299,13 +294,18 @@ format:
 </div>
 
 <div class="feature-card">
+<h3>How does the price compare with per-user programme licences?</h3>
+<p>Praevius charges one monthly price per company, not a licence for each user. Each plan includes a set number of team members: 1 on Free, 3 on Essential, 10 on Professional and unlimited on Scale. Adding a planner, site manager or QS to the team costs nothing extra until you reach the plan limit. Many scheduling tools are licensed per user, so compare the total cost for your whole team with the plan that fits.</p>
+</div>
+
+<div class="feature-card">
 <h3>Can I change plans later?</h3>
 <p>Yes. Change your plan anytime from the Billing page. If you cancel, your plan stays active until the end of the billing period, and you can reactivate it before that date.</p>
 </div>
 
 <div class="feature-card">
-<h3>What about annual billing?</h3>
-<p>Pay annually and save 17%. Annual prices are $821.70 for Essential, $1,900.70 for Professional and $3,726.70 for Scale.</p>
+<h3>Is annual billing available?</h3>
+<p>Yes. Annual billing available at a lower price.</p>
 </div>
 
 <div class="feature-card">
@@ -314,13 +314,13 @@ format:
 </div>
 
 <div class="feature-card">
-<h3>What's included in support?</h3>
-<p>Every plan includes email support at support@praevius.app.</p>
+<h3>What is Agent Access?</h3>
+<p>Agent Access connects your own AI agent to the Praevius MCP server. Agent access is available over MCP with OAuth sign-in; read on every plan, write actions need Professional or Scale and your confirmation.</p>
 </div>
 
 <div class="feature-card">
-<h3>How does Praevius compare to Procore?</h3>
-<p>Praevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. While Procore targets general contractors with enterprise features, Praevius delivers professional-grade cost control at mid-market pricing starting at $99/month.</p>
+<h3>What's included in support?</h3>
+<p>Every plan includes email support at support@praevius.app.</p>
 </div>
 
 </div>
@@ -335,10 +335,10 @@ format:
 <h2 class="section-title">Larger Team? <span>Talk to Us</span></h2>
 
 <p style="max-width: 600px; margin: 0 auto 2rem;">
-Scale is for mid-market contractors and multi-office teams, with unlimited projects and team members, Procore ↔ SharePoint Sync and Schedule of Values. Talk to us to start on Scale, plan your onboarding and bring in your existing programmes.
+Scale is for mid-market contractors and multi-office teams, with unlimited projects, team members and programmes, Procore ↔ SharePoint Sync and Schedule of Values. Talk to us to start on Scale, plan your onboarding and import your existing MS Project, Asta or Primavera programmes.
 </p>
 
-<a href="contact.html" class="btn btn-secondary">Talk to Sales</a>
+<a href="contact.html" class="btn btn-secondary" data-plan="scale" data-cta="contact-sales">Talk to Sales</a>
 
 </div>
 </div>
@@ -353,7 +353,7 @@ Scale is for mid-market contractors and multi-office teams, with unlimited proje
 If Praevius isn't right for your team, ask for a refund within 30 days of your first payment. See our <a href="terms-of-service.html" style="color: #FF9900;">terms of service</a>.
 </p>
 
-<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" data-plan="professional" data-cta="trial"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
 
 </div>
 </div>

@@ -1,8 +1,8 @@
 ---
-title: "Praevius | AI-Powered Construction Cost Control Software"
-pagetitle: "Praevius | AI-Powered Construction Cost Control Software"
-description: "AI-powered construction cost tracking software for subcontractors and QS professionals. Real-time budget visibility, variance detection, progress claims, and programmes with Gantt and critical path. Start free trial."
-keywords: "construction cost control software, subcontractor cost tracking, quantity surveying software, construction budget tracking, progress claim software, construction programme software, Gantt chart, MCP server"
+title: "Construction Programme Software with Voice AI | Praevius"
+pagetitle: "Construction Programme Software with Voice AI | Praevius"
+description: "Construction programme software you can talk to. Import MS Project, Asta or Primavera, update by voice or keyboard in the browser, export for MS Project or P6."
+keywords: "construction programme software, construction scheduling software, Gantt chart software, critical path, MS Project import, Asta Powerproject import, Primavera P6 XER, voice programme updates, subcontractor programme, construction cost control"
 format:
   html:
     page-layout: full
@@ -32,27 +32,25 @@ format:
             "@type": "SoftwareApplication",
             "name": "Praevius",
             "applicationCategory": "BusinessApplication",
-            "applicationSubCategory": "Construction Cost Management",
+            "applicationSubCategory": "Construction scheduling",
             "operatingSystem": "Web Browser",
-            "description": "AI-powered cost control software for construction subcontractors and QS professionals. Real-time budget tracking, variance detection, progress claim automation, and a programme module with Gantt, critical path and baselines.",
+            "description": "Construction programme software you can talk to. Import an MS Project, Asta Powerproject or Primavera programme, update it by voice or keyboard in the browser, check the critical path, and export it for MS Project or Primavera. One price per company. Cost Control on the same platform from the Essential plan.",
             "url": "https://praevius.app",
             "image": "https://praevius.app/images/praevius-app-icon.svg",
-            "screenshot": "https://praevius.app/images/praevius-app-icon.svg",
             "featureList": [
-              "Real-time budget tracking",
-              "AI-powered variance reports",
-              "S-curve forecasting (EVM)",
-              "Change order management",
-              "Progress claim automation",
-              "Schedule of Values (SOV)",
-              "Programme (Praevius Project): Gantt, critical path, baselines and progress",
-              "Import MS Project, Asta Powerproject and Primavera programmes",
-              "AI Assistant and Agent Access",
-              "Praevius MCP server",
-              "Xero Invoicing",
-              "QuickBooks Online",
-              "Sage Intacct",
-              "Procore ↔ SharePoint Sync"
+              "Construction programme with Gantt chart, critical path, total and free float",
+              "Voice input: speak or type programme changes in the browser",
+              "Programme AI assistant that builds and edits programmes from plain English",
+              "Import MS Project (.mpp, .xml), Asta Powerproject (.pp) and Primavera (.xer) programmes",
+              "Export MS Project XML, Primavera XER, PDF A3 and Excel",
+              "Import and export reports that list what could not be carried",
+              "Keyboard task grid, drag-and-drop Gantt, undo and redo",
+              "Baselines, progress by status date and programme validation",
+              "Agent access over MCP with OAuth sign-in",
+              "Cost Control module",
+              "Xero Invoicing, QuickBooks Online and Sage Intacct",
+              "Procore ↔ SharePoint Sync",
+              "Schedule of Values"
             ],
             "offers": [
               {
@@ -60,7 +58,7 @@ format:
                 "name": "Free",
                 "price": "0",
                 "priceCurrency": "USD",
-                "description": "Up to 3 projects, 1 team member, 1 programme"
+                "description": "1 programme, up to 150 tasks per programme, 1 schedule import per month, up to 3 projects, 1 team member"
               },
               {
                 "@type": "Offer",
@@ -73,7 +71,7 @@ format:
                   "priceCurrency": "USD",
                   "billingDuration": "P1M"
                 },
-                "description": "Up to 10 projects, 3 team members, 10 programmes, 1 of 3 accounting integrations"
+                "description": "10 programmes, up to 2,000 tasks per programme, 20 schedule imports per month, up to 10 projects, up to 3 team members, Cost Control, Google Drive Sync, SharePoint Document Sync, 1 of 3 accounting integrations"
               },
               {
                 "@type": "Offer",
@@ -86,7 +84,7 @@ format:
                   "priceCurrency": "USD",
                   "billingDuration": "P1M"
                 },
-                "description": "Up to 25 projects, 10 team members, unlimited programmes, AI Assistant and Agent Access"
+                "description": "Unlimited programmes, up to 2,000 tasks per programme, 100 schedule imports per month, up to 25 projects, up to 10 team members, AI Assistant and Agent Access, Cost Control, all 3 accounting integrations"
               },
               {
                 "@type": "Offer",
@@ -99,7 +97,7 @@ format:
                   "priceCurrency": "USD",
                   "billingDuration": "P1M"
                 },
-                "description": "Unlimited projects and team members, unlimited programmes, AI Assistant and Agent Access, Procore ↔ SharePoint Sync, Schedule of Values"
+                "description": "Unlimited programmes, up to 2,000 tasks per programme, unlimited schedule imports, unlimited projects and team members, AI Assistant and Agent Access, Cost Control, Procore ↔ SharePoint Sync, Schedule of Values"
               }
             ],
             "publisher": {
@@ -115,15 +113,15 @@ format:
 <div class="hero-section full-width">
 <div class="container">
 
-<img src="images/praevius-icon-orange.svg" alt="Praevius - AI-Powered Construction Cost Control Software" class="hero-logo" style="height: 160px; margin-bottom: 1.5rem;">
+<img src="images/praevius-icon-orange.svg" alt="Praevius - Construction Programme Software. Talk to your programme." class="hero-logo" style="height: 160px; margin-bottom: 1.5rem;">
 
-# AI-Powered Construction Cost Control: <span class="highlight">See Costs Before They Spiral</span>
+# Construction Programme Software <span class="highlight">You Can Talk To</span>
 
-<p class="tagline">AI-powered cost control and programmes for construction. Just ask.<br>No training. No manuals. Professional-grade insights.</p>
+<p class="tagline"><strong>Talk to your programme.</strong><br>Import your MS Project, Asta or Primavera programme, update it by voice or keyboard in the browser, and export it for MS Project or Primavera.</p>
 
 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
-<a href="features.html" class="btn btn-white">See How It Works</a>
+<a href="https://app.praevius.app/login" class="btn btn-primary" data-plan="free" data-cta="hero-signup"><i class="bi bi-rocket-takeoff"></i> Get Started Free</a>
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-white" data-plan="professional" data-cta="hero-trial">Start Free Trial</a>
 </div>
 
 </div>
@@ -134,138 +132,136 @@ format:
 <div class="container">
 
 <div class="definition-box">
-<strong>Praevius</strong> is AI-powered construction cost control software that gives subcontractors and quantity surveying professionals real-time budget visibility, automated variance detection, and progress claim automation. Starting at $99/month with a free tier available, it replaces manual cost tracking with professional-grade tools including AI-generated variance reports, S-curve forecasting, change order management, and integrations with Xero Invoicing, QuickBooks Online, Sage Intacct and Procore ↔ SharePoint Sync. Every plan includes Praevius Project, a programme module with Gantt, critical path, baselines and MS Project or Asta import. Built by quantity surveyors with 20 years of international construction experience. Supports UK (JCT/NEC), US (AIA), and Australian (SOPA) contract formats.
+<strong>Praevius</strong> is construction programme software you can talk to. Import an MS Project, Asta Powerproject or Primavera P6 programme into the browser, update it by voice or keyboard, check the critical path, and export it for MS Project or Primavera. It covers Gantt, critical path and float, baselines, progress and validation, with an AI assistant that makes changes from plain English and a report on every import and export. Made for subcontractors, package planners, site managers and small main contractors. One price per company with no per-user fees: a free plan, and paid plans from $99/month. Cost Control runs on the same platform from the Essential plan. Built by quantity surveyors with 20 years in construction.
 </div>
-
-<h2 class="section-title">Complete <span>Subcontractor Cost Tracking</span> Solution</h2>
-
-<p class="text-center mb-4" style="max-width: 800px; margin: 0 auto;">
-Praevius is <strong>quantity surveying software</strong> built specifically for UK and Australian trade contractors. Our <strong>construction progress claim software</strong> eliminates spreadsheet chaos and gives you real-time visibility into every project's budget performance. <a href="features.html">Explore all features</a>.
-</p>
 
 </div>
 </div>
 
-<!-- Problem Section -->
-<div class="section section-light">
+<!-- Import Section -->
+<div class="section section-light" id="import">
 <div class="container">
 
-<h2 class="section-title">The <span>Cost Overrun</span> Crisis</h2>
+<h2 class="section-title">Import the Programme <span>You Already Have</span></h2>
 
-<div class="grid-3">
-
-<div class="feature-card">
-<h3><i class="bi bi-graph-down"></i> 88% Error Rate</h3>
-<p>Construction spreadsheets contain costly errors. Manual tracking means missed variances and budget overruns discovered too late. See how our <a href="features.html">real-time tracking features</a> solve this.</p>
-</div>
-
-<div class="feature-card">
-<h3><i class="bi bi-clock"></i> Hours Wasted</h3>
-<p>Billing cycles require hunting through spreadsheets and PDFs, re-keying numbers, comparing line items manually.</p>
-</div>
-
-<div class="feature-card">
-<h3><i class="bi bi-cash-stack"></i> Cash Flow Blind</h3>
-<p>Only 12% of contractors get paid on time. Without real-time visibility, you're always reacting, never anticipating.</p>
-</div>
-
-</div>
-
-</div>
-</div>
-
-<!-- Solution Section -->
-<div class="section section-gray">
-<div class="container">
-
-<h2 class="section-title">Proactive <span>Intelligence</span></h2>
-
-<p class="text-center mb-4" style="max-width: 700px; margin: 0 auto 3rem;">
-Praevius (from Latin "going before") anticipates cost problems before they escalate. Connect your data once, get insights forever.
+<p class="text-center mb-4" style="max-width: 720px; margin: 0 auto 3rem;">
+Start from the file the main contractor sent you. Praevius reads MS Project, Asta Powerproject and Primavera programmes, and tells you exactly what came across before anything is saved.
 </p>
 
 <div class="grid-3">
 
 <div class="feature-card">
-<h3><i class="bi bi-bullseye"></i> Real-Time Tracking</h3>
-<p>Budget vs. actual at a glance. Know your cost performance index the moment it changes.</p>
+<h3><i class="bi bi-box-arrow-in-down"></i> Formats In</h3>
+<p>MS Project <span class="mono">.mpp</span> and <span class="mono">.xml</span>, Asta Powerproject <span class="mono">.pp</span> and Primavera <span class="mono">.xer</span>, up to 20 MB. Each import arrives as a new draft, so it never overwrites your live programme.</p>
 </div>
 
 <div class="feature-card">
-<h3><i class="bi bi-robot"></i> AI-Powered Reports</h3>
-<p>Generate variance reports in 2 minutes instead of 2 hours. Just ask for the report you need—the AI handles the rest. Learn more about <a href="features.html#ai-reporting">AI-powered reporting</a>.</p>
+<h3><i class="bi bi-clipboard-check"></i> A Report Before You Confirm</h3>
+<p>See the task and link counts, how many dates move, and what could not be carried. WBS, all four link types with lags, constraints, deadlines, milestones, calendars, holidays, progress, activity codes and custom fields come across.</p>
 </div>
 
 <div class="feature-card">
-<h3><i class="bi bi-chat-dots"></i> AI Assistant and Agent Access</h3>
-<p>Tell it what you need in plain English. Create reports, track costs, approve variations—no training required. Or connect Claude, Cursor or Codex through the <a href="features.html#mcp-server">Praevius MCP server</a>.</p>
+<h3><i class="bi bi-box-arrow-up"></i> Formats Out</h3>
+<p>Export for MS Project (XML) or Primavera (XER), or as a PDF A3 or Excel file for the main contractor. The export report lists anything the target format cannot hold.</p>
+</div>
+
+</div>
+
+<p class="text-center text-gray" style="max-width: 760px; margin: 2rem auto 0; font-size: 0.95rem;">
+Plain limits: up to 2,000 tasks per programme (150 on Free). No resource or cost loading. No native <span class="mono">.mpp</span> or <span class="mono">.pp</span> export; Asta Powerproject can import the MS Project XML, and may convert calendars. Task calendars, split tasks, resources and baselines stored in the file are not imported, and the report lists them.
+</p>
+
+</div>
+</div>
+
+<!-- Voice Section -->
+<div class="section section-gray" id="voice">
+<div class="container">
+
+<h2 class="section-title">Just <span>Say It</span></h2>
+
+<p class="text-center mb-4" style="max-width: 720px; margin: 0 auto 3rem;">
+Update the programme the way you would explain it on site. Speak or type, and the assistant makes the change and shows you what moved.
+</p>
+
+<div class="grid-3">
+
+<div class="feature-card">
+<h3><i class="bi bi-mic"></i> 1. You Say</h3>
+<p>"Push frame out a week."</p>
 </div>
 
 <div class="feature-card">
-<h3><i class="bi bi-graph-up-arrow"></i> S-Curve Forecasting</h3>
-<p>See where your project is headed, not just where it's been. EVM precision meets construction practicality.</p>
+<h3><i class="bi bi-bar-chart-steps"></i> 2. The Programme Updates</h3>
+<p>Frame moves a week later. The tasks linked after it move with it, the critical path recalculates, and the assistant tells you on screen what changed and where the finish date now sits.</p>
 </div>
 
 <div class="feature-card">
-<h3><i class="bi bi-link-45deg"></i> Seamless Integrations</h3>
-<p>Connect to Xero Invoicing, QuickBooks Online, Sage Intacct, Google Drive Sync and SharePoint Document Sync—even Procore ↔ SharePoint Sync for GC collaboration.</p>
+<h3><i class="bi bi-arrow-counterclockwise"></i> 3. Not Right? Undo</h3>
+<p>Ordinary edits apply at once and can be undone, up to the last 25 steps. Bigger changes, such as deleting more than 10 tasks, an import or a restore, are proposed first and run only when you confirm.</p>
+</div>
+
+</div>
+
+<div class="grid-2" style="margin-top: 2rem;">
+
+<div class="feature-card">
+<h3><i class="bi bi-chat-quote"></i> It Understands Site Language</h3>
+<ul>
+<li>"Piling started on 3 March and is 60% done."</li>
+<li>"Shut the site for Christmas."</li>
+<li>"What's driving the finish?"</li>
+</ul>
+<p>Or start from nothing: "Create a programme starting next Monday: groundworks 3 weeks, then frame 8 weeks, then fit-out 6 weeks." It asks for any missing durations and lists every assumption it makes.</p>
 </div>
 
 <div class="feature-card">
-<h3><i class="bi bi-phone"></i> Mobile Ready</h3>
-<p>Update costs from the field. Approve variations on site. Real construction happens beyond the office.</p>
+<h3><i class="bi bi-info-circle"></i> How Voice Works</h3>
+<ul>
+<li>Click the mic in the assistant panel and speak.</li>
+<li>Watch the live transcript and edit it if a word is wrong.</li>
+<li>It sends after about two seconds of silence, with a visible countdown.</li>
+<li>Replies appear on screen. Say "yes, go ahead" or "cancel" to answer a proposal.</li>
+<li>Works in Chrome, Edge and Safari with an internet connection, in English and Polish.</li>
+<li>Typing always works, in every browser.</li>
+</ul>
 </div>
 
-<div class="feature-card">
-<h3><i class="bi bi-mic"></i> Voice Commands</h3>
-<p>Speak your requests on site. "Show me Project Alpha status" or "Approve the variation"—hands-free cost control.</p>
-</div>
-
 </div>
 
 </div>
 </div>
 
-<!-- Programme Section -->
+<!-- Planning Tools Section -->
 <div class="section section-light" id="programme">
 <div class="container">
 
-<h2 class="section-title">Your Programme, <span>Next to Your Costs</span></h2>
+<h2 class="section-title">The Planning Tools <span>You Use Every Week</span></h2>
 
-<p class="text-center mb-4" style="max-width: 700px; margin: 0 auto 3rem;">
-Praevius Project gives you the critical path, Gantt and baselines you know from MS Project or Asta Powerproject—in the same place as your budget. <strong>Included in every plan.</strong>
+<p class="text-center mb-4" style="max-width: 720px; margin: 0 auto 3rem;">
+Critical path scheduling, a Gantt chart and a keyboard grid that works like MS Project. <strong>Included in every plan.</strong>
 </p>
 
-<div class="grid-3">
+<div class="grid-2">
 
 <div class="feature-card">
-<h3><i class="bi bi-diagram-3"></i> Critical Path</h3>
-<p>See which tasks drive your finish date. Critical tasks marked, with total and free float.</p>
+<h3><i class="bi bi-diagram-3"></i> Critical Path and Float</h3>
+<p>See which tasks drive your finish date. Critical tasks are marked, with total and free float, and the assistant explains the driving predecessors in plain English.</p>
 </div>
 
 <div class="feature-card">
-<h3><i class="bi bi-bar-chart-steps"></i> Drag-and-Drop Gantt</h3>
-<p>Move, resize and link tasks on the Gantt, or edit fast in the keyboard task grid. Undo and redo included.</p>
-</div>
-
-<div class="feature-card">
-<h3><i class="bi bi-arrow-left-right"></i> Bring Your Programme</h3>
-<p>Import MS Project, Asta Powerproject and Primavera files. Export MSPDI, XER, PDF or Excel for the main contractor.</p>
+<h3><i class="bi bi-keyboard"></i> Gantt and Keyboard Grid</h3>
+<p>Drag to move, stretch and link on the Gantt, or type fast in the grid: <span class="mono">3, 5SS+2d</span> for links, <span class="mono">2w</span> or <span class="mono">2ed</span> for durations. Edit many tasks in one step.</p>
 </div>
 
 <div class="feature-card">
 <h3><i class="bi bi-flag"></i> Baselines and Progress</h3>
-<p>Compare against your baseline and record progress by status date, percent complete and actual dates.</p>
+<p>Baseline the contract programme, compare against it or a saved version, and record progress by status date, percent complete and actual dates.</p>
 </div>
 
 <div class="feature-card">
 <h3><i class="bi bi-shield-check"></i> Validate Before You Issue</h3>
-<p>Catch open ends, negative float and constraints that fight the logic before the client does.</p>
-</div>
-
-<div class="feature-card">
-<h3><i class="bi bi-plug"></i> Praevius MCP Server</h3>
-<p>Connect Claude, Cursor or Codex with OAuth sign-in. Read access on every plan; every change needs your confirmation.</p>
+<p>Catch open ends, negative float and constraints that fight the logic before the main contractor does.</p>
 </div>
 
 </div>
@@ -277,25 +273,81 @@ Praevius Project gives you the critical path, Gantt and baselines you know from 
 </div>
 </div>
 
-<!-- For Who Section -->
-<div class="section section-light">
+<!-- Ease of Use Section -->
+<div class="section section-gray" id="easy">
 <div class="container">
 
-<h2 class="section-title">Built for <span>Your Business</span></h2>
+<h2 class="section-title">Easy <span>From Day One</span></h2>
 
-<div class="grid-2">
-
-<div class="feature-card">
-<h3><i class="bi bi-wrench-adjustable"></i> Trade Contractors</h3>
-<p>Electrical, mechanical, plumbing specialists with 10-50 employees. You need cost control that understands your world—variations, retainage, progress claims.</p>
-</div>
+<div class="grid-4">
 
 <div class="feature-card">
-<h3><i class="bi bi-rulers"></i> QS Professionals</h3>
-<p>Growing quantity surveying practices serving multiple clients. Professional <strong>quantity surveying software</strong> that scales with your workload without enterprise complexity. See how <a href="about.html">our QS background</a> shaped Praevius.</p>
+<h3><i class="bi bi-browser-chrome"></i> Nothing to Install</h3>
+<p>Open it in your browser and import your first programme. No desktop licence to manage.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-arrow-counterclockwise"></i> Undo and Redo</h3>
+<p>Undo and redo on every edit, whether you typed it, dragged it or said it.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-clock-history"></i> Full History</h3>
+<p>Your team works in the same programmes, with a full change history and protection against overwriting each other's edits.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-building"></i> One Price per Company</h3>
+<p>One plan for the whole organisation. No per-user fees. Several programmes per project.</p>
 </div>
 
 </div>
+
+</div>
+</div>
+
+<!-- For Who Section -->
+<div class="section section-light" id="who">
+<div class="container">
+
+<h2 class="section-title">Built for <span>Your Side of the Project</span></h2>
+
+<div class="grid-4">
+
+<div class="feature-card">
+<h3><i class="bi bi-wrench-adjustable"></i> Subcontractors</h3>
+<p>Electrical, mechanical, plumbing and specialist trades who must return a programme for their package and keep it current.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-diagram-2"></i> Package Planners</h3>
+<p>Take the main contractor's MS Project, Asta or Primavera file, plan your package in it, and export it as XML or XER for the main contractor.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-cone-striped"></i> Site Managers</h3>
+<p>Record progress and push dates by saying what happened on site, without learning a desktop planning tool.</p>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-buildings"></i> Small Main Contractors</h3>
+<p>Run programmes for several projects on one plan, for subcontractor, package and mid-size programmes up to 2,000 tasks.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Cost Section -->
+<div class="section section-gray" id="costs">
+<div class="container">
+
+<h2 class="section-title">Costs on the <span>Same Platform</span></h2>
+
+<p class="text-center mb-4" style="max-width: 720px; margin: 0 auto;">
+Need cost control too? The Cost Control module runs on the same projects from the Essential plan: budget tracking, <a href="features.html#ai-reporting">variance reports</a>, <a href="features.html#change-orders">change orders</a>, <a href="features.html#progress-claims">progress claims</a> and Xero Invoicing, QuickBooks Online or Sage Intacct. <a href="features.html#schedule-of-values">Schedule of Values</a> is on the Scale plan. New to variance tracking? Read our <a href="construction-cost-variance-tracking.html">cost variance tracking guide</a>.
+</p>
 
 </div>
 </div>
@@ -306,8 +358,8 @@ Praevius Project gives you the critical path, Gantt and baselines you know from 
 
 <h2 class="section-title">Simple, <span>Transparent</span> Pricing</h2>
 
-<p class="text-center mb-4" style="max-width: 600px; margin: 0 auto 3rem;">
-Start free, upgrade as you grow. Every plan includes the programme module. No per-user fees, no hidden costs. <a href="pricing.html">View full pricing details</a>.
+<p class="text-center mb-4" style="max-width: 640px; margin: 0 auto 3rem;">
+Every plan includes the programme module. One plan per company, no per-user fees. Prices in USD per month; annual billing available at a lower price. <a href="pricing.html">View full pricing details</a>.
 </p>
 
 <div class="grid-4">
@@ -316,57 +368,82 @@ Start free, upgrade as you grow. Every plan includes the programme module. No pe
 <h3>Free</h3>
 <p class="price">Free</p>
 <ul style="text-align: left; list-style: none; padding: 0;">
+<li>1 programme</li>
+<li>Up to 150 tasks per programme</li>
+<li>1 schedule import per month</li>
 <li>Up to 3 projects</li>
 <li>1 team member</li>
-<li>1 programme</li>
 </ul>
-<a href="https://app.praevius.app/login" class="btn btn-secondary" style="width: 100%;">Get Started</a>
+<a href="https://app.praevius.app/login" class="btn btn-secondary" style="width: 100%;" data-plan="free" data-cta="signup">Get Started</a>
 </div>
 
 <div class="pricing-card">
 <h3>Essential</h3>
 <p class="price">$99<span>/month</span></p>
 <ul style="text-align: left; list-style: none; padding: 0;">
+<li>10 programmes</li>
+<li>Up to 2,000 tasks per programme</li>
+<li>20 schedule imports per month</li>
 <li>Up to 10 projects</li>
 <li>Up to 3 team members</li>
-<li>10 programmes</li>
 <li>Cost Control</li>
 <li>Google Drive Sync, SharePoint Document Sync</li>
 <li>1 of 3 accounting integrations</li>
 </ul>
-<a href="https://app.praevius.app/start-trial?bundle=essential" class="btn btn-secondary" style="width: 100%;">Start Free Trial</a>
+<a href="https://app.praevius.app/start-trial?bundle=essential" class="btn btn-secondary" style="width: 100%;" data-plan="essential" data-cta="trial">Start Free Trial</a>
 </div>
 
 <div class="pricing-card featured">
 <h3>Professional</h3>
 <p class="price">$229<span>/month</span></p>
 <ul style="text-align: left; list-style: none; padding: 0;">
+<li>Unlimited programmes</li>
+<li>Up to 2,000 tasks per programme</li>
+<li>100 schedule imports per month</li>
 <li>Up to 25 projects</li>
 <li>Up to 10 team members</li>
-<li>Unlimited programmes</li>
+<li>AI Assistant and Agent Access</li>
 <li>Cost Control</li>
 <li>All 3 accounting integrations</li>
-<li>AI Assistant and Agent Access</li>
 </ul>
-<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="width: 100%;">Start Free Trial</a>
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" style="width: 100%;" data-plan="professional" data-cta="trial">Start Free Trial</a>
 </div>
 
 <div class="pricing-card">
 <h3>Scale</h3>
 <p class="price">$449<span>/month</span></p>
 <ul style="text-align: left; list-style: none; padding: 0;">
+<li>Unlimited programmes</li>
+<li>Up to 2,000 tasks per programme</li>
+<li>Unlimited schedule imports</li>
 <li>Unlimited projects</li>
 <li>Unlimited team members</li>
-<li>Unlimited programmes</li>
-<li>Cost Control</li>
 <li>AI Assistant and Agent Access</li>
+<li>Cost Control</li>
 <li>Procore ↔ SharePoint Sync</li>
 <li>Schedule of Values</li>
 </ul>
-<a href="contact.html" class="btn btn-secondary" style="width: 100%;">Contact Sales</a>
+<a href="contact.html" class="btn btn-secondary" style="width: 100%;" data-plan="scale" data-cta="contact-sales">Contact Sales</a>
 </div>
 
 </div>
+
+<p class="text-center text-gray" style="margin-top: 2rem; font-size: 0.95rem;">
+30-day free trial on Essential and Professional. No credit card required.
+</p>
+
+</div>
+</div>
+
+<!-- MCP Section -->
+<div class="section section-gray" id="mcp">
+<div class="container text-center">
+
+<h2 class="section-title">Bring Your Own <span>AI Agent</span></h2>
+
+<p style="max-width: 680px; margin: 0 auto;">
+Agent access is available over MCP with OAuth sign-in. Read access on every plan; write actions need Professional or Scale and your confirmation. <a href="features.html#mcp-server">How the Praevius MCP server works</a>.
+</p>
 
 </div>
 </div>
@@ -375,14 +452,14 @@ Start free, upgrade as you grow. Every plan includes the programme module. No pe
 <div class="section section-dark" id="cta">
 <div class="container text-center">
 
-<h2 class="section-title" style="color: white;">Ready to See Costs <span>Before They Spiral?</span></h2>
+<h2 class="section-title" style="color: white;">Talk to <span>Your Programme</span></h2>
 
 <p style="color: #F0F0F0; max-width: 600px; margin: 0 auto 2rem;">
-Start your free trial today. Experience AI-powered cost control built specifically for construction professionals.
+Import the programme you already have and make your first change by voice. Speak or type; replies appear on screen.
 </p>
 
 <div style="margin: 0 auto;">
-<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
+<a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" data-plan="professional" data-cta="footer-trial"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>
 <p style="color: #757575; font-size: 0.875rem; margin-top: 1rem;">30-day free trial. No credit card required.</p>
 </div>
 
@@ -394,8 +471,8 @@ Start your free trial today. Experience AI-powered cost control built specifical
 <div class="container text-center">
 
 <p style="color: #757575;">
-<strong>Praevius</strong> is the cost control intelligence layer of the <a href="https://bimtakeoff.com" target="_blank">BIM Takeoff</a> ecosystem.<br>
-20 years of construction expertise, now powered by AI.
+<strong>Praevius</strong> is the programme and cost platform of the <a href="https://bimtakeoff.com" target="_blank">BIM Takeoff</a> ecosystem.<br>
+Built by quantity surveyors with 20 years in construction.
 </p>
 
 </div>

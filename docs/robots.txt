@@ -1,4 +1,4 @@
-# Praevius - AI-Powered Construction Cost Control Software
+# Praevius - Construction Programme Software. Talk to your programme.
 # https://praevius.app
 
 User-agent: *

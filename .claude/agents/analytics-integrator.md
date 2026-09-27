@@ -45,7 +45,7 @@ dataLayer.push({
 // Trial started
 dataLayer.push({
   'event': 'trial_started',
-  'feature_interest': 'ai_reports'
+  'feature_interest': 'programme_import'
 });
 
 // Upgrade completed
@@ -53,9 +53,11 @@ dataLayer.push({
   'event': 'upgrade_completed',
   'plan_from': 'free',
   'plan_to': 'professional',
-  'mrr_value': 179
+  'mrr_value': 229
 });
 ```
+
+**Current plan data (claims sheet):** Free $0, Essential $99, Professional $229, Scale $449 per month (USD). Do not detect plans from price text; use explicit `data-plan` / `data-cta` attributes on CTAs. Free sign-up (`/login`) is separate from a paid trial; Scale is "Contact Sales". Fire the contact event only after the API returns success. Source: `~/claude-brain/runs/repo/praevius-website/claims-sheet.md`.
 
 **Quarto Implementation:**
 ```yaml

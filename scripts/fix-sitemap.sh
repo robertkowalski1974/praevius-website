@@ -14,7 +14,7 @@ fi
 # Generate robots.txt with AI crawler directives
 # Quarto auto-generates a minimal robots.txt; this overwrites it
 cat > docs/robots.txt << 'ROBOTS_EOF'
-# Praevius - AI-Powered Construction Cost Control Software
+# Praevius - Construction Programme Software. Talk to your programme.
 # https://praevius.app
 
 User-agent: *

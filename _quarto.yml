@@ -18,7 +18,7 @@ project:
 website:
   title: "Praevius"
   site-url: "https://praevius.app"
-  description: "AI-Powered Construction Cost Control Software for Subcontractors and QS Professionals"
+  description: "Construction programme software you can talk to. Talk to your programme: import MS Project, Asta or Primavera, update it by voice or keyboard, export for MS Project or Primavera."
   favicon: images/praevius-icon-orange.svg
 
   # XML Sitemap configuration
@@ -35,7 +35,7 @@ website:
     background: "#2C2C2C"
     foreground: "#FFFFFF"
     logo: "images/praevius-logo-white.svg"
-    logo-alt: "Praevius - AI-Powered Construction Cost Control Software"
+    logo-alt: "Praevius - Construction Programme Software. Talk to your programme."
     left:
       - text: "Home"
         href: index.qmd
@@ -62,7 +62,7 @@ website:
     foreground: "#FFFFFF"
     left: |
       © 2026 Praevius. All rights reserved.<br>
-      AI-Powered Construction Cost Control Software
+      Construction Programme Software. Talk to your programme.
     center: |
       **Product:** [Features](/features.html) | [Pricing](/pricing.html)<br>
       **Resources:** [Cost Variance Tracking Guide](/construction-cost-variance-tracking.html)<br>
@@ -101,8 +101,8 @@ format:
 
           <!-- Twitter Card metadata -->
           <meta name="twitter:card" content="summary_large_image">
-          <meta name="twitter:title" content="Praevius - AI-Powered Construction Cost Control Software">
-          <meta name="twitter:description" content="See costs before they spiral. AI-powered cost control for construction subcontractors and QS professionals.">
+          <meta name="twitter:title" content="Praevius - Construction Programme Software You Can Talk To">
+          <meta name="twitter:description" content="Talk to your programme. Import MS Project, Asta or Primavera, update it by voice or keyboard in the browser, and export it for MS Project or Primavera.">
 
           <!-- Organization Schema (site-wide) -->
           <script type="application/ld+json">
@@ -113,7 +113,7 @@ format:
             "legalName": "Praevius",
             "url": "https://praevius.app",
             "logo": "https://praevius.app/images/praevius-logo-full.svg",
-            "description": "AI-powered construction cost control software for subcontractors and quantity surveying professionals.",
+            "description": "Construction programme software you can talk to, for subcontractors and contractors. Talk to your programme: import MS Project, Asta or Primavera, update it by voice or keyboard in the browser, and export it for MS Project or Primavera. Cost control on the same platform.",
             "foundingDate": "2024",
             "address": {
               "@type": "PostalAddress",
@@ -152,7 +152,7 @@ format:
             "@type": "WebSite",
             "name": "Praevius",
             "url": "https://praevius.app",
-            "description": "AI-powered construction cost control software",
+            "description": "Construction programme software you can talk to. Talk to your programme.",
             "publisher": {
               "@type": "Organization",
               "name": "Praevius"

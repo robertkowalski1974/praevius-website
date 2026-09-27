@@ -1,64 +1,79 @@
 # Praevius
 
-> AI-powered construction cost control software for subcontractors and QS professionals. See costs before they spiral.
+> Construction programme software you can talk to. Import your MS Project, Asta Powerproject or Primavera programme, update it by voice or keyboard in the browser, and export it for MS Project or Primavera. One price per company. Talk to your programme.
 
 ## About
 
-Praevius is a SaaS platform providing real-time budget tracking, an AI assistant for variance reports, S-curve forecasting (Earned Value Management), change order management, progress claim automation and a programme module (Praevius Project: Gantt, critical path, baselines, MS Project / Asta / Primavera import) for construction trade contractors and quantity surveying professionals. AI agents such as Claude, Cursor and Codex can connect through the Praevius MCP server. Founded by quantity surveyors with 20 years of international construction experience across the UK, Australia, and Poland. Part of the BIM Takeoff ecosystem.
+Praevius is browser-based construction scheduling software for subcontractors, package planners, site managers and small to mid-size main contractors. It runs the construction programme (Gantt chart, critical path, float, baselines, progress) with a programme AI assistant that you can speak to or type to. The workflow is: import the programme you already have, update it by voice or keyboard, check it, and export it. Cost control is a separate module on the same platform (Essential plan and above). Built by quantity surveyors with 20 years in construction across the UK, Australia and Poland. Praevius is the programme and cost platform of the BIM Takeoff ecosystem.
 
-## Target Market
+## Programme
 
-- Trade contractors (electrical, mechanical, plumbing) with 10-50 employees
-- Quantity surveying practices serving multiple clients
-- UK and Australia primary markets
+- Critical path scheduling on the programme calendar; critical tasks marked; total and free float
+- Gantt chart: drag to move, stretch and link tasks
+- Keyboard grid like MS Project (for example `3, 5SS+2d`, `2w`, `2ed`); bulk edit; undo and redo
+- WBS, FS/SS/FF/SF links with lags, 8 constraint types, deadlines, milestones, hammock tasks
+- Project calendar and holidays; several programmes per project
+- Baselines and comparison with a baseline or a saved version; progress with status date, percent complete and actual dates
+- Validate: quality warnings such as open ends, negative float and constraints that fight the logic
+- Browser, nothing to install; several users with full history and conflict protection
+- Limits: no resource or cost loading; up to 2,000 tasks per programme (150 on Free). Built for subcontractor, package and mid-size main-contractor programmes, not 10,000-activity megaprojects.
+
+## Import and export
+
+- Import MS Project .mpp and .xml, Asta Powerproject .pp and Primavera .xer (up to 20 MB, 2,000 tasks, 3,000 links)
+- Each import arrives as a new draft and never overwrites a programme. An import report shows task and link counts, how many dates move and what could not be carried, before you confirm.
+- Kept: WBS, links with lags, constraints, deadlines, milestones, notes, project calendar and holidays, progress, hammocks, activity codes and custom fields
+- Not kept (listed in the report): task calendars, split tasks, percentage lags, resources and costs, P6 secondary constraints, links outside the file, summary-task links, baselines stored in the file
+- Export for MS Project (MS Project XML) or Primavera (XER), plus PDF (A3) and Excel. Each export shows a report of what could not be carried.
+- No native .mpp or .pp export. Asta Powerproject can import the MS Project XML (it may convert calendars).
+
+## Voice
+
+- Click the mic in the assistant panel, speak, and edit the live transcript if needed. It sends after about 2 seconds of silence, with a visible countdown.
+- Handles self-corrections ("ten days, no, twelve") and queues speech while the assistant is busy
+- Understands site phrasing: "a fortnight", "push frame out a week", "can't start before 3 March", "what's driving the finish?", "shut the site for Christmas", "baseline this as the contract programme", "piling started on 3 March and is 60% done"
+- Confirm by voice: "yes" or "go ahead"; cancel with "no" or "cancel"
+- Replies are on screen. Typing always works.
+- Uses the browser's speech recognition: Chrome, Edge and Safari (not Firefox), with an internet connection. Languages: English and Polish.
+
+## Programme AI assistant
+
+- 18 programme tools: create, batch edit (up to 200 changes), links, calendars and holidays, baselines, compare, restore, undo and redo, validate, custom fields and activity codes, export XML/XER, import
+- Builds a programme from a spoken or typed description, asks for missing durations and lists every assumption
+- Explains the critical path and driving predecessors; lists tasks by float
+- Ordinary edits apply at once and can be undone (last 25 steps). Larger or destructive changes (deleting more than 10 tasks, imports, restores, deleting a programme or field, changing the current programme) are proposed first and run only when you confirm.
+
+## Agent access (MCP)
+
+Agent access is available over MCP with OAuth sign-in; read on every plan, write actions need Professional or Scale and your confirmation. Server URL: https://app.praevius.app/api/mcp. Works with agents that support remote MCP servers, such as Claude, Cursor or Codex; sign in with Google or Microsoft; remove an agent at any time under Settings → Security → Connected agents.
 
 ## Pricing
 
-One plan per organisation. The plan is the only thing sold: no per-user fees and no per-module prices. Prices in USD.
+One plan per organisation. No per-user fees. Prices in USD, per month.
 
-- Free: $0/mo — 3 projects, 1 team member; programme module (1 programme, 150 tasks, 150 programme assistant requests/month); agent read access over MCP
-- Essential: $99/mo ($821.70/yr) — 10 projects, 3 team members; Cost Control, Google Drive Sync, SharePoint Document Sync, 1 of Xero Invoicing / QuickBooks Online / Sage Intacct; 10 programmes of up to 2,000 tasks, 3,000 programme assistant requests/month
-- Professional: $229/mo ($1,900.70/yr, most popular) — 25 projects, 10 team members; everything in Essential, all 3 accounting modules, AI Assistant and Agent Access (agent read and write); unlimited programmes of up to 2,000 tasks
-- Scale: $449/mo ($3,726.70/yr) — unlimited projects and team members; everything in Professional, Procore ↔ SharePoint Sync, Schedule of Values; unlimited programmes, baselines and schedule imports. Contact Sales: https://praevius.app/contact.html
+- Free: $0/month — 3 projects, 1 team member; 1 programme of up to 150 tasks; 150 programme assistant requests/month; agent read access over MCP
+- Essential: $99/month — 10 projects, 3 team members; 10 programmes of up to 2,000 tasks; 3,000 programme assistant requests/month; Cost Control; Google Drive Sync, SharePoint Document Sync; 1 of Xero Invoicing / QuickBooks Online / Sage Intacct
+- Professional: $229/month (most popular) — 25 projects, 10 team members; unlimited programmes of up to 2,000 tasks; everything in Essential; all 3 accounting modules; AI Assistant and Agent Access (agent read and write)
+- Scale: $449/month — unlimited projects and team members; unlimited programmes, baselines and schedule imports; everything in Professional; Procore ↔ SharePoint Sync; Schedule of Values. Scale starts through sales: https://praevius.app/contact.html
 
-Annual billing saves 17%. 30-day free trial on Essential and Professional, no credit card required; Scale starts through sales. A trial that ends without payment falls back to the Free limits; nothing is deleted. Full programme quotas per plan: https://praevius.app/llms-full.txt
+Annual billing available at a lower price. 30-day free trial on Essential and Professional, no credit card required. A trial that ends without payment falls back to the Free limits; nothing is deleted. Every plan includes email support at support@praevius.app. Full quotas: https://praevius.app/llms-full.txt
 
-## Key Features
+## Cost control (secondary module)
 
-- Real-time budget vs. actual cost tracking with traffic light indicators
-- AI Assistant: variance reports generated in minutes via natural language
-- S-curve forecasting with CPI, SPI, EAC projections
-- Change order management with entitlement flagging (captures 8-14% project value)
-- Progress claim automation (UK JCT/NEC, US AIA, AU SOPA formats)
-- Schedule of Values with many-to-many WBS-to-billing mapping
-- Voice commands for field use
-- Integrations: Xero, QuickBooks Online, Sage Intacct, Google Drive, SharePoint, Procore
+Cost Control is a separate module on Essential and above, on the same platform and projects: budget vs actual tracking with traffic-light variance indicators, change order (variation) management, progress claims and integrations with Xero, QuickBooks Online and Sage Intacct. AI variance reports are part of the AI Assistant module (Professional and Scale). Schedule of Values is on Scale only.
 
-## Programme module (Praevius Project)
+## Praevius compared with MS Project, Asta Powerproject and Primavera P6
 
-Included in every plan, including Free. The plan sets how many programmes, baselines and imports you get.
-
-- Critical path scheduling on the programme calendar; critical tasks marked; total and free float
-- Gantt chart with drag to move, resize and link; task grid with keyboard editing; bulk edit; undo and redo
-- Constraints, deadlines, hammock tasks, milestones, WBS structure; several programmes per project
-- Baselines and comparison; progress with status date, percent complete and actual dates
-- Import MS Project .mpp, MSPDI .xml, Asta Powerproject .pp and Primavera .xer, each with a loss report; export MSPDI, XER, PDF (A3) and Excel
-- Validate: quality warnings (open ends, negative float, constraints that fight the logic)
-- Programme AI assistant: every change proposed with a preview and applied only after confirmation
-- Limits: no resource or cost loading; 2,000 tasks per programme
-
-## Praevius MCP server (Agent Access)
-
-Connect Claude, Cursor or Codex to Praevius over MCP with OAuth sign-in (Google or Microsoft). Server URL: https://app.praevius.app/api/mcp
-
-- Read access (projects, programmes, budgets, valuations, documents) on every plan, including Free
-- Write tools on Professional and Scale; every write needs the user's confirmation
-- Access is revocable under Settings → Security → Connected agents
+- Praevius runs in the browser with nothing to install; one price per company instead of per-user licences
+- Imports .mpp, .pp, .xml and .xer; exports for MS Project or Primavera, with a report of what could not be carried
+- Update the programme by voice or typing through the AI assistant
+- Praevius does not do resource or cost loading and is limited to 2,000 tasks per programme. For resource-loaded or very large programmes, keep your desktop planning tool.
 
 ## Links
 
 - [Homepage](https://praevius.app/)
 - [Features](https://praevius.app/features.html)
+- [Programme features](https://praevius.app/features.html#programme)
 - [Pricing](https://praevius.app/pricing.html)
 - [About](https://praevius.app/about.html)
 - [Contact](https://praevius.app/contact.html)
