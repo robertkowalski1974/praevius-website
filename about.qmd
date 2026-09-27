@@ -50,7 +50,7 @@ format:
                 "name": "What is Praevius used for?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Praevius is AI-powered cost control software used by construction subcontractors and quantity surveying professionals for real-time budget tracking, variance detection, AI-generated reports, S-curve forecasting, change order management, and progress claim automation."
+                  "text": "Praevius is AI-powered cost control software used by construction subcontractors and quantity surveying professionals for real-time budget tracking, variance detection, AI-generated reports, S-curve forecasting, change order management, progress claim automation, and construction programmes (Gantt, critical path, baselines, MS Project and Asta import) in the programme module included in every plan."
                 }
               },
               {
@@ -58,7 +58,7 @@ format:
                 "name": "What makes Praevius different from other construction software?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Praevius is built specifically for subcontractors and QS professionals, not enterprise general contractors. It offers professional-grade cost control at mid-market pricing (from $99/month with no per-user fees), uses AI for natural language reporting and voice commands, and supports multiple contract formats (UK JCT/NEC, US AIA, AU SOPA). The AI assistant interface means no training or manuals are required."
+                  "text": "Praevius is built specifically for subcontractors and QS professionals, not enterprise general contractors. It offers professional-grade cost control at mid-market pricing (from $99/month with no per-user fees), includes a programme module with Gantt, critical path, baselines and MS Project, Asta Powerproject or Primavera import in every plan, uses AI for natural language reporting and voice commands, and supports multiple contract formats (UK JCT/NEC, US AIA, AU SOPA). The AI assistant interface means no training or manuals are required, and Claude, Cursor or Codex can connect through the Praevius MCP server (read access on every plan; write access with the AI Assistant and Agent Access module on Professional and Scale)."
                 }
               },
               {

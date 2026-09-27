@@ -4,7 +4,7 @@
 
 ## About
 
-Praevius is a SaaS platform providing real-time budget tracking, AI-powered variance reports, S-curve forecasting (Earned Value Management), change order management, and progress claim automation for construction trade contractors and quantity surveying professionals. Founded by quantity surveyors with 20 years of international construction experience across the UK, Australia, and Poland. Part of the BIM Takeoff ecosystem.
+Praevius is a SaaS platform providing real-time budget tracking, an AI assistant for variance reports, S-curve forecasting (Earned Value Management), change order management, progress claim automation and a programme module (Praevius Project: Gantt, critical path, baselines, MS Project / Asta / Primavera import) for construction trade contractors and quantity surveying professionals. AI agents such as Claude, Cursor and Codex can connect through the Praevius MCP server. Founded by quantity surveyors with 20 years of international construction experience across the UK, Australia, and Poland. Part of the BIM Takeoff ecosystem.
 
 ## Target Market
 
@@ -14,23 +14,46 @@ Praevius is a SaaS platform providing real-time budget tracking, AI-powered vari
 
 ## Pricing
 
-- Free: $0/mo — 3 projects, 1 user, core cost tracking
-- Essential: $99/mo — 10 projects, 3 users, 1 accounting integration
-- Professional: $229/mo — 25 projects, 10 users, all integrations, Claude AI Reports
-- Scale: $449/mo — unlimited projects and users, Procore sync, Schedule of Values
+One plan per organisation. The plan is the only thing sold: no per-user fees and no per-module prices. Prices in USD.
 
-No per-user fees. 30-day free trial. 17% annual billing discount.
+- Free: $0/mo — 3 projects, 1 team member; programme module (1 programme, 150 tasks, 150 programme assistant requests/month); agent read access over MCP
+- Essential: $99/mo ($821.70/yr) — 10 projects, 3 team members; Cost Control, Google Drive Sync, SharePoint Document Sync, 1 of Xero Invoicing / QuickBooks Online / Sage Intacct; 10 programmes of up to 2,000 tasks, 3,000 programme assistant requests/month
+- Professional: $229/mo ($1,900.70/yr, most popular) — 25 projects, 10 team members; everything in Essential, all 3 accounting modules, AI Assistant and Agent Access (agent read and write); unlimited programmes of up to 2,000 tasks
+- Scale: $449/mo ($3,726.70/yr) — unlimited projects and team members; everything in Professional, Procore ↔ SharePoint Sync, Schedule of Values; unlimited programmes, baselines and schedule imports. Contact Sales: https://praevius.app/contact.html
+
+Annual billing saves 17%. 30-day free trial on Essential and Professional, no credit card required; Scale starts through sales. A trial that ends without payment falls back to the Free limits; nothing is deleted. Full programme quotas per plan: https://praevius.app/llms-full.txt
 
 ## Key Features
 
 - Real-time budget vs. actual cost tracking with traffic light indicators
-- AI-powered variance reports generated in minutes via natural language
+- AI Assistant: variance reports generated in minutes via natural language
 - S-curve forecasting with CPI, SPI, EAC projections
 - Change order management with entitlement flagging (captures 8-14% project value)
 - Progress claim automation (UK JCT/NEC, US AIA, AU SOPA formats)
 - Schedule of Values with many-to-many WBS-to-billing mapping
 - Voice commands for field use
-- Integrations: Xero, QuickBooks, Sage, Google Drive, SharePoint, Procore
+- Integrations: Xero, QuickBooks Online, Sage Intacct, Google Drive, SharePoint, Procore
+
+## Programme module (Praevius Project)
+
+Included in every plan, including Free. The plan sets how many programmes, baselines and imports you get.
+
+- Critical path scheduling on the programme calendar; critical tasks marked; total and free float
+- Gantt chart with drag to move, resize and link; task grid with keyboard editing; bulk edit; undo and redo
+- Constraints, deadlines, hammock tasks, milestones, WBS structure; several programmes per project
+- Baselines and comparison; progress with status date, percent complete and actual dates
+- Import MS Project .mpp, MSPDI .xml, Asta Powerproject .pp and Primavera .xer, each with a loss report; export MSPDI, XER, PDF (A3) and Excel
+- Validate: quality warnings (open ends, negative float, constraints that fight the logic)
+- Programme AI assistant: every change proposed with a preview and applied only after confirmation
+- Limits: no resource or cost loading; 2,000 tasks per programme
+
+## Praevius MCP server (Agent Access)
+
+Connect Claude, Cursor or Codex to Praevius over MCP with OAuth sign-in (Google or Microsoft). Server URL: https://app.praevius.app/api/mcp
+
+- Read access (projects, programmes, budgets, valuations, documents) on every plan, including Free
+- Write tools on Professional and Scale; every write needs the user's confirmation
+- Access is revocable under Settings → Security → Connected agents
 
 ## Links
 

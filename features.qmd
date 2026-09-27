@@ -1,8 +1,8 @@
 ---
 title: "Construction Cost Control Features | Real-Time Tracking & AI Insights | Praevius"
 pagetitle: "Construction Cost Control Features | Real-Time Tracking & AI Insights | Praevius"
-description: "Real-time budget tracking, AI-powered variance reports, S-curve forecasting, change order management, and progress claim automation. Complete construction cost control features."
-keywords: "construction cost tracking features, real-time budget tracking, AI variance reports, S-curve forecasting, change order management, progress claim automation"
+description: "Real-time budget tracking, AI variance reports, construction programmes with Gantt and critical path, MS Project and Asta import, change order management and progress claim automation."
+keywords: "construction cost tracking features, real-time budget tracking, AI variance reports, construction programme software, Gantt chart, critical path, MS Project import, Asta Powerproject import, MCP server, change order management, progress claim automation"
 format:
   html:
     page-layout: full
@@ -42,7 +42,7 @@ format:
                 "name": "What is AI-powered cost reporting for construction?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "AI-powered cost reporting uses artificial intelligence to generate professional variance reports from natural language requests. In Praevius, you ask for the report you need in plain English — for example, 'Generate variance report for Project Alpha' — and receive a complete report with plain English explanations of cost drivers, trend analysis, and executive summaries in minutes instead of hours. Available on Professional tier and above."
+                  "text": "AI-powered cost reporting uses artificial intelligence to generate professional variance reports from natural language requests. In Praevius, you ask for the report you need in plain English — for example, 'Generate variance report for Project Alpha' — and receive a complete report with plain English explanations of cost drivers, trend analysis, and executive summaries in minutes instead of hours. Part of the AI Assistant and Agent Access module on the Professional and Scale plans."
                 }
               },
               {
@@ -50,7 +50,23 @@ format:
                 "name": "What integrations does Praevius support?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Praevius integrates with Xero, QuickBooks, and Sage for accounting; Google Drive, SharePoint, and OneDrive for cloud storage; and Procore for general contractor collaboration (Scale plan). Essential plan includes 1 accounting integration plus Google Drive. Professional and Scale plans include all integrations. An open API is available for custom connections."
+                  "text": "For accounting, Praevius connects to Xero Invoicing, QuickBooks Online and Sage Intacct. For documents, it offers Google Drive Sync and SharePoint Document Sync. For general contractor collaboration, the Scale plan adds Procore ↔ SharePoint Sync. The Essential plan includes 1 of the 3 accounting integrations; the Professional and Scale plans include all 3."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can Praevius replace MS Project or Asta for my programme?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "For the weekly programme work most subcontractors and QS teams do, yes. Praevius Project, the programme module, gives you critical path scheduling with total and free float, a Gantt chart, constraints, deadlines, milestones, baselines and progress against a status date. You can import MS Project (.mpp and MSPDI .xml), Asta Powerproject (.pp) and Primavera (.xer) files, and export MSPDI, XER, PDF and Excel, so you can still exchange programmes with the main contractor. It does not do resource or cost loading, and a programme holds up to 2,000 tasks (150 on the Free plan). If you need resource levelling or cost-loaded programmes, keep your current tool for that work. The programme module is included in every plan; the plan sets how many programmes, baselines and imports you get."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the Praevius MCP server?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Praevius MCP server lets you connect your own AI agent, such as Claude, Cursor or Codex, to Praevius. You sign in with OAuth and approve the connection in your browser. Read access to projects, programmes, budgets, valuations and documents is available on every plan, including Free. Write tools need the Professional or Scale plan, and the agent must show you a preview of every change and wait for your confirmation. You can revoke an agent at any time under Settings → Security → Connected agents."
                 }
               },
               {
@@ -109,7 +125,7 @@ format:
                 "@type": "HowToStep",
                 "position": 1,
                 "name": "Connect Your Data",
-                "text": "Link Praevius to your accounting software (Xero, QuickBooks, or Sage) and cloud storage (Google Drive, SharePoint). Your budget and actual cost data syncs automatically."
+                "text": "Link Praevius to your accounting software (Xero Invoicing, QuickBooks Online or Sage Intacct) and your documents (Google Drive Sync or SharePoint Document Sync). Your budget and actual cost data syncs automatically."
               },
               {
                 "@type": "HowToStep",
@@ -134,7 +150,7 @@ format:
 
 # Construction Cost Control Features: <span class="highlight">Real-Time Tracking & AI Insights</span>
 
-<p class="tagline">From real-time tracking to AI-powered forecasting. One platform, complete visibility.</p>
+<p class="tagline">From real-time cost tracking to your construction programme. Costs and programme in one place.</p>
 
 </div>
 </div>
@@ -143,10 +159,10 @@ format:
 <div class="section section-light">
 <div class="container">
 
-<h2 class="section-title">Your <span>AI Assistant</span></h2>
+<h2 class="section-title" id="ai-assistant">AI Assistant and <span>Agent Access</span></h2>
 
 <p class="text-center mb-4" style="max-width: 700px; margin: 0 auto 2rem;">
-No menus to learn. No training required. Just tell Praevius what you need in plain English—or speak it on site.
+No menus to learn. No training required. Just tell Praevius what you need in plain English—or speak it on site. Prefer your own agent? Connect it through the <a href="#mcp-server">Praevius MCP server</a>. The full AI Assistant and Agent Access module is on the Professional and Scale plans.
 </p>
 
 <div class="grid-2" style="max-width: 900px; margin: 0 auto;">
@@ -172,6 +188,114 @@ No menus to learn. No training required. Just tell Praevius what you need in pla
 </div>
 
 </div>
+
+</div>
+</div>
+
+<!-- Programme Section -->
+<div class="section section-gray" id="programme">
+<div class="container">
+
+<h2 class="section-title">Programme <span>(Praevius Project)</span></h2>
+
+<p class="text-center mb-4" style="max-width: 750px; margin: 0 auto 3rem;">
+Plan the job in the same place you track its cost. Praevius Project covers what a construction planner does each week in MS Project or Asta Powerproject: critical path, Gantt, baselines and progress. <strong>Included in every plan</strong>—the plan sets how many programmes, baselines and imports you get.
+</p>
+
+<div class="grid-2">
+
+<div class="feature-card">
+<h3><i class="bi bi-diagram-3"></i> Critical Path Scheduling</h3>
+<p>Dates are calculated by the critical path method on the programme calendar, with working days and exceptions. See straight away which tasks drive your finish date.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Critical tasks marked on the Gantt</li>
+<li>Total float and free float columns</li>
+<li>Finish-to-start, start-to-start, finish-to-finish and start-to-finish links with lags</li>
+<li>Deadlines that warn when they are missed</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-bar-chart-steps"></i> Gantt and Task Grid</h3>
+<p>Build and change the programme quickly, with the mouse or the keyboard.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Drag bars on the Gantt to move, resize and link tasks</li>
+<li>Task grid with keyboard editing</li>
+<li>Edit several tasks in one step</li>
+<li>Undo and redo, one change at a time</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-list-nested"></i> Structure and Constraints</h3>
+<p>Model the programme the way you plan it, from the WBS down to individual milestones.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Constraints: as soon as possible, as late as possible, start or finish no earlier or no later than, must start or finish on</li>
+<li>Deadlines, milestones and hammock tasks</li>
+<li>WBS structure with indent and outdent</li>
+<li>Several programmes per project, with one marked current</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-flag"></i> Baselines and Progress</h3>
+<p>Know where you are against the plan you agreed, and show it clearly at the next progress meeting.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Save baselines and compare them with the current programme</li>
+<li>Baseline bars and finish variance on the Gantt</li>
+<li>Progress by status date, percent complete and actual dates</li>
+<li>Progress line that shows tasks behind or ahead</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-arrow-left-right"></i> Import and Export</h3>
+<p>Bring in the programme you already have and send it back in the format the main contractor uses.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Import MS Project .mpp and MSPDI .xml</li>
+<li>Import Asta Powerproject .pp and Primavera .xer</li>
+<li>A loss report shows what an import or export could not carry</li>
+<li>Export MSPDI, XER, PDF (A3) and Excel</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-shield-check"></i> Validate</h3>
+<p>Check programme quality before you issue it, so logic problems do not reach the client.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Open ends</li>
+<li>Negative float</li>
+<li>Constraints that fight the logic</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3><i class="bi bi-chat-dots"></i> Programme AI Assistant</h3>
+<p>Type or speak what you need: "add a 3-week task Piling after Excavation" or "how far are we behind baseline B1".</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>17 programme tools</li>
+<li>Voice input</li>
+<li>Every change is proposed with a preview</li>
+<li>Changes apply only after you confirm</li>
+</ul>
+</div>
+
+<div class="feature-card" id="mcp-server">
+<h3><i class="bi bi-plug"></i> Praevius MCP Server: Connect Your Own AI Agent</h3>
+<p>Agent Access lets you connect Claude, Cursor or Codex to the Praevius MCP server. You sign in with OAuth and approve the connection in your browser.</p>
+<ul style="color: #757575; margin-top: 1rem;">
+<li>Read access on every plan, including Free</li>
+<li>Write tools on the Professional and Scale plans</li>
+<li>Every write is confirmed by you</li>
+<li>Revoke access at any time in Settings → Security → Connected agents</li>
+</ul>
+</div>
+
+</div>
+
+<p class="text-center" style="max-width: 750px; margin: 2rem auto 0; color: #757575;">
+<strong>Limits, stated plainly:</strong> the programme has no resource or cost loading. Each programme holds up to 2,000 tasks (150 on the Free plan). <a href="pricing.html">See programme limits by plan</a>.
+</p>
 
 </div>
 </div>
@@ -204,7 +328,7 @@ No menus to learn. No training required. Just tell Praevius what you need in pla
 <li>Executive summary generation</li>
 <li>Export to PDF, Word, or share live</li>
 </ul>
-<p style="margin-top: 1rem;"><a href="pricing.html">AI Reports available on Professional tier and above</a></p>
+<p style="margin-top: 1rem;"><a href="pricing.html">Part of AI Assistant and Agent Access, on the Professional and Scale plans</a></p>
 </div>
 
 <div class="feature-card">
@@ -257,10 +381,10 @@ No menus to learn. No training required. Just tell Praevius what you need in pla
 <h3><i class="bi bi-plug"></i> Seamless Integrations</h3>
 <p>Connect to the tools you already use. Praevius syncs with accounting, storage, and project management platforms for a single source of truth.</p>
 <ul style="color: #757575; margin-top: 1rem;">
-<li>Xero, QuickBooks, Sage</li>
-<li>Google Drive, SharePoint, OneDrive</li>
-<li>Procore (for GC collaboration)</li>
-<li>Open API for custom connections</li>
+<li>Xero Invoicing, QuickBooks Online, Sage Intacct</li>
+<li>Google Drive Sync, SharePoint Document Sync</li>
+<li>Procore ↔ SharePoint Sync (Scale plan)</li>
+<li>Essential: 1 of the 3 accounting integrations; Professional and Scale: all 3</li>
 </ul>
 </div>
 
@@ -345,12 +469,22 @@ Instant project health visibility using the traffic light system every construct
 
 <div class="faq-item">
 <h3>What is AI-powered cost reporting for construction?</h3>
-<p>AI-powered cost reporting uses artificial intelligence to generate professional variance reports from natural language requests. In Praevius, you ask for the report you need in plain English — for example, "Generate variance report for Project Alpha" — and receive a complete report with plain English explanations of cost drivers, trend analysis, and executive summaries in minutes instead of hours. Available on Professional tier and above.</p>
+<p>AI-powered cost reporting uses artificial intelligence to generate professional variance reports from natural language requests. In Praevius, you ask for the report you need in plain English — for example, "Generate variance report for Project Alpha" — and receive a complete report with plain English explanations of cost drivers, trend analysis, and executive summaries in minutes instead of hours. Part of the AI Assistant and Agent Access module on the Professional and Scale plans.</p>
 </div>
 
 <div class="faq-item">
 <h3>What integrations does Praevius support?</h3>
-<p>Praevius integrates with Xero, QuickBooks, and Sage for accounting; Google Drive, SharePoint, and OneDrive for cloud storage; and Procore for general contractor collaboration (Scale plan). Essential plan includes 1 accounting integration plus Google Drive. Professional and Scale plans include all integrations. An open API is available for custom connections.</p>
+<p>For accounting, Praevius connects to Xero Invoicing, QuickBooks Online and Sage Intacct. For documents, it offers Google Drive Sync and SharePoint Document Sync. For general contractor collaboration, the Scale plan adds Procore ↔ SharePoint Sync. The Essential plan includes 1 of the 3 accounting integrations; the Professional and Scale plans include all 3.</p>
+</div>
+
+<div class="faq-item">
+<h3>Can Praevius replace MS Project or Asta for my programme?</h3>
+<p>For the weekly programme work most subcontractors and QS teams do, yes. Praevius Project, the programme module, gives you critical path scheduling with total and free float, a Gantt chart, constraints, deadlines, milestones, baselines and progress against a status date. You can import MS Project (.mpp and MSPDI .xml), Asta Powerproject (.pp) and Primavera (.xer) files, and export MSPDI, XER, PDF and Excel, so you can still exchange programmes with the main contractor. It does not do resource or cost loading, and a programme holds up to 2,000 tasks (150 on the Free plan). If you need resource levelling or cost-loaded programmes, keep your current tool for that work. The programme module is included in every plan; the plan sets how many programmes, baselines and imports you get.</p>
+</div>
+
+<div class="faq-item">
+<h3>What is the Praevius MCP server?</h3>
+<p>The Praevius MCP server lets you connect your own AI agent, such as Claude, Cursor or Codex, to Praevius. You sign in with OAuth and approve the connection in your browser. Read access to projects, programmes, budgets, valuations and documents is available on every plan, including Free. Write tools need the Professional or Scale plan, and the agent must show you a preview of every change and wait for your confirmation. You can revoke an agent at any time under Settings → Security → Connected agents.</p>
 </div>
 
 <div class="faq-item">

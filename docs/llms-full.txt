@@ -10,7 +10,7 @@ Free Trial: https://app.praevius.app/start-trial?bundle=professional
 
 ## What is Praevius?
 
-Praevius (from Latin "praevius" meaning "going before") is a cloud-based cost control platform that gives construction subcontractors and quantity surveying professionals real-time budget visibility, automated variance detection, and progress claim automation. It replaces spreadsheet-based cost tracking with professional-grade tools including AI-generated variance reports, S-curve forecasting, change order management, and integrations with major accounting platforms.
+Praevius (from Latin "praevius" meaning "going before") is a cloud-based cost control platform that gives construction subcontractors and quantity surveying professionals real-time budget visibility, automated variance detection, and progress claim automation. It replaces spreadsheet-based cost tracking with professional-grade tools including AI-generated variance reports, S-curve forecasting, change order management, a programme module (Praevius Project) with Gantt, critical path and MS Project / Asta / Primavera import, and integrations with major accounting platforms. AI agents such as Claude, Cursor and Codex can connect through the Praevius MCP server.
 
 Founded by practising quantity surveyors with 20 years of international construction experience handling projects from 500K fitouts to 50M commercial developments across the UK, Australia, and Poland. Praevius is the cost control intelligence layer of the BIM Takeoff (https://bimtakeoff.com) ecosystem.
 
@@ -30,8 +30,8 @@ UK and Australia first (supporting local contract formats: JCT, NEC, SOPA), then
 ### Real-Time Budget Tracking
 See budget vs. actual costs the moment data changes. Dashboard views show project health at a glance with traffic-light status indicators (green: on budget within ±5%, yellow: watch at 5-10% variance, red: over budget exceeding 10%). Includes live cost performance index (CPI), budget consumption tracking, variance alerts and thresholds, and multi-project portfolio view.
 
-### AI-Powered Reporting (Professional Tier+)
-Generate professional variance reports in minutes, not hours, using natural language. Just ask for the report you need — the AI handles the rest. Provides plain English explanations of the "why" behind your numbers. Includes automated variance explanations, trend analysis and forecasting, executive summary generation, and export to PDF, Word, or live sharing.
+### AI Assistant and Agent Access (Professional and Scale)
+Generate professional variance reports in minutes, not hours, using natural language. Just ask for the report you need — the AI handles the rest. Provides plain English explanations of the "why" behind your numbers. Includes automated variance explanations, trend analysis and forecasting, executive summary generation, and export to PDF, Word, or live sharing. On Free and Essential, the AI assistant is available in the programme module only (programme assistant, with a monthly request quota).
 
 ### S-Curve Forecasting (Earned Value Management)
 See where your project is headed, not just where it's been. Earned Value Management made practical for construction. Includes planned vs. actual vs. forecast curves, Schedule Performance Index (SPI), Estimate at Completion (EAC) projections, and what-if scenario modelling.
@@ -42,7 +42,7 @@ Track every variation from inception to approval to payment. Change orders accou
 ### Progress Claim Automation
 Generate accurate progress claims in minutes, not hours. Eliminates the manual process of hunting through spreadsheets, recalculating percentages, and rechecking every line item. Includes percentage complete calculations with audit trail, retainage and retention tracking, claim history and documentation, and multi-format export (UK JCT, AU SOPA, US AIA).
 
-### Schedule of Values (Scale Tier)
+### Schedule of Values (Scale Plan)
 Client billing structures often differ from internal cost codes. SOV management bridges this gap with many-to-many mapping between your WBS and client billing formats. Supports UK JCT/NEC, US AIA G702/G703, and AU SOPA formats. Includes cost code to SOV line mapping, payment application tracking, and progress sync from budget data.
 
 ### Voice Commands
@@ -52,49 +52,127 @@ Speak your requests on the jobsite. "Show me Project Alpha" or "Approve the vari
 No menus to learn. No training required. Tell Praevius what you need in plain English — or speak it on site. Example prompts: "Show me projects over budget", "Generate variance report for Project Alpha", "What's the CPI on the hospital job?", "Approve the steel variation".
 
 ### Integrations
-- Accounting: Xero, QuickBooks, Sage
-- Cloud Storage: Google Drive, SharePoint, OneDrive
-- Project Management: Procore (for GC collaboration, Scale tier)
-- Open API for custom connections
+- Accounting: Xero Invoicing, QuickBooks Online, Sage Intacct
+- Document storage: Google Drive Sync, SharePoint Document Sync
+- Project Management: Procore ↔ SharePoint Sync (for GC collaboration, Scale plan)
 
-Essential tier: 1 accounting integration + Google Drive. Professional tier: all integrations. Scale tier: all integrations + Procore sync.
+Essential plan: 1 of the 3 accounting modules, Google Drive Sync and SharePoint Document Sync. Professional plan: all 3 accounting modules. Scale plan: all of these plus Procore ↔ SharePoint Sync.
+
+## Programme module (Praevius Project)
+
+Every plan includes the programme module with Gantt, critical path, baselines and MS Project or Asta import. The plan sets how many programmes, baselines and imports you get. It covers what a construction planner does weekly in MS Project or Asta Powerproject, without resources or costs.
+
+### Scheduling
+- Critical path scheduling on the programme calendar; critical tasks marked; total and free float
+- Constraints: as soon as possible, as late as possible, start/finish no earlier than, start/finish no later than, must start on, must finish on
+- Deadlines, hammock tasks, milestones and WBS structure
+- Several programmes per project, with one marked current
+
+### Editing
+- Gantt chart with drag to move, resize and link
+- Task grid with keyboard editing; task sheet; edit several tasks in one step; undo and redo
+
+### Baselines and progress
+- Baselines and comparison against the current programme
+- Progress with status date, percent complete and actual dates
+
+### Import and export
+- Import: MS Project .mpp, MSPDI .xml, Asta Powerproject .pp, Primavera .xer — each import shows a loss report of what could not be carried
+- Export: MSPDI (MS Project XML), XER, PDF (A3 print), Excel
+
+### Validate
+- Quality warnings: open ends, negative float, constraints that fight the logic
+
+### Programme AI assistant
+- 17 programme tools and voice input
+- Every change is proposed with a preview and applied only after confirmation
+
+### Limits
+- No resource or cost loading in the programme
+- 2,000 tasks per programme (150 on Free)
+
+## Praevius MCP server (Agent Access)
+
+The Praevius MCP server lets your own AI agent work with Praevius data. Connect Claude, Cursor or Codex to Praevius over MCP with OAuth sign-in (Google or Microsoft). Server URL: https://app.praevius.app/api/mcp
+
+- Read access (projects, programmes, budgets, valuations, documents) on every plan, including Free
+- Write tools need the Professional or Scale plan
+- Every write needs the user's confirmation: the agent shows a preview and waits for agreement
+- A connection applies to one organisation and is revocable at any time under Settings → Security → Connected agents
 
 ## Pricing
 
-All prices in USD. No per-user fees. No hidden costs. 30-day free trial on all paid plans. No credit card required. 17% discount with annual billing.
+One plan per organisation. The plan is the only thing sold: no per-user fees and no per-module prices. All prices in USD. Annual billing saves 17%. 30-day free trial on Essential and Professional (Scale starts through sales), no credit card required. A trial that ends without payment falls back to the Free limits; nothing is deleted.
 
 ### Free — $0/month
+Get started with projects and programmes.
 - Up to 3 projects
 - 1 team member
-- Core cost tracking
-- Dashboard views
+- Programme module (see quotas below)
+- Programme assistant (150 requests/month)
+- Agent Access: read access over MCP
+- Call to action: Get Started
 
-### Essential — $99/month
+### Essential — $99/month or $821.70/year
+For solo QS and small subcontractors.
 - Up to 10 projects
 - Up to 3 team members
-- Google Drive sync
-- 1 accounting integration (Xero, QuickBooks, or Sage)
-- Email support (48hr response)
+- Cost Control
+- Google Drive Sync, SharePoint Document Sync
+- 1 of the 3 accounting modules: Xero Invoicing, QuickBooks Online or Sage Intacct
+- Programme module (see quotas below)
+- Programme assistant (3,000 requests/month)
+- Agent Access: read access over MCP
+- Call to action: Start Free Trial
 
-### Professional — $229/month (Most Popular)
+### Professional — $229/month or $1,900.70/year (Most Popular)
+For growing firms with multiple projects.
 - Up to 25 projects
 - Up to 10 team members
-- All integrations (Xero, QuickBooks, Sage, Google Drive, SharePoint)
-- Claude AI Reports — AI-powered variance analysis
-- Priority email support (24hr response)
+- Everything in Essential
+- All 3 accounting modules: Xero Invoicing, QuickBooks Online, Sage Intacct
+- AI Assistant and Agent Access (full AI assistant; agent read and write tools)
+- Programme module (see quotas below)
+- Call to action: Start Free Trial
 
-### Scale — $449/month
+### Scale — $449/month or $3,726.70/year
+For mid-market contractors and multi-office teams.
 - Unlimited projects
 - Unlimited team members
-- All Professional features
-- Procore ↔ SharePoint sync
-- Schedule of Values (SOV)
-- Dedicated success manager + phone support
+- Everything in Professional
+- Procore ↔ SharePoint Sync
+- Schedule of Values
+- Programme module (see quotas below)
+- Call to action: Contact Sales (https://praevius.app/contact.html)
+
+### Programme quotas per plan
+
+| | Free | Essential | Professional | Scale |
+|---|---|---|---|---|
+| Programmes | 1 | 10 | Unlimited | Unlimited |
+| Tasks per programme | 150 | 2,000 | 2,000 | 2,000 |
+| Baselines per programme | 1 | 10 | 50 | Unlimited |
+| Schedule imports per month | 1 | 20 | 100 | Unlimited |
+| Exports per month | 3 | Unlimited | Unlimited | Unlimited |
+| Programme assistant requests per month | 150 | 3,000 | Not counted (full AI assistant) | Not counted (full AI assistant) |
+
+### Modules per plan
+
+| Module | Free | Essential | Professional | Scale |
+|---|---|---|---|---|
+| Programme module (Praevius Project) | Yes | Yes | Yes | Yes |
+| Cost Control | No | Yes | Yes | Yes |
+| Google Drive Sync | No | Yes | Yes | Yes |
+| SharePoint Document Sync | No | Yes | Yes | Yes |
+| Xero Invoicing / QuickBooks Online / Sage Intacct | No | 1 of 3 | All 3 | All 3 |
+| AI Assistant and Agent Access | No (programme assistant and agent read access only) | No (programme assistant and agent read access only) | Yes | Yes |
+| Procore ↔ SharePoint Sync | No | No | No | Yes |
+| Schedule of Values | No | No | No | Yes |
 
 ## How Praevius Compares
 
 ### vs. Procore
-Praevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. While Procore targets general contractors with enterprise features and enterprise pricing, Praevius delivers professional-grade cost control at mid-market pricing starting at $99/month. Praevius integrates with Procore on the Scale tier for GC collaboration.
+Praevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. While Procore targets general contractors with enterprise features and enterprise pricing, Praevius delivers professional-grade cost control at mid-market pricing starting at $99/month. Praevius integrates with Procore on the Scale plan (Procore ↔ SharePoint Sync) for GC collaboration.
 
 ### vs. Spreadsheets
 Construction spreadsheets contain an 88% error rate (per industry studies). Praevius provides real-time variance detection, automated progress claims, and AI-generated reports — capabilities impossible to replicate reliably in Excel. However, Praevius is not anti-spreadsheet: it replaces the cost tracking and reporting workflow, not project-specific calculations.
@@ -131,28 +209,37 @@ Praevius uses an industry-standard traffic light system for instant project heal
 ## Frequently Asked Questions
 
 ### Is there a free plan?
-Yes. The Free plan lets you track up to 3 projects with 1 team member. Upgrade anytime as your needs grow.
+Yes. The Free plan includes up to 3 projects, 1 team member, the programme module (1 programme of up to 150 tasks) and agent read access over MCP. Cost Control starts on the Essential plan. Upgrade anytime as your needs grow.
 
 ### Are there any per-user fees?
-No. Each plan includes a set number of users, and the Scale plan includes unlimited users. No hidden per-seat charges.
+No. The organisation buys one plan, and the plan sets the number of team members (1, 3, 10 or unlimited on Scale). There are no per-user or per-module fees.
 
 ### Can I change plans later?
-Yes. Upgrade or downgrade anytime. Changes take effect immediately, with prorated billing adjustments.
+Yes. Change your plan anytime from the Billing page. If you cancel, your plan stays active until the end of the billing period, and you can reactivate it before that date.
 
 ### What about annual billing?
-Pay annually and save 17%. Contact sales@praevius.app for annual billing options.
+Pay annually and save 17%: Essential $821.70/year, Professional $1,900.70/year, Scale $3,726.70/year.
+
+### What happens when the free trial ends?
+Essential and Professional start with a 30-day free trial with no credit card. Scale starts through sales. A trial that ends without payment falls back to the Free limits. Nothing you created is deleted.
 
 ### What's included in support?
-Essential: Email support (48hr response). Professional: Priority email (24hr response). Scale: Dedicated success manager + phone support.
+Every plan includes email support at support@praevius.app.
 
 ### How does Praevius compare to Procore?
 Praevius is built specifically for subcontractors and QS professionals, with simpler pricing and no per-user fees. While Procore targets general contractors with enterprise features, Praevius delivers professional-grade cost control at mid-market pricing starting at $99/month.
 
 ### What integrations are included?
-Praevius integrates with Xero, QuickBooks, Sage, Google Drive, SharePoint, and Procore (Scale plan). Professional and Scale plans include all integrations.
+Praevius integrates with Xero Invoicing, QuickBooks Online, Sage Intacct, Google Drive Sync, SharePoint Document Sync, and Procore ↔ SharePoint Sync (Scale plan). Essential includes 1 of the 3 accounting modules; Professional and Scale include all 3.
 
 ### What is AI-powered cost reporting?
-Praevius uses AI to generate professional variance reports from natural language requests. Ask "Generate variance report for Project Alpha" and receive a complete report with plain English explanations of cost drivers, trend analysis, and executive summaries — in minutes instead of hours. Available on Professional tier and above.
+Praevius uses AI to generate professional variance reports from natural language requests. Ask "Generate variance report for Project Alpha" and receive a complete report with plain English explanations of cost drivers, trend analysis, and executive summaries — in minutes instead of hours. Part of the AI Assistant and Agent Access module on the Professional and Scale plans.
+
+### Is the programme module included in every plan?
+Yes. Every plan, including Free, includes the programme module (Praevius Project) with Gantt, critical path, baselines and MS Project, Asta Powerproject or Primavera import. The plan sets the quotas: Free 1 programme of up to 150 tasks; Essential 10 programmes; Professional and Scale unlimited programmes, each up to 2,000 tasks. The programme module does not do resource or cost loading.
+
+### What is Agent Access?
+Agent Access is the Praevius MCP server. Connect Claude, Cursor or Codex to Praevius over MCP with OAuth sign-in (server URL https://app.praevius.app/api/mcp). Read access is available on every plan, including Free. Write tools need the Professional or Scale plan, and every write needs your confirmation. You can revoke an agent at any time under Settings → Security → Connected agents.
 
 ### How does variance tracking work?
 Praevius monitors the difference between your budgeted and actual project costs in real time. When costs deviate from the baseline, the traffic light system flags it immediately: green (within ±5%), yellow (5-10% variance), red (over 10%). AI-generated reports explain the root causes and suggest corrective actions.
