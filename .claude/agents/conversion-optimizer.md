@@ -39,7 +39,7 @@ Pricing Page:
 - Four plans: Free $0, Essential $99, Professional $229 (most popular), Scale $449 per month, USD, one plan per organisation
 - Card order: programme block first, then plan, then modules; SOV on Scale only
 - Scale CTA is "Contact Sales", not a trial
-- Annual: only "Annual billing available at a lower price." No amounts, no percentage
+- Annual: $990 / $2,290 / $4,490 per year, "2 months free", never a percentage.
 - FAQ matches FAQPage JSON-LD
 - Track CTAs with explicit `data-plan` / `data-cta` attributes; separate Free sign-up from paid trial
 

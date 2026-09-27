@@ -124,7 +124,7 @@ Server URL: https://app.praevius.app/api/mcp. Works with agents that support rem
 
 ## Pricing
 
-One plan per organisation. The plan is the only thing sold: no per-user fees and no per-module prices. All prices in USD, per month. Annual billing available at a lower price.
+One plan per organisation. The plan is the only thing sold: no per-user fees and no per-module prices. All prices in USD. Pay monthly, or pay annually and get 2 months free.
 
 30-day free trial on Essential and Professional, no credit card required. Scale starts through sales. A trial that ends without payment falls back to the Free limits; nothing is deleted.
 
@@ -139,7 +139,7 @@ Get started with projects and programmes.
 - Agent Access: read access over MCP
 - Call to action: Get Started
 
-### Essential — $99/month
+### Essential — $99/month or $990/year
 For solo QS and small subcontractors.
 - Up to 10 projects
 - Up to 3 team members
@@ -151,7 +151,7 @@ For solo QS and small subcontractors.
 - Agent Access: read access over MCP
 - Call to action: Start Free Trial
 
-### Professional — $229/month (Most Popular)
+### Professional — $229/month or $2,290/year (Most Popular)
 For growing firms with multiple projects.
 - Up to 25 projects
 - Up to 10 team members
@@ -161,7 +161,7 @@ For growing firms with multiple projects.
 - AI Assistant and Agent Access (full AI assistant; agent read and write)
 - Call to action: Start Free Trial
 
-### Scale — $449/month
+### Scale — $449/month or $4,490/year
 For mid-market contractors and multi-office teams.
 - Unlimited projects
 - Unlimited team members
@@ -260,7 +260,7 @@ Yes. The Free plan includes up to 3 projects, 1 team member, 1 programme of up t
 No. The organisation buys one plan, and the plan sets the number of team members (1, 3, 10 or unlimited on Scale). There are no per-user or per-module fees.
 
 ### What about annual billing?
-Annual billing available at a lower price.
+Annual billing gives 2 months free: Essential $990/year, Professional $2,290/year, Scale $4,490/year (USD).
 
 ### What happens when the free trial ends?
 Essential and Professional start with a 30-day free trial with no credit card. Scale starts through sales. A trial that ends without payment falls back to the Free limits. Nothing you created is deleted.

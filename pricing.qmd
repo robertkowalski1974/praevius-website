@@ -89,7 +89,7 @@ format:
                 "name": "Is annual billing available?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Annual billing available at a lower price."
+                  "text": "Yes. Annual billing gives you 2 months free: Essential $990 per year, Professional $2,290 per year and Scale $4,490 per year, in USD."
                 }
               },
               {
@@ -140,7 +140,7 @@ format:
 <strong>Every plan includes the programme module</strong> with Gantt, critical path, baselines, the programme assistant with voice input, import from MS Project, Asta or Primavera, and export for MS Project or Primavera. The plan sets how many programmes, baselines, imports and assistant requests you get. Each programme holds up to 2,000 tasks (150 on Free).
 </p>
 
-<p style="text-align: center; margin: 0 auto 2.5rem; color: #757575;">Monthly prices in USD, one plan per organisation. Annual billing available at a lower price. 30-day free trial on Essential and Professional, no credit card needed.</p>
+<p style="text-align: center; margin: 0 auto 2.5rem; color: #757575;">Prices in USD, one plan per organisation. Pay monthly, or pay annually and get 2 months free. 30-day free trial on Essential and Professional, no credit card needed.</p>
 
 <div class="grid-4">
 
@@ -174,6 +174,7 @@ format:
 <h3>Essential</h3>
 <p style="color: #757575;">For small subcontractors and solo planners or QS.</p>
 <p class="price">$99<span>/month</span></p>
+<p class="price-annual" style="color: #757575; font-size: 0.875rem; margin: -0.5rem 0 0;">or $990/year, billed annually<br><strong style="color: #2C2C2C;">2 months free</strong></p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Programme</li>
@@ -203,6 +204,7 @@ format:
 <h3>Professional</h3>
 <p style="color: #757575;">For growing firms running several jobs at once.</p>
 <p class="price">$229<span>/month</span></p>
+<p class="price-annual" style="color: #757575; font-size: 0.875rem; margin: -0.5rem 0 0;">or $2,290/year, billed annually<br><strong style="color: #2C2C2C;">2 months free</strong></p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Programme</li>
@@ -233,6 +235,7 @@ format:
 <h3>Scale</h3>
 <p style="color: #757575;">For mid-market contractors and multi-office teams.</p>
 <p class="price">$449<span>/month</span></p>
+<p class="price-annual" style="color: #757575; font-size: 0.875rem; margin: -0.5rem 0 0;">or $4,490/year, billed annually<br><strong style="color: #2C2C2C;">2 months free</strong></p>
 
 <ul style="text-align: left; list-style: none; padding: 0; margin: 2rem 0;">
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Programme</li>
@@ -305,7 +308,7 @@ format:
 
 <div class="feature-card">
 <h3>Is annual billing available?</h3>
-<p>Yes. Annual billing available at a lower price.</p>
+<p>Yes. Annual billing gives you 2 months free: Essential $990 per year, Professional $2,290 per year and Scale $4,490 per year, in USD.</p>
 </div>
 
 <div class="feature-card">

@@ -122,7 +122,7 @@ Language: UK "programme" in body copy; "scheduling"/"schedule" in titles, subhea
 - **Geography:** UK and Australia first, then expansion
 
 ### Pricing Tiers
-One plan per organisation, USD, monthly. No per-user fees, no per-module prices, no add-ons. 30-day free trial on Essential and Professional, no credit card; Scale starts through sales (contact page).
+One plan per organisation, USD, monthly or annual. No per-user fees, no per-module prices, no add-ons. 30-day free trial on Essential and Professional, no credit card; Scale starts through sales (contact page).
 
 | | Free | Essential | Professional | Scale |
 |---|---|---|---|---|
@@ -144,7 +144,7 @@ One plan per organisation, USD, monthly. No per-user fees, no per-module prices,
 
 Use the module names exactly as written above. Schedule of Values is **Scale only**.
 
-**Annual billing:** write only "Annual billing available at a lower price." No annual amounts and no saving percentage until Robert confirms the Stripe annual prices.
+**Annual billing (confirmed 27.09.2026, Stripe live):** Essential $990/year, Professional $2,290/year, Scale $4,490/year. Write "2 months free". Never a saving percentage.
 
 ### Key Features (in this order)
 1. Programme: critical path, total and free float, Gantt with drag to move/stretch/link, keyboard grid, constraints, deadlines, milestones, WBS, baselines and comparison, progress, Validate
@@ -160,7 +160,7 @@ Use the module names exactly as written above. Schedule of Values is **Scale onl
 ### Forbidden Claims
 Resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support tiers/response times, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates.
 
-Also forbidden: "open any programme", "send back as .mpp/.pp", Asta version numbers, "tested with Claude/Codex", annual amounts or saving percentages.
+Also forbidden: "open any programme", "send back as .mpp/.pp", Asta version numbers, "tested with Claude/Codex", saving percentages.
 
 ---
 

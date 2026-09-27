@@ -65,12 +65,20 @@ format:
                 "name": "Essential",
                 "price": "99",
                 "priceCurrency": "USD",
-                "priceSpecification": {
-                  "@type": "UnitPriceSpecification",
-                  "price": "99",
-                  "priceCurrency": "USD",
-                  "billingDuration": "P1M"
-                },
+                "priceSpecification": [
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "price": "99",
+                    "priceCurrency": "USD",
+                    "billingDuration": "P1M"
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "price": "990",
+                    "priceCurrency": "USD",
+                    "billingDuration": "P1Y"
+                  }
+                ],
                 "description": "10 programmes, up to 2,000 tasks per programme, 20 schedule imports per month, up to 10 projects, up to 3 team members, Cost Control, Google Drive Sync, SharePoint Document Sync, 1 of 3 accounting integrations"
               },
               {
@@ -78,12 +86,20 @@ format:
                 "name": "Professional",
                 "price": "229",
                 "priceCurrency": "USD",
-                "priceSpecification": {
-                  "@type": "UnitPriceSpecification",
-                  "price": "229",
-                  "priceCurrency": "USD",
-                  "billingDuration": "P1M"
-                },
+                "priceSpecification": [
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "price": "229",
+                    "priceCurrency": "USD",
+                    "billingDuration": "P1M"
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "price": "2290",
+                    "priceCurrency": "USD",
+                    "billingDuration": "P1Y"
+                  }
+                ],
                 "description": "Unlimited programmes, up to 2,000 tasks per programme, 100 schedule imports per month, up to 25 projects, up to 10 team members, AI Assistant and Agent Access, Cost Control, all 3 accounting integrations"
               },
               {
@@ -91,12 +107,20 @@ format:
                 "name": "Scale",
                 "price": "449",
                 "priceCurrency": "USD",
-                "priceSpecification": {
-                  "@type": "UnitPriceSpecification",
-                  "price": "449",
-                  "priceCurrency": "USD",
-                  "billingDuration": "P1M"
-                },
+                "priceSpecification": [
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "price": "449",
+                    "priceCurrency": "USD",
+                    "billingDuration": "P1M"
+                  },
+                  {
+                    "@type": "UnitPriceSpecification",
+                    "price": "4490",
+                    "priceCurrency": "USD",
+                    "billingDuration": "P1Y"
+                  }
+                ],
                 "description": "Unlimited programmes, up to 2,000 tasks per programme, unlimited schedule imports, unlimited projects and team members, AI Assistant and Agent Access, Cost Control, Procore ↔ SharePoint Sync, Schedule of Values"
               }
             ],
@@ -359,7 +383,7 @@ Need cost control too? The Cost Control module runs on the same projects from th
 <h2 class="section-title">Simple, <span>Transparent</span> Pricing</h2>
 
 <p class="text-center mb-4" style="max-width: 640px; margin: 0 auto 3rem;">
-Every plan includes the programme module. One plan per company, no per-user fees. Prices in USD per month; annual billing available at a lower price. <a href="pricing.html">View full pricing details</a>.
+Every plan includes the programme module. One plan per company, no per-user fees. Prices in USD per month; annual billing gives 2 months free. <a href="pricing.html">View full pricing details</a>.
 </p>
 
 <div class="grid-4">
