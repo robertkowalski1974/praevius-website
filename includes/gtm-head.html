@@ -1,10 +1,110 @@
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N35MKKC9');</script>
-<!-- End Google Tag Manager -->
+<!-- Cookie consent: Google Tag Manager and the Pipedrive chat load only after the visitor accepts -->
+<script>
+(function () {
+  var KEY = 'praevius-cookie-consent';
+  var GTM_ID = 'GTM-N35MKKC9';
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'denied', functionality_storage: 'denied', personalization_storage: 'denied',
+    security_storage: 'granted'
+  });
+
+  function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function write(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+
+  var loaded = false;
+  function loadOptional() {
+    if (loaded) return;
+    loaded = true;
+    gtag('consent', 'update', { analytics_storage: 'granted', functionality_storage: 'granted' });
+    window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+    var g = document.createElement('script');
+    g.async = true;
+    g.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
+    document.head.appendChild(g);
+    window.pipedriveLeadboosterConfig = {
+      base: 'leadbooster-chat.pipedrive.com',
+      companyId: 14252767,
+      playbookUuid: '3b0cbec4-32bf-4f0a-b62a-749ab23e1634',
+      version: 2
+    };
+    var c = document.createElement('script');
+    c.async = true;
+    c.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
+    document.head.appendChild(c);
+  }
+
+  function clearOptionalCookies() {
+    document.cookie.split(';').forEach(function (part) {
+      var name = part.split('=')[0].trim();
+      if (/^(_ga|_gid|_gat|_gcl)/.test(name)) {
+        var host = location.hostname;
+        [host, '.' + host, '.' + host.split('.').slice(-2).join('.')].forEach(function (d) {
+          document.cookie = name + '=; Max-Age=0; path=/; domain=' + d;
+        });
+        document.cookie = name + '=; Max-Age=0; path=/';
+      }
+    });
+  }
+
+  function hideBanner() {
+    var b = document.getElementById('cookie-banner');
+    if (b) b.hidden = true;
+  }
+
+  function showBanner() {
+    var b = document.getElementById('cookie-banner');
+    if (!b) {
+      b = document.createElement('div');
+      b.id = 'cookie-banner';
+      b.className = 'cookie-banner';
+      b.setAttribute('role', 'dialog');
+      b.setAttribute('aria-live', 'polite');
+      b.setAttribute('aria-label', 'Cookie consent');
+      b.innerHTML =
+        '<p class="cookie-banner-text">We use cookies for website analytics (Google Analytics) and for the website chat (Pipedrive). ' +
+        'They load only if you accept. Necessary storage for this choice is always on. ' +
+        '<a href="/privacy-policy.html#cookies">Privacy Policy</a></p>' +
+        '<div class="cookie-banner-actions">' +
+        '<button type="button" class="cookie-btn cookie-btn-reject" data-consent="denied">Reject</button>' +
+        '<button type="button" class="cookie-btn cookie-btn-accept" data-consent="granted">Accept</button>' +
+        '</div>';
+      b.addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-consent]');
+        if (!btn) return;
+        var choice = btn.getAttribute('data-consent');
+        var before = read();
+        write(choice);
+        hideBanner();
+        if (choice === 'granted') {
+          loadOptional();
+        } else {
+          clearOptionalCookies();
+          if (before === 'granted' || loaded) location.reload();
+        }
+      });
+      document.body.appendChild(b);
+    }
+    b.hidden = false;
+  }
+
+  window.praeviusCookieSettings = showBanner;
+
+  if (read() === 'granted') loadOptional();
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (read() !== 'granted' && read() !== 'denied') showBanner();
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('a');
+      if (!link || link.hash !== '#cookie-settings') return;
+      e.preventDefault();
+      showBanner();
+    });
+  });
+})();
+</script>
 
 <!-- Google Search Console Verification -->
 <meta name="google-site-verification" content="96-9tQw76yRStMW_YpqxuN-nt56RFy7iCD0ALck0fy8" />

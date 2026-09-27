@@ -81,7 +81,7 @@ format:
                 "name": "Can I change plans later?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Change your plan anytime from the Billing page. If you cancel, your plan stays active until the end of the billing period, and you can reactivate it before that date."
+                  "text": "Yes. To change a paid plan, write to support@praevius.app. If you cancel, your plan stays active until the end of the billing period, and you can reactivate it before that date."
                 }
               },
               {
@@ -300,7 +300,7 @@ format:
 
 <div class="feature-card">
 <h3>Can I change plans later?</h3>
-<p>Yes. Change your plan anytime from the Billing page. If you cancel, your plan stays active until the end of the billing period, and you can reactivate it before that date.</p>
+<p>Yes. To change a paid plan, write to support@praevius.app. If you cancel, your plan stays active until the end of the billing period, and you can reactivate it before that date.</p>
 </div>
 
 <div class="feature-card">
@@ -350,7 +350,7 @@ Scale is for mid-market contractors and multi-office teams, with unlimited proje
 <h2 class="section-title" style="color: white;">30-Day <span>Money Back</span> Guarantee</h2>
 
 <p style="color: #F0F0F0; max-width: 600px; margin: 0 auto 2rem;">
-If Praevius isn't right for your team, ask for a refund within 30 days of your first payment. See our <a href="terms-of-service.html" style="color: #FF9900;">terms of service</a>.
+If Praevius isn't right for your team, ask within 30 days of your first payment and we refund that payment in full. See our <a href="terms-of-service.html" style="color: #FF9900;">terms of service</a>.
 </p>
 
 <a href="https://app.praevius.app/start-trial?bundle=professional" class="btn btn-primary" data-plan="professional" data-cta="trial"><i class="bi bi-rocket-takeoff"></i> Start Free Trial</a>

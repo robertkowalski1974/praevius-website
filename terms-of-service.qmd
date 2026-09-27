@@ -22,21 +22,25 @@ format:
 
 # Terms of Service
 
-**Last Updated:** December 2025
+**Last Updated:** 27 September 2026
 
 ## 1. Agreement to Terms
 
-By accessing or using Praevius (praevius.app), you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access the service.
+Praevius (praevius.app and app.praevius.app) is operated by Robert Kowalski, trading as BIM Takeoff ("we", "us", "our"). By accessing or using Praevius, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access the service.
 
 ## 2. Description of Service
 
-Praevius is a cloud-based cost control platform for construction professionals. The service includes:
+Praevius is a cloud-based construction programme and cost platform. It runs in a web browser. The service includes:
 
-- Real-time budget tracking
-- AI-powered reporting
-- Variance analysis
-- Integration with third-party services
-- Data storage and export
+- **Programme module:** create and edit construction programmes (Gantt chart, critical path, calendars, baselines and progress); import Microsoft Project (.mpp, .xml), Asta Powerproject (.pp) and Primavera P6 (.xer) files; and export to Microsoft Project XML, Primavera XER, PDF and Excel. Each import and export shows a report of the items that could not be carried across.
+- **AI assistant:** an assistant that reads and edits your programmes and project data from typed or spoken instructions, and answers questions about them. Ordinary edits apply at once and can be undone. Larger or destructive changes are proposed first and run only when you confirm them.
+- **Voice input:** you can speak instructions to the AI assistant instead of typing them. In the web app, speech is converted to text by your browser's speech recognition service. In the mobile app, speech is converted to text on your device. The mobile app can also read the assistant's answers aloud.
+- **Agent access (MCP):** you can connect your own AI agent to Praevius over the Model Context Protocol (MCP) with OAuth sign-in. Read access is available on every plan. Write actions need the Professional or Scale plan and your confirmation.
+- **Cost control module:** budget tracking, variance analysis, change orders, progress claims and AI-generated reports, on the Essential plan and above. Schedule of Values is available on the Scale plan only.
+- **Integrations** with third-party services that you choose to connect.
+- **Data storage and export**, subject to the limits of your plan.
+
+The features, limits and quotas of each plan are shown on our [Pricing](pricing.html) page.
 
 ## 3. Account Terms
 
@@ -51,7 +55,9 @@ Praevius is a cloud-based cost control platform for construction professionals. 
 - Prices are in USD unless otherwise stated
 - Subscriptions are billed monthly or annually
 - Payment is due at the start of each billing period
-- Refunds are available within 30 days of initial purchase
+- The Essential and Professional plans include a 30-day free trial. No card is needed. If you do not subscribe by the end of the trial, your organisation moves to the Free plan limits. Your data is not deleted.
+- To change a paid plan, write to support@praevius.app
+- If you ask within 30 days of your first payment, we refund that payment in full
 - We reserve the right to change pricing with 30 days notice
 
 ## 5. Data Ownership
@@ -59,7 +65,7 @@ Praevius is a cloud-based cost control platform for construction professionals. 
 - You retain ownership of all data you input into Praevius
 - You grant us license to process your data to provide the service
 - We may use anonymised, aggregated data for analytics
-- You can export your data at any time
+- You can export your programmes at any time, within the export limits of your plan. For a full copy of your data, contact support@praevius.app
 - Upon account termination, your data will be deleted per our Privacy Policy
 
 ## 6. Acceptable Use
@@ -69,7 +75,7 @@ You agree not to:
 - Violate any laws or regulations
 - Upload malicious code or attempt to breach security
 - Resell or redistribute the service without permission
-- Use automated systems to access the service beyond normal usage
+- Use automated systems, scrapers or bots to access the service, except through the Praevius MCP server or other interfaces we provide, and within the limits of your plan
 - Interfere with other users' access to the service
 
 ## 7. Intellectual Property
@@ -80,7 +86,7 @@ You agree not to:
 
 ## 8. Third-Party Integrations
 
-- We provide integrations with third-party services (Xero, QuickBooks, etc.)
+- We provide integrations with third-party services (for example Xero, QuickBooks Online, Sage Intacct, Google Drive, SharePoint and Procore)
 - These integrations are subject to their own terms of service
 - We are not responsible for third-party service availability or changes
 
@@ -89,9 +95,11 @@ You agree not to:
 THE SERVICE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. WE DO NOT GUARANTEE:
 
 - Uninterrupted or error-free service
-- Accuracy of AI-generated reports
+- The accuracy of AI-generated content, AI assistant actions, voice transcriptions, and programme imports and exports
 - Compatibility with all systems
 - That the service will meet all your requirements
+
+You are responsible for checking programmes and reports before you rely on them or submit them.
 
 ## 10. Limitation of Liability
 
@@ -124,6 +132,8 @@ These terms are governed by the laws of England and Wales. Disputes shall be res
 For questions about these terms:
 
 **Email:** info@praevius.app
+
+**Operator:** Robert Kowalski, trading as BIM Takeoff
 
 ---
 

@@ -269,7 +269,7 @@ Essential and Professional start with a 30-day free trial with no credit card. S
 Every plan includes email support at support@praevius.app.
 
 ### Can I change plans later?
-Yes. Change your plan anytime from the Billing page. If you cancel, your plan stays active until the end of the billing period, and you can reactivate it before that date.
+Yes. To change a paid plan, write to support@praevius.app. If you cancel, your plan stays active until the end of the billing period, and you can reactivate it before that date.
 
 ### Can I connect my own AI agent?
 Agent access is available over MCP with OAuth sign-in; read on every plan, write actions need Professional or Scale and your confirmation. Server URL: https://app.praevius.app/api/mcp. Works with agents that support remote MCP servers, such as Claude, Cursor or Codex; sign in with Google or Microsoft; remove an agent at any time under Settings → Security → Connected agents.

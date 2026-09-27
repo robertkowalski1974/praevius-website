@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Praevius privacy policy. How we collect, use, and protect your data.">
+<meta name="description" content="Praevius privacy policy. Who we are, what data we collect, how we use it, the providers we use, cookies and your rights.">
 
 <title>Privacy Policy - Praevius</title>
 <style>
@@ -69,13 +69,113 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N35MKKC9');</script>
-<!-- End Google Tag Manager -->
+<!-- Cookie consent: Google Tag Manager and the Pipedrive chat load only after the visitor accepts -->
+<script>
+(function () {
+  var KEY = 'praevius-cookie-consent';
+  var GTM_ID = 'GTM-N35MKKC9';
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'denied', functionality_storage: 'denied', personalization_storage: 'denied',
+    security_storage: 'granted'
+  });
+
+  function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function write(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+
+  var loaded = false;
+  function loadOptional() {
+    if (loaded) return;
+    loaded = true;
+    gtag('consent', 'update', { analytics_storage: 'granted', functionality_storage: 'granted' });
+    window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+    var g = document.createElement('script');
+    g.async = true;
+    g.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
+    document.head.appendChild(g);
+    window.pipedriveLeadboosterConfig = {
+      base: 'leadbooster-chat.pipedrive.com',
+      companyId: 14252767,
+      playbookUuid: '3b0cbec4-32bf-4f0a-b62a-749ab23e1634',
+      version: 2
+    };
+    var c = document.createElement('script');
+    c.async = true;
+    c.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
+    document.head.appendChild(c);
+  }
+
+  function clearOptionalCookies() {
+    document.cookie.split(';').forEach(function (part) {
+      var name = part.split('=')[0].trim();
+      if (/^(_ga|_gid|_gat|_gcl)/.test(name)) {
+        var host = location.hostname;
+        [host, '.' + host, '.' + host.split('.').slice(-2).join('.')].forEach(function (d) {
+          document.cookie = name + '=; Max-Age=0; path=/; domain=' + d;
+        });
+        document.cookie = name + '=; Max-Age=0; path=/';
+      }
+    });
+  }
+
+  function hideBanner() {
+    var b = document.getElementById('cookie-banner');
+    if (b) b.hidden = true;
+  }
+
+  function showBanner() {
+    var b = document.getElementById('cookie-banner');
+    if (!b) {
+      b = document.createElement('div');
+      b.id = 'cookie-banner';
+      b.className = 'cookie-banner';
+      b.setAttribute('role', 'dialog');
+      b.setAttribute('aria-live', 'polite');
+      b.setAttribute('aria-label', 'Cookie consent');
+      b.innerHTML =
+        '<p class="cookie-banner-text">We use cookies for website analytics (Google Analytics) and for the website chat (Pipedrive). ' +
+        'They load only if you accept. Necessary storage for this choice is always on. ' +
+        '<a href="/privacy-policy.html#cookies">Privacy Policy</a></p>' +
+        '<div class="cookie-banner-actions">' +
+        '<button type="button" class="cookie-btn cookie-btn-reject" data-consent="denied">Reject</button>' +
+        '<button type="button" class="cookie-btn cookie-btn-accept" data-consent="granted">Accept</button>' +
+        '</div>';
+      b.addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-consent]');
+        if (!btn) return;
+        var choice = btn.getAttribute('data-consent');
+        var before = read();
+        write(choice);
+        hideBanner();
+        if (choice === 'granted') {
+          loadOptional();
+        } else {
+          clearOptionalCookies();
+          if (before === 'granted' || loaded) location.reload();
+        }
+      });
+      document.body.appendChild(b);
+    }
+    b.hidden = false;
+  }
+
+  window.praeviusCookieSettings = showBanner;
+
+  if (read() === 'granted') loadOptional();
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (read() !== 'granted' && read() !== 'denied') showBanner();
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('a');
+      if (!link || link.hash !== '#cookie-settings') return;
+      e.preventDefault();
+      showBanner();
+    });
+  });
+})();
+</script>
 
 <!-- Google Search Console Verification -->
 <meta name="google-site-verification" content="96-9tQw76yRStMW_YpqxuN-nt56RFy7iCD0ALck0fy8">
@@ -90,7 +190,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Twitter Card metadata -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Privacy Policy - Praevius">
-<meta name="twitter:description" content="Praevius privacy policy. How we collect, use, and protect your data.">
+<meta name="twitter:description" content="Praevius privacy policy. Who we are, what data we collect, how we use it, the providers we use, cookies and your rights.">
 
 <!-- Organization Schema (site-wide) -->
 <script type="application/ld+json">
@@ -162,7 +262,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link rel="stylesheet" href="css/styles.css">
 <meta property="og:title" content="Privacy Policy - Praevius">
-<meta property="og:description" content="Praevius privacy policy. How we collect, use, and protect your data.">
+<meta property="og:description" content="Praevius privacy policy. Who we are, what data we collect, how we use it, the providers we use, cookies and your rights.">
 <meta property="og:image" content="https://praevius.app/images/praevius-app-icon.svg">
 <meta property="og:site_name" content="Praevius">
 <meta property="og:locale" content="en_GB">
@@ -231,9 +331,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N35MKKC9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -242,7 +339,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div>
   <div class="description">
-    Praevius privacy policy. How we collect, use, and protect your data.
+    Praevius privacy policy. Who we are, what data we collect, how we use it, the providers we use, cookies and your rights.
   </div>
 </div>
 
@@ -261,10 +358,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <section id="privacy-policy" class="level1">
 <h1>Privacy Policy</h1>
-<p><strong>Last Updated:</strong> December 2025</p>
+<p><strong>Last Updated:</strong> 27 September 2026</p>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Praevius (“we”, “our”, “us”) is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information when you use praevius.app.</p>
+<p>This policy explains how we collect, use and protect personal data when you use the Praevius website (praevius.app) and the Praevius application (app.praevius.app).</p>
+</section>
+<section id="who-we-are" class="level2">
+<h2 class="anchored" data-anchor-id="who-we-are">Who We Are</h2>
+<p>Praevius is operated by <strong>Robert Kowalski, trading as BIM Takeoff</strong> (“we”, “our”, “us”). We are the data controller for the personal data described in this policy.</p>
+<ul>
+<li><strong>Email:</strong> info@praevius.app</li>
+<li><strong>Phone:</strong> +44 (0) 20 3239 9967</li>
+</ul>
+<p>When your organisation uses Praevius, the programme and project content that your team enters belongs to your organisation.</p>
 </section>
 <section id="information-we-collect" class="level2">
 <h2 class="anchored" data-anchor-id="information-we-collect">Information We Collect</h2>
@@ -272,9 +378,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h3 class="anchored" data-anchor-id="information-you-provide">Information You Provide</h3>
 <ul>
 <li><strong>Account Information:</strong> Name, email address, company name, job title</li>
-<li><strong>Billing Information:</strong> Payment details (processed securely via Stripe)</li>
-<li><strong>Project Data:</strong> Cost data, budgets, variations, and other construction information you enter</li>
-<li><strong>Communications:</strong> Messages, support requests, and feedback</li>
+<li><strong>Billing Information:</strong> Payment details, processed by Stripe on its hosted checkout page. Card numbers do not reach Praevius. We store only the Stripe customer and subscription references.</li>
+<li><strong>Programme Data:</strong> Programmes you create, and programme files you import or export (for example Microsoft Project, Asta Powerproject and Primavera P6 files). These files can contain task names, dates, notes, calendars, progress, activity codes, custom fields and any other content the file holds.</li>
+<li><strong>Project and Cost Data:</strong> Budgets, costs, variations, progress claims and other construction information you enter</li>
+<li><strong>AI Assistant Content:</strong> The instructions you type or speak to the AI assistant, the answers it gives, and the project and programme data it uses to answer</li>
+<li><strong>Communications:</strong> Messages, support requests, contact form submissions, website chat messages and feedback</li>
+</ul>
+</section>
+<section id="voice-input" class="level3">
+<h3 class="anchored" data-anchor-id="voice-input">Voice Input</h3>
+<ul>
+<li><strong>Web app:</strong> When you use the microphone in the web app, your browser’s built-in speech recognition service converts your speech to text. Your audio does not reach Praevius servers. Only the resulting text transcript is sent to Praevius, where it is handled as AI Assistant Content. Depending on your browser, the browser vendor may process the audio under its own terms (for example, Google processes audio for speech recognition in Chrome).</li>
+<li><strong>Mobile app:</strong> Speech is converted to text on your device. Only the text transcript is sent to Praevius.</li>
+<li><strong>Spoken replies (mobile app only):</strong> When the mobile app reads an answer aloud, the text of the assistant’s answer is sent to OpenAI to generate the audio. Your own voice audio is not sent to OpenAI.</li>
 </ul>
 </section>
 <section id="information-collected-automatically" class="level3">
@@ -283,44 +399,141 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li><strong>Usage Data:</strong> Features used, pages visited, time spent</li>
 <li><strong>Device Information:</strong> Browser type, operating system, device type</li>
 <li><strong>Log Data:</strong> IP address, access times, referral URLs</li>
+<li><strong>Website Analytics:</strong> On praevius.app, only if you accept cookies, we use Google Tag Manager and Google Analytics to measure page visits and clicks, and Pipedrive LeadBooster to run the website chat. See <a href="#cookies">Cookies</a>.</li>
 </ul>
 </section>
 </section>
-<section id="how-we-use-your-information" class="level2">
-<h2 class="anchored" data-anchor-id="how-we-use-your-information">How We Use Your Information</h2>
-<p>We use your information to:</p>
-<ul>
-<li>Provide and improve our services</li>
-<li>Process payments and manage subscriptions</li>
-<li>Send service-related communications</li>
-<li>Provide customer support</li>
-<li>Analyse usage patterns to improve the platform</li>
-<li>Comply with legal obligations</li>
-</ul>
+<section id="how-we-use-your-information-and-our-legal-bases" class="level2">
+<h2 class="anchored" data-anchor-id="how-we-use-your-information-and-our-legal-bases">How We Use Your Information and Our Legal Bases</h2>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Use</th>
+<th>Legal basis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Provide the service: accounts, programmes, projects, the AI assistant, imports, exports and integrations</td>
+<td>Performance of our contract with you or your organisation</td>
+</tr>
+<tr class="even">
+<td>Process payments and manage subscriptions</td>
+<td>Performance of contract; legal obligation (tax and accounting records)</td>
+</tr>
+<tr class="odd">
+<td>Send service-related messages and provide support</td>
+<td>Performance of contract; legitimate interests</td>
+</tr>
+<tr class="even">
+<td>Keep the service secure, prevent misuse and fix faults</td>
+<td>Legitimate interests</td>
+</tr>
+<tr class="odd">
+<td>Improve the platform from usage patterns in the application</td>
+<td>Legitimate interests</td>
+</tr>
+<tr class="even">
+<td>Answer contact form and chat enquiries</td>
+<td>Legitimate interests; steps before a contract at your request</td>
+</tr>
+<tr class="odd">
+<td>Website analytics and website chat on praevius.app</td>
+<td>Consent (you can withdraw it at any time)</td>
+</tr>
+<tr class="even">
+<td>Comply with legal obligations</td>
+<td>Legal obligation</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="service-providers" class="level2">
+<h2 class="anchored" data-anchor-id="service-providers">Service Providers</h2>
+<p>We use the following service providers to run Praevius. They process personal data to provide their service to us, under their data processing terms.</p>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Provider</th>
+<th>Purpose</th>
+<th>Location of processing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Microsoft Azure (App Service)</td>
+<td>Application hosting</td>
+<td>Poland Central region (EU)</td>
+</tr>
+<tr class="even">
+<td>Supabase (on Amazon Web Services)</td>
+<td>Database and file storage</td>
+<td>AWS eu-west-3 region, Paris (EU)</td>
+</tr>
+<tr class="odd">
+<td>Anthropic</td>
+<td>AI assistant (assistant chat, programme assistant and document analysis)</td>
+<td>Can include the United States</td>
+</tr>
+<tr class="even">
+<td>OpenAI</td>
+<td>Text-to-speech for spoken replies in the mobile app (answer text only)</td>
+<td>Can include the United States</td>
+</tr>
+<tr class="odd">
+<td>Stripe</td>
+<td>Payment processing</td>
+<td>Can include the United States</td>
+</tr>
+<tr class="even">
+<td>Google (Google Tag Manager and Google Analytics)</td>
+<td>Website analytics on praevius.app, only with your consent</td>
+<td>Can include the United States</td>
+</tr>
+<tr class="odd">
+<td>Pipedrive (LeadBooster)</td>
+<td>Website chat on praevius.app, only with your consent</td>
+<td>Can include countries outside the UK and EU</td>
+</tr>
+</tbody>
+</table>
+<p>When you connect a third-party integration (for example Xero, QuickBooks, Sage Intacct, Procore, Google Drive or SharePoint), data is exchanged with that service under its own terms and privacy policy.</p>
+</section>
+<section id="international-transfers" class="level2">
+<h2 class="anchored" data-anchor-id="international-transfers">International Transfers</h2>
+<p>Some of the providers above can process personal data outside the UK and the European Economic Area, including in the United States. Where they do, the transfer is protected by an adequacy decision (including the EU-US Data Privacy Framework and its UK extension, where the provider is certified) or by Standard Contractual Clauses approved by the European Commission, with the UK International Data Transfer Addendum where UK law applies.</p>
 </section>
 <section id="data-security" class="level2">
 <h2 class="anchored" data-anchor-id="data-security">Data Security</h2>
-<p>We implement industry-standard security measures including:</p>
 <ul>
-<li>Encryption in transit (TLS 1.3)</li>
-<li>Encryption at rest (AES-256)</li>
-<li>Regular security audits</li>
-<li>Access controls and authentication</li>
-<li>Secure data centres (EU/UK based)</li>
+<li>Data is encrypted in transit with TLS 1.2 or higher.</li>
+<li>Our hosting and database providers encrypt stored data.</li>
+<li>Access to personal data is limited to the people who need it to run the service.</li>
 </ul>
 </section>
 <section id="data-retention" class="level2">
 <h2 class="anchored" data-anchor-id="data-retention">Data Retention</h2>
-<p>We retain your data for as long as your account is active. Upon account deletion:</p>
 <ul>
-<li>Account data: Deleted within 30 days</li>
-<li>Backup data: Deleted within 90 days</li>
-<li>Anonymised analytics: May be retained indefinitely</li>
+<li>We keep your account, programme and project data while your account is active.</li>
+<li>When a trial ends without payment, the organisation moves to the Free plan limits. Your data is not deleted.</li>
+<li>When you ask us to delete your account or your organisation, we delete that data from the live service. We act on the request within one month, as data protection law requires.</li>
+<li>Copies in backups are removed when those backups expire.</li>
+<li>We keep billing records for as long as tax and accounting law requires.</li>
+<li>Some short-lived service records, such as programme snapshots, assistant proposals and usage counters, are removed automatically when they are no longer needed.</li>
 </ul>
 </section>
 <section id="your-rights" class="level2">
 <h2 class="anchored" data-anchor-id="your-rights">Your Rights</h2>
-<p>Under GDPR and UK Data Protection Act 2018, you have the right to:</p>
+<p>Under the UK GDPR, the EU GDPR and the UK Data Protection Act 2018, you have the right to:</p>
 <ul>
 <li>Access your personal data</li>
 <li>Rectify inaccurate data</li>
@@ -328,25 +541,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li>Restrict processing</li>
 <li>Data portability</li>
 <li>Object to processing</li>
+<li>Withdraw consent at any time, where we rely on consent</li>
 </ul>
-<p>To exercise these rights, contact us at info@praevius.app.</p>
-</section>
-<section id="third-party-services" class="level2">
-<h2 class="anchored" data-anchor-id="third-party-services">Third-Party Services</h2>
-<p>We use the following third-party services:</p>
+<p>To exercise these rights, contact us at info@praevius.app. We answer within one month.</p>
+<p>You also have the right to complain to a data protection authority:</p>
 <ul>
-<li><strong>Stripe:</strong> Payment processing</li>
-<li><strong>AWS/GCP:</strong> Cloud infrastructure</li>
-<li><strong>Analytics:</strong> Usage analytics (anonymised)</li>
+<li><strong>UK:</strong> Information Commissioner’s Office (ICO), ico.org.uk</li>
+<li><strong>Poland:</strong> Urząd Ochrony Danych Osobowych (UODO), uodo.gov.pl</li>
+<li><strong>EU:</strong> your national data protection authority</li>
+<li><strong>Australia:</strong> Office of the Australian Information Commissioner (OAIC), oaic.gov.au</li>
 </ul>
 </section>
 <section id="cookies" class="level2">
 <h2 class="anchored" data-anchor-id="cookies">Cookies</h2>
-<p>We use essential cookies for authentication and session management. Optional analytics cookies require your consent.</p>
+<ul>
+<li><strong>Application (app.praevius.app):</strong> we use only necessary cookies for sign-in and session management. Some display settings, such as column widths, are kept in your browser’s local storage.</li>
+<li><strong>Website (praevius.app):</strong> Google Analytics (through Google Tag Manager) and the Pipedrive website chat load only after you select <strong>Accept</strong> in the cookie banner. If you select <strong>Reject</strong>, they do not load. Your choice is kept in your browser’s local storage so that the banner does not show again.</li>
+<li>You can change your choice at any time with the <strong>Cookie settings</strong> link in the website footer.</li>
+</ul>
 </section>
 <section id="changes-to-this-policy" class="level2">
 <h2 class="anchored" data-anchor-id="changes-to-this-policy">Changes to This Policy</h2>
-<p>We may update this policy periodically. Significant changes will be communicated via email or in-app notification.</p>
+<p>We post changes on this page and update the date above.</p>
 </section>
 <section id="contact-us" class="level2">
 <h2 class="anchored" data-anchor-id="contact-us">Contact Us</h2>
@@ -772,7 +988,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© 2026 Praevius. All rights reserved.<br> Construction Programme Software. Talk to your programme.</p>
 </div>   
     <div class="nav-footer-center">
-<p><strong>Product:</strong> <a href="./features.html">Features</a> | <a href="./pricing.html">Pricing</a><br> <strong>Resources:</strong> <a href="./construction-cost-variance-tracking.html">Cost Variance Tracking Guide</a><br> <strong>Company:</strong> <a href="./about.html">About</a> | <a href="./contact.html">Contact</a><br> <strong>Legal:</strong> <a href="./privacy-policy.html">Privacy Policy</a> | <a href="./terms-of-service.html">Terms of Service</a></p>
+<p><strong>Product:</strong> <a href="./features.html">Features</a> | <a href="./pricing.html">Pricing</a><br> <strong>Resources:</strong> <a href="./construction-cost-variance-tracking.html">Cost Variance Tracking Guide</a><br> <strong>Company:</strong> <a href="./about.html">About</a> | <a href="./contact.html">Contact</a><br> <strong>Legal:</strong> <a href="./privacy-policy.html">Privacy Policy</a> | <a href="./terms-of-service.html">Terms of Service</a> | <a href="#cookie-settings">Cookie settings</a></p>
 </div>
     <div class="nav-footer-right">
 <p><strong>Contact</strong><br> <a href="mailto:info@praevius.app">info@praevius.app</a><br> Part of the <a href="https://bimtakeoff.com">BIM Takeoff</a> ecosystem</p>
@@ -939,14 +1155,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   else init();
 })();
 </script>
-<!-- Pipedrive LeadBooster Chatbot -->
+<!-- Pipedrive LeadBooster queue; the chat loader runs only after cookie consent (includes/gtm-head.html) -->
 <script>
-window.pipedriveLeadboosterConfig = {
-  base: 'leadbooster-chat.pipedrive.com',
-  companyId: 14252767,
-  playbookUuid: '3b0cbec4-32bf-4f0a-b62a-749ab23e1634',
-  version: 2
-};
 (function () {
   var w = window;
   if (w.LeadBooster) {
@@ -960,7 +1170,6 @@ window.pipedriveLeadboosterConfig = {
   }
 })();
 </script>
-<script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async=""></script>
 
 
 

@@ -1,5 +1,7 @@
 # Praevius Analytics Setup Guide
 
+> **Note (27.09.2026):** GTM and the Pipedrive chat now load only after cookie consent, from `includes/gtm-head.html`. `includes/gtm-body.html` (noscript) is removed. Parts of this guide below are older.
+
 Complete setup guide for Google Tag Manager, GA4, and conversion tracking.
 
 ---

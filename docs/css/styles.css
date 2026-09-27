@@ -612,3 +612,85 @@ body {
   color: var(--praevius-medium-gray);
   margin-bottom: 0;
 }
+
+/* ============================================
+   Cookie consent banner
+   ============================================ */
+.cookie-banner {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  z-index: 2147483000;
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: var(--praevius-charcoal);
+  color: var(--praevius-white);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  font-family: 'Inter', sans-serif;
+}
+
+.cookie-banner[hidden] {
+  display: none;
+}
+
+.cookie-banner-text {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.cookie-banner-text a {
+  color: var(--praevius-orange);
+}
+
+.cookie-banner-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.cookie-btn {
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: 2px solid var(--praevius-orange);
+}
+
+.cookie-btn-accept {
+  background: var(--praevius-orange);
+  color: var(--praevius-charcoal);
+}
+
+.cookie-btn-accept:hover {
+  background: var(--praevius-orange-hover);
+  border-color: var(--praevius-orange-hover);
+}
+
+.cookie-btn-reject {
+  background: transparent;
+  color: var(--praevius-white);
+  border-color: var(--praevius-white);
+}
+
+.cookie-btn-reject:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
+  .cookie-banner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cookie-banner-actions .cookie-btn {
+    flex: 1;
+  }
+}

@@ -69,13 +69,113 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N35MKKC9');</script>
-<!-- End Google Tag Manager -->
+<!-- Cookie consent: Google Tag Manager and the Pipedrive chat load only after the visitor accepts -->
+<script>
+(function () {
+  var KEY = 'praevius-cookie-consent';
+  var GTM_ID = 'GTM-N35MKKC9';
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'denied', functionality_storage: 'denied', personalization_storage: 'denied',
+    security_storage: 'granted'
+  });
+
+  function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function write(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+
+  var loaded = false;
+  function loadOptional() {
+    if (loaded) return;
+    loaded = true;
+    gtag('consent', 'update', { analytics_storage: 'granted', functionality_storage: 'granted' });
+    window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+    var g = document.createElement('script');
+    g.async = true;
+    g.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
+    document.head.appendChild(g);
+    window.pipedriveLeadboosterConfig = {
+      base: 'leadbooster-chat.pipedrive.com',
+      companyId: 14252767,
+      playbookUuid: '3b0cbec4-32bf-4f0a-b62a-749ab23e1634',
+      version: 2
+    };
+    var c = document.createElement('script');
+    c.async = true;
+    c.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
+    document.head.appendChild(c);
+  }
+
+  function clearOptionalCookies() {
+    document.cookie.split(';').forEach(function (part) {
+      var name = part.split('=')[0].trim();
+      if (/^(_ga|_gid|_gat|_gcl)/.test(name)) {
+        var host = location.hostname;
+        [host, '.' + host, '.' + host.split('.').slice(-2).join('.')].forEach(function (d) {
+          document.cookie = name + '=; Max-Age=0; path=/; domain=' + d;
+        });
+        document.cookie = name + '=; Max-Age=0; path=/';
+      }
+    });
+  }
+
+  function hideBanner() {
+    var b = document.getElementById('cookie-banner');
+    if (b) b.hidden = true;
+  }
+
+  function showBanner() {
+    var b = document.getElementById('cookie-banner');
+    if (!b) {
+      b = document.createElement('div');
+      b.id = 'cookie-banner';
+      b.className = 'cookie-banner';
+      b.setAttribute('role', 'dialog');
+      b.setAttribute('aria-live', 'polite');
+      b.setAttribute('aria-label', 'Cookie consent');
+      b.innerHTML =
+        '<p class="cookie-banner-text">We use cookies for website analytics (Google Analytics) and for the website chat (Pipedrive). ' +
+        'They load only if you accept. Necessary storage for this choice is always on. ' +
+        '<a href="/privacy-policy.html#cookies">Privacy Policy</a></p>' +
+        '<div class="cookie-banner-actions">' +
+        '<button type="button" class="cookie-btn cookie-btn-reject" data-consent="denied">Reject</button>' +
+        '<button type="button" class="cookie-btn cookie-btn-accept" data-consent="granted">Accept</button>' +
+        '</div>';
+      b.addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-consent]');
+        if (!btn) return;
+        var choice = btn.getAttribute('data-consent');
+        var before = read();
+        write(choice);
+        hideBanner();
+        if (choice === 'granted') {
+          loadOptional();
+        } else {
+          clearOptionalCookies();
+          if (before === 'granted' || loaded) location.reload();
+        }
+      });
+      document.body.appendChild(b);
+    }
+    b.hidden = false;
+  }
+
+  window.praeviusCookieSettings = showBanner;
+
+  if (read() === 'granted') loadOptional();
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (read() !== 'granted' && read() !== 'denied') showBanner();
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('a');
+      if (!link || link.hash !== '#cookie-settings') return;
+      e.preventDefault();
+      showBanner();
+    });
+  });
+})();
+</script>
 
 <!-- Google Search Console Verification -->
 <meta name="google-site-verification" content="96-9tQw76yRStMW_YpqxuN-nt56RFy7iCD0ALck0fy8">
@@ -231,9 +331,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N35MKKC9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -261,21 +358,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <section id="terms-of-service" class="level1">
 <h1>Terms of Service</h1>
-<p><strong>Last Updated:</strong> December 2025</p>
+<p><strong>Last Updated:</strong> 27 September 2026</p>
 <section id="agreement-to-terms" class="level2">
 <h2 class="anchored" data-anchor-id="agreement-to-terms">1. Agreement to Terms</h2>
-<p>By accessing or using Praevius (praevius.app), you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access the service.</p>
+<p>Praevius (praevius.app and app.praevius.app) is operated by Robert Kowalski, trading as BIM Takeoff (“we”, “us”, “our”). By accessing or using Praevius, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access the service.</p>
 </section>
 <section id="description-of-service" class="level2">
 <h2 class="anchored" data-anchor-id="description-of-service">2. Description of Service</h2>
-<p>Praevius is a cloud-based cost control platform for construction professionals. The service includes:</p>
+<p>Praevius is a cloud-based construction programme and cost platform. It runs in a web browser. The service includes:</p>
 <ul>
-<li>Real-time budget tracking</li>
-<li>AI-powered reporting</li>
-<li>Variance analysis</li>
-<li>Integration with third-party services</li>
-<li>Data storage and export</li>
+<li><strong>Programme module:</strong> create and edit construction programmes (Gantt chart, critical path, calendars, baselines and progress); import Microsoft Project (.mpp, .xml), Asta Powerproject (.pp) and Primavera P6 (.xer) files; and export to Microsoft Project XML, Primavera XER, PDF and Excel. Each import and export shows a report of the items that could not be carried across.</li>
+<li><strong>AI assistant:</strong> an assistant that reads and edits your programmes and project data from typed or spoken instructions, and answers questions about them. Ordinary edits apply at once and can be undone. Larger or destructive changes are proposed first and run only when you confirm them.</li>
+<li><strong>Voice input:</strong> you can speak instructions to the AI assistant instead of typing them. In the web app, speech is converted to text by your browser’s speech recognition service. In the mobile app, speech is converted to text on your device. The mobile app can also read the assistant’s answers aloud.</li>
+<li><strong>Agent access (MCP):</strong> you can connect your own AI agent to Praevius over the Model Context Protocol (MCP) with OAuth sign-in. Read access is available on every plan. Write actions need the Professional or Scale plan and your confirmation.</li>
+<li><strong>Cost control module:</strong> budget tracking, variance analysis, change orders, progress claims and AI-generated reports, on the Essential plan and above. Schedule of Values is available on the Scale plan only.</li>
+<li><strong>Integrations</strong> with third-party services that you choose to connect.</li>
+<li><strong>Data storage and export</strong>, subject to the limits of your plan.</li>
 </ul>
+<p>The features, limits and quotas of each plan are shown on our <a href="pricing.html">Pricing</a> page.</p>
 </section>
 <section id="account-terms" class="level2">
 <h2 class="anchored" data-anchor-id="account-terms">3. Account Terms</h2>
@@ -293,7 +393,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li>Prices are in USD unless otherwise stated</li>
 <li>Subscriptions are billed monthly or annually</li>
 <li>Payment is due at the start of each billing period</li>
-<li>Refunds are available within 30 days of initial purchase</li>
+<li>The Essential and Professional plans include a 30-day free trial. No card is needed. If you do not subscribe by the end of the trial, your organisation moves to the Free plan limits. Your data is not deleted.</li>
+<li>To change a paid plan, write to support@praevius.app</li>
+<li>If you ask within 30 days of your first payment, we refund that payment in full</li>
 <li>We reserve the right to change pricing with 30 days notice</li>
 </ul>
 </section>
@@ -303,7 +405,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li>You retain ownership of all data you input into Praevius</li>
 <li>You grant us license to process your data to provide the service</li>
 <li>We may use anonymised, aggregated data for analytics</li>
-<li>You can export your data at any time</li>
+<li>You can export your programmes at any time, within the export limits of your plan. For a full copy of your data, contact support@praevius.app</li>
 <li>Upon account termination, your data will be deleted per our Privacy Policy</li>
 </ul>
 </section>
@@ -314,7 +416,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li>Violate any laws or regulations</li>
 <li>Upload malicious code or attempt to breach security</li>
 <li>Resell or redistribute the service without permission</li>
-<li>Use automated systems to access the service beyond normal usage</li>
+<li>Use automated systems, scrapers or bots to access the service, except through the Praevius MCP server or other interfaces we provide, and within the limits of your plan</li>
 <li>Interfere with other users’ access to the service</li>
 </ul>
 </section>
@@ -329,7 +431,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <section id="third-party-integrations" class="level2">
 <h2 class="anchored" data-anchor-id="third-party-integrations">8. Third-Party Integrations</h2>
 <ul>
-<li>We provide integrations with third-party services (Xero, QuickBooks, etc.)</li>
+<li>We provide integrations with third-party services (for example Xero, QuickBooks Online, Sage Intacct, Google Drive, SharePoint and Procore)</li>
 <li>These integrations are subject to their own terms of service</li>
 <li>We are not responsible for third-party service availability or changes</li>
 </ul>
@@ -339,10 +441,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>THE SERVICE IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND. WE DO NOT GUARANTEE:</p>
 <ul>
 <li>Uninterrupted or error-free service</li>
-<li>Accuracy of AI-generated reports</li>
+<li>The accuracy of AI-generated content, AI assistant actions, voice transcriptions, and programme imports and exports</li>
 <li>Compatibility with all systems</li>
 <li>That the service will meet all your requirements</li>
 </ul>
+<p>You are responsible for checking programmes and reports before you rely on them or submit them.</p>
 </section>
 <section id="limitation-of-liability" class="level2">
 <h2 class="anchored" data-anchor-id="limitation-of-liability">10. Limitation of Liability</h2>
@@ -377,6 +480,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h2 class="anchored" data-anchor-id="contact">15. Contact</h2>
 <p>For questions about these terms:</p>
 <p><strong>Email:</strong> info@praevius.app</p>
+<p><strong>Operator:</strong> Robert Kowalski, trading as BIM Takeoff</p>
 <hr>
 <p><em>Praevius is part of the BIM Takeoff ecosystem.</em></p>
 
@@ -797,7 +901,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© 2026 Praevius. All rights reserved.<br> Construction Programme Software. Talk to your programme.</p>
 </div>   
     <div class="nav-footer-center">
-<p><strong>Product:</strong> <a href="./features.html">Features</a> | <a href="./pricing.html">Pricing</a><br> <strong>Resources:</strong> <a href="./construction-cost-variance-tracking.html">Cost Variance Tracking Guide</a><br> <strong>Company:</strong> <a href="./about.html">About</a> | <a href="./contact.html">Contact</a><br> <strong>Legal:</strong> <a href="./privacy-policy.html">Privacy Policy</a> | <a href="./terms-of-service.html">Terms of Service</a></p>
+<p><strong>Product:</strong> <a href="./features.html">Features</a> | <a href="./pricing.html">Pricing</a><br> <strong>Resources:</strong> <a href="./construction-cost-variance-tracking.html">Cost Variance Tracking Guide</a><br> <strong>Company:</strong> <a href="./about.html">About</a> | <a href="./contact.html">Contact</a><br> <strong>Legal:</strong> <a href="./privacy-policy.html">Privacy Policy</a> | <a href="./terms-of-service.html">Terms of Service</a> | <a href="#cookie-settings">Cookie settings</a></p>
 </div>
     <div class="nav-footer-right">
 <p><strong>Contact</strong><br> <a href="mailto:info@praevius.app">info@praevius.app</a><br> Part of the <a href="https://bimtakeoff.com">BIM Takeoff</a> ecosystem</p>
@@ -964,14 +1068,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   else init();
 })();
 </script>
-<!-- Pipedrive LeadBooster Chatbot -->
+<!-- Pipedrive LeadBooster queue; the chat loader runs only after cookie consent (includes/gtm-head.html) -->
 <script>
-window.pipedriveLeadboosterConfig = {
-  base: 'leadbooster-chat.pipedrive.com',
-  companyId: 14252767,
-  playbookUuid: '3b0cbec4-32bf-4f0a-b62a-749ab23e1634',
-  version: 2
-};
 (function () {
   var w = window;
   if (w.LeadBooster) {
@@ -985,7 +1083,6 @@ window.pipedriveLeadboosterConfig = {
   }
 })();
 </script>
-<script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async=""></script>
 
 
 

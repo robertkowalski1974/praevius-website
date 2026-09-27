@@ -67,7 +67,7 @@ website:
       **Product:** [Features](/features.html) | [Pricing](/pricing.html)<br>
       **Resources:** [Cost Variance Tracking Guide](/construction-cost-variance-tracking.html)<br>
       **Company:** [About](/about.html) | [Contact](/contact.html)<br>
-      **Legal:** [Privacy Policy](/privacy-policy.html) | [Terms of Service](/terms-of-service.html)
+      **Legal:** [Privacy Policy](/privacy-policy.html) | [Terms of Service](/terms-of-service.html) | [Cookie settings](#cookie-settings)
     right: |
       **Contact**<br>
       [info@praevius.app](mailto:info@praevius.app)<br>
@@ -159,19 +159,11 @@ format:
             }
           }
           </script>
-    include-before-body:
-      - file: includes/gtm-body.html
     include-after-body:
       - file: includes/analytics-events.html
       - text: |
-          <!-- Pipedrive LeadBooster Chatbot -->
+          <!-- Pipedrive LeadBooster queue; the chat loader runs only after cookie consent (includes/gtm-head.html) -->
           <script>
-          window.pipedriveLeadboosterConfig = {
-            base: 'leadbooster-chat.pipedrive.com',
-            companyId: 14252767,
-            playbookUuid: '3b0cbec4-32bf-4f0a-b62a-749ab23e1634',
-            version: 2
-          };
           (function () {
             var w = window;
             if (w.LeadBooster) {
@@ -185,7 +177,6 @@ format:
             }
           })();
           </script>
-          <script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async></script>
 
 execute:
   freeze: auto

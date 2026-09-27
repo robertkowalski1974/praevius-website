@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy | Praevius"
 pagetitle: "Privacy Policy - Praevius"
-description: "Praevius privacy policy. How we collect, use, and protect your data."
+description: "Praevius privacy policy. Who we are, what data we collect, how we use it, the providers we use, cookies and your rights."
 format:
   html:
     page-layout: article
@@ -22,59 +22,96 @@ format:
 
 # Privacy Policy
 
-**Last Updated:** December 2025
+**Last Updated:** 27 September 2026
 
 ## Overview
 
-Praevius ("we", "our", "us") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information when you use praevius.app.
+This policy explains how we collect, use and protect personal data when you use the Praevius website (praevius.app) and the Praevius application (app.praevius.app).
+
+## Who We Are
+
+Praevius is operated by **Robert Kowalski, trading as BIM Takeoff** ("we", "our", "us"). We are the data controller for the personal data described in this policy.
+
+- **Email:** info@praevius.app
+- **Phone:** +44 (0) 20 3239 9967
+
+When your organisation uses Praevius, the programme and project content that your team enters belongs to your organisation.
 
 ## Information We Collect
 
 ### Information You Provide
 
 - **Account Information:** Name, email address, company name, job title
-- **Billing Information:** Payment details (processed securely via Stripe)
-- **Project Data:** Cost data, budgets, variations, and other construction information you enter
-- **Communications:** Messages, support requests, and feedback
+- **Billing Information:** Payment details, processed by Stripe on its hosted checkout page. Card numbers do not reach Praevius. We store only the Stripe customer and subscription references.
+- **Programme Data:** Programmes you create, and programme files you import or export (for example Microsoft Project, Asta Powerproject and Primavera P6 files). These files can contain task names, dates, notes, calendars, progress, activity codes, custom fields and any other content the file holds.
+- **Project and Cost Data:** Budgets, costs, variations, progress claims and other construction information you enter
+- **AI Assistant Content:** The instructions you type or speak to the AI assistant, the answers it gives, and the project and programme data it uses to answer
+- **Communications:** Messages, support requests, contact form submissions, website chat messages and feedback
+
+### Voice Input
+
+- **Web app:** When you use the microphone in the web app, your browser's built-in speech recognition service converts your speech to text. Your audio does not reach Praevius servers. Only the resulting text transcript is sent to Praevius, where it is handled as AI Assistant Content. Depending on your browser, the browser vendor may process the audio under its own terms (for example, Google processes audio for speech recognition in Chrome).
+- **Mobile app:** Speech is converted to text on your device. Only the text transcript is sent to Praevius.
+- **Spoken replies (mobile app only):** When the mobile app reads an answer aloud, the text of the assistant's answer is sent to OpenAI to generate the audio. Your own voice audio is not sent to OpenAI.
 
 ### Information Collected Automatically
 
 - **Usage Data:** Features used, pages visited, time spent
 - **Device Information:** Browser type, operating system, device type
 - **Log Data:** IP address, access times, referral URLs
+- **Website Analytics:** On praevius.app, only if you accept cookies, we use Google Tag Manager and Google Analytics to measure page visits and clicks, and Pipedrive LeadBooster to run the website chat. See [Cookies](#cookies).
 
-## How We Use Your Information
+## How We Use Your Information and Our Legal Bases
 
-We use your information to:
+| Use | Legal basis |
+|---|---|
+| Provide the service: accounts, programmes, projects, the AI assistant, imports, exports and integrations | Performance of our contract with you or your organisation |
+| Process payments and manage subscriptions | Performance of contract; legal obligation (tax and accounting records) |
+| Send service-related messages and provide support | Performance of contract; legitimate interests |
+| Keep the service secure, prevent misuse and fix faults | Legitimate interests |
+| Improve the platform from usage patterns in the application | Legitimate interests |
+| Answer contact form and chat enquiries | Legitimate interests; steps before a contract at your request |
+| Website analytics and website chat on praevius.app | Consent (you can withdraw it at any time) |
+| Comply with legal obligations | Legal obligation |
 
-- Provide and improve our services
-- Process payments and manage subscriptions
-- Send service-related communications
-- Provide customer support
-- Analyse usage patterns to improve the platform
-- Comply with legal obligations
+## Service Providers
+
+We use the following service providers to run Praevius. They process personal data to provide their service to us, under their data processing terms.
+
+| Provider | Purpose | Location of processing |
+|---|---|---|
+| Microsoft Azure (App Service) | Application hosting | Poland Central region (EU) |
+| Supabase (on Amazon Web Services) | Database and file storage | AWS eu-west-3 region, Paris (EU) |
+| Anthropic | AI assistant (assistant chat, programme assistant and document analysis) | Can include the United States |
+| OpenAI | Text-to-speech for spoken replies in the mobile app (answer text only) | Can include the United States |
+| Stripe | Payment processing | Can include the United States |
+| Google (Google Tag Manager and Google Analytics) | Website analytics on praevius.app, only with your consent | Can include the United States |
+| Pipedrive (LeadBooster) | Website chat on praevius.app, only with your consent | Can include countries outside the UK and EU |
+
+When you connect a third-party integration (for example Xero, QuickBooks, Sage Intacct, Procore, Google Drive or SharePoint), data is exchanged with that service under its own terms and privacy policy.
+
+## International Transfers
+
+Some of the providers above can process personal data outside the UK and the European Economic Area, including in the United States. Where they do, the transfer is protected by an adequacy decision (including the EU-US Data Privacy Framework and its UK extension, where the provider is certified) or by Standard Contractual Clauses approved by the European Commission, with the UK International Data Transfer Addendum where UK law applies.
 
 ## Data Security
 
-We implement industry-standard security measures including:
-
-- Encryption in transit (TLS 1.3)
-- Encryption at rest (AES-256)
-- Regular security audits
-- Access controls and authentication
-- Secure data centres (EU/UK based)
+- Data is encrypted in transit with TLS 1.2 or higher.
+- Our hosting and database providers encrypt stored data.
+- Access to personal data is limited to the people who need it to run the service.
 
 ## Data Retention
 
-We retain your data for as long as your account is active. Upon account deletion:
-
-- Account data: Deleted within 30 days
-- Backup data: Deleted within 90 days
-- Anonymised analytics: May be retained indefinitely
+- We keep your account, programme and project data while your account is active.
+- When a trial ends without payment, the organisation moves to the Free plan limits. Your data is not deleted.
+- When you ask us to delete your account or your organisation, we delete that data from the live service. We act on the request within one month, as data protection law requires.
+- Copies in backups are removed when those backups expire.
+- We keep billing records for as long as tax and accounting law requires.
+- Some short-lived service records, such as programme snapshots, assistant proposals and usage counters, are removed automatically when they are no longer needed.
 
 ## Your Rights
 
-Under GDPR and UK Data Protection Act 2018, you have the right to:
+Under the UK GDPR, the EU GDPR and the UK Data Protection Act 2018, you have the right to:
 
 - Access your personal data
 - Rectify inaccurate data
@@ -82,24 +119,26 @@ Under GDPR and UK Data Protection Act 2018, you have the right to:
 - Restrict processing
 - Data portability
 - Object to processing
+- Withdraw consent at any time, where we rely on consent
 
-To exercise these rights, contact us at info@praevius.app.
+To exercise these rights, contact us at info@praevius.app. We answer within one month.
 
-## Third-Party Services
+You also have the right to complain to a data protection authority:
 
-We use the following third-party services:
+- **UK:** Information Commissioner's Office (ICO), ico.org.uk
+- **Poland:** Urząd Ochrony Danych Osobowych (UODO), uodo.gov.pl
+- **EU:** your national data protection authority
+- **Australia:** Office of the Australian Information Commissioner (OAIC), oaic.gov.au
 
-- **Stripe:** Payment processing
-- **AWS/GCP:** Cloud infrastructure
-- **Analytics:** Usage analytics (anonymised)
+## Cookies {#cookies}
 
-## Cookies
-
-We use essential cookies for authentication and session management. Optional analytics cookies require your consent.
+- **Application (app.praevius.app):** we use only necessary cookies for sign-in and session management. Some display settings, such as column widths, are kept in your browser's local storage.
+- **Website (praevius.app):** Google Analytics (through Google Tag Manager) and the Pipedrive website chat load only after you select **Accept** in the cookie banner. If you select **Reject**, they do not load. Your choice is kept in your browser's local storage so that the banner does not show again.
+- You can change your choice at any time with the **Cookie settings** link in the website footer.
 
 ## Changes to This Policy
 
-We may update this policy periodically. Significant changes will be communicated via email or in-app notification.
+We post changes on this page and update the date above.
 
 ## Contact Us
 
