@@ -54,7 +54,7 @@ Secondary (cost module, keep existing rankings):
 - Fast page load (<3s); mobile-first indexing ready
 - XML sitemap with proper priority
 
-**Forbidden claims:** resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support tiers/response times, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates. Keywords such as "open .mpp" are search targets only; the copy says "import".
+**Forbidden claims:** resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support response times or hours, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates. Keywords such as "open .mpp" are search targets only; the copy says "import".
 
 Do not render or touch `docs/`.
 

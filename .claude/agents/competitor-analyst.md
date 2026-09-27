@@ -42,7 +42,7 @@ Alternative: [Their limitation — qualitative, no prices]
 Limits: [What Praevius does not do]
 ```
 
-**Forbidden in published content:** competitor prices, resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support tiers/response times, SSO/SLA, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates, Asta version numbers.
+**Forbidden in published content:** competitor prices, resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support response times or hours, SSO/SLA, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates, Asta version numbers.
 
 **Intelligence Sources:**
 - G2 and Capterra reviews (competitor weaknesses)

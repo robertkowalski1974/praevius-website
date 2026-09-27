@@ -46,7 +46,7 @@ help/
 - State the limits: no resource or cost loading; up to 2,000 tasks per programme (150 on Free); no native .mpp/.pp export
 - UK spelling; "programme" in body text
 
-**Forbidden claims:** resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support tiers/response times, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates.
+**Forbidden claims:** resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support response times or hours, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates.
 
 **Quarto Callout Syntax:**
 ```markdown

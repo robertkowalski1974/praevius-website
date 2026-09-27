@@ -88,6 +88,8 @@ We use the following service providers to run Praevius. They process personal da
 | Google (Google Tag Manager and Google Analytics) | Website analytics on praevius.app, only with your consent | Can include the United States |
 | Pipedrive (LeadBooster) | Website chat on praevius.app, only with your consent | Can include countries outside the UK and EU |
 
+If you choose support by Microsoft Teams, WhatsApp or phone, the provider of that service processes the communication under its own terms and privacy policy.
+
 When you connect a third-party integration (for example Xero, QuickBooks, Sage Intacct, Procore, Google Drive or SharePoint), data is exchanged with that service under its own terms and privacy policy.
 
 ## International Transfers

@@ -113,7 +113,7 @@ format:
                 "name": "What's included in support?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Every plan includes email support at support@praevius.app."
+                  "text": "Paid plans include live support from our team by Microsoft Teams, phone or WhatsApp, including help with your first programme import. Every plan includes email support at support@praevius.app."
                 }
               }
             ]
@@ -187,6 +187,7 @@ format:
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 10 projects</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 3 team members</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Live support by Teams, phone or WhatsApp</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Modules</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Cost Control</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Google Drive Sync</li>
@@ -217,6 +218,7 @@ format:
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 25 projects</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Up to 10 team members</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Live support by Teams, phone or WhatsApp</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Modules</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Cost Control</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Google Drive Sync</li>
@@ -248,6 +250,7 @@ format:
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Plan</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited projects</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Unlimited team members</li>
+<li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Live support by Teams, phone or WhatsApp</li>
 <li style="padding: 1rem 0 0.25rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #757575;">Modules</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Cost Control</li>
 <li style="padding: 0.5rem 0; border-bottom: 1px solid #F0F0F0;">Google Drive Sync</li>
@@ -323,7 +326,7 @@ format:
 
 <div class="feature-card">
 <h3>What's included in support?</h3>
-<p>Every plan includes email support at support@praevius.app.</p>
+<p>Paid plans include live support from our team by Microsoft Teams, phone or WhatsApp, including help with your first programme import. Every plan includes email support at support@praevius.app.</p>
 </div>
 
 </div>

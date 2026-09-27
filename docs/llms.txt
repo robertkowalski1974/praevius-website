@@ -56,7 +56,7 @@ One plan per organisation. No per-user fees. Prices in USD, per month.
 - Professional: $229/month or $2,290/year (most popular) — 25 projects, 10 team members; unlimited programmes of up to 2,000 tasks; everything in Essential; all 3 accounting modules; AI Assistant and Agent Access (agent read and write)
 - Scale: $449/month or $4,490/year — unlimited projects and team members; unlimited programmes, baselines and schedule imports; everything in Professional; Procore ↔ SharePoint Sync; Schedule of Values. Scale starts through sales: https://praevius.app/contact.html
 
-Annual billing gives 2 months free: Essential $990/year, Professional $2,290/year, Scale $4,490/year (USD). 30-day free trial on Essential and Professional, no credit card required. A trial that ends without payment falls back to the Free limits; nothing is deleted. Every plan includes email support at support@praevius.app. Full quotas: https://praevius.app/llms-full.txt
+Annual billing gives 2 months free: Essential $990/year, Professional $2,290/year, Scale $4,490/year (USD). 30-day free trial on Essential and Professional, no credit card required. A trial that ends without payment falls back to the Free limits; nothing is deleted. Paid plans include live support from our team by Microsoft Teams, phone or WhatsApp, including help with your first programme import. Every plan includes email support at support@praevius.app. Full quotas: https://praevius.app/llms-full.txt
 
 ## Cost control (secondary module)
 

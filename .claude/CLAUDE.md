@@ -142,6 +142,8 @@ One plan per organisation, USD, monthly or annual. No per-user fees, no per-modu
 | Procore ↔ SharePoint Sync | No | No | No | Yes |
 | Schedule of Values | No | No | No | Yes |
 
+**Support (confirmed by Robert 27.09.2026):** every plan has email support at support@praevius.app; all paid plans (Essential, Professional, Scale) add live support by Microsoft Teams, phone or WhatsApp, including help with the first programme import. No response times or hours.
+
 Use the module names exactly as written above. Schedule of Values is **Scale only**.
 
 **Annual billing (confirmed 27.09.2026, Stripe live):** Essential $990/year, Professional $2,290/year, Scale $4,490/year. Write "2 months free". Never a saving percentage.
@@ -158,7 +160,7 @@ Use the module names exactly as written above. Schedule of Values is **Scale onl
 - Check every "coming soon" item against the claims sheet before it is published. Do not claim phone or tablet programme screens.
 
 ### Forbidden Claims
-Resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support tiers/response times, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates.
+Resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support response times or hours, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates.
 
 Also forbidden: "open any programme", "send back as .mpp/.pp", Asta version numbers, "tested with Claude/Codex", saving percentages.
 

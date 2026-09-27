@@ -36,7 +36,7 @@ Avoid:
 - "Built by planners", "everything a planner does" (say "built by quantity surveyors with 20 years in construction")
 - Cost-first headlines; cost control is a secondary section ("Costs on the same platform")
 
-**Forbidden claims:** resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support tiers/response times, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates. Also: "open any programme", "send back as .mpp/.pp", Asta version numbers, saving percentages, "tested with Claude/Codex".
+**Forbidden claims:** resource levelling/loading, cost-loaded programmes, programme → budget sync, programme-derived SPI, per-user or per-module prices, add-ons, storage numbers, support response times or hours, SSO/SLA, competitor prices, lossless/round-trip, native .mpp/.pp export, spoken replies, noise handling, phone/tablet claims, templates. Also: "open any programme", "send back as .mpp/.pp", Asta version numbers, saving percentages, "tested with Claude/Codex".
 
 **Rules:** UK spelling; UK "programme" in body, "scheduling"/"schedule" in titles and FAQs with "critical path" or "Gantt". Keep every URL and existing anchor. Visible FAQ = FAQPage JSON-LD. Existing CSS classes only, no new images. Do not render or touch `docs/`.
 

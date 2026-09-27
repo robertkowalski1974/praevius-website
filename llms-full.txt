@@ -128,7 +128,7 @@ One plan per organisation. The plan is the only thing sold: no per-user fees and
 
 30-day free trial on Essential and Professional, no credit card required. Scale starts through sales. A trial that ends without payment falls back to the Free limits; nothing is deleted.
 
-Every plan includes email support at support@praevius.app.
+Paid plans include live support from our team by Microsoft Teams, phone or WhatsApp, including help with your first programme import. Every plan includes email support at support@praevius.app.
 
 ### Free — $0/month
 Get started with projects and programmes.
@@ -143,6 +143,7 @@ Get started with projects and programmes.
 For solo QS and small subcontractors.
 - Up to 10 projects
 - Up to 3 team members
+- Live support by Microsoft Teams, phone or WhatsApp
 - Programme module: 10 programmes of up to 2,000 tasks
 - Programme assistant (3,000 requests/month)
 - Cost Control
@@ -155,6 +156,7 @@ For solo QS and small subcontractors.
 For growing firms with multiple projects.
 - Up to 25 projects
 - Up to 10 team members
+- Live support by Microsoft Teams, phone or WhatsApp
 - Programme module: unlimited programmes of up to 2,000 tasks
 - Everything in Essential
 - All 3 accounting modules: Xero Invoicing, QuickBooks Online, Sage Intacct
@@ -165,6 +167,7 @@ For growing firms with multiple projects.
 For mid-market contractors and multi-office teams.
 - Unlimited projects
 - Unlimited team members
+- Live support by Microsoft Teams, phone or WhatsApp
 - Programme module: unlimited programmes, baselines and schedule imports
 - Everything in Professional
 - Procore ↔ SharePoint Sync
@@ -266,7 +269,7 @@ Annual billing gives 2 months free: Essential $990/year, Professional $2,290/yea
 Essential and Professional start with a 30-day free trial with no credit card. Scale starts through sales. A trial that ends without payment falls back to the Free limits. Nothing you created is deleted.
 
 ### What's included in support?
-Every plan includes email support at support@praevius.app.
+Paid plans include live support from our team by Microsoft Teams, phone or WhatsApp, including help with your first programme import. Every plan includes email support at support@praevius.app.
 
 ### Can I change plans later?
 Yes. To change a paid plan, write to support@praevius.app. If you cancel, your plan stays active until the end of the billing period, and you can reactivate it before that date.
